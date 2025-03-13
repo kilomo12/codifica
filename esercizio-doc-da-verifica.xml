@@ -23,3 +23,18 @@
 </elementoRadice>
 
 <!-- epilogo -->
+
+
+<!--Risultato della validazione del documento XML senza il(-v)
+
+PS C:\Users\steve\Downloads\codifica> java -cp "xerces-2_12_2-xml-schema-1.1/*" dom.Counter esercizio-doc-da-verifica.xml
+[Fatal Error] esercizio-doc-da-verifica.xml:19:11: The element type "elementoFiglio" must be terminated by the matching end-tag "</elementoFiglio>".
+-->
+
+<!-- Risultato della validazione del documento XML con il(-v)
+
+PS C:\Users\steve\Downloads\codifica> java -cp "xerces-2_12_2-xml-schema-1.1/*" dom.Counter -v esercizio-doc-da-verifica.xml
+[Error] esercizio-doc-da-verifica.xml:10:16: Document is invalid: no grammar found.
+[Error] esercizio-doc-da-verifica.xml:10:16: Document root element "elementoRadice", must match DOCTYPE root "null".
+[Fatal Error] esercizio-doc-da-verifica.xml:19:11: The element type "elementoFiglio" must be terminated by the matching end-tag "</elementoFiglio>".
+-->
