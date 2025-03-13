@@ -1,0 +1,21 @@
+<?xml version = "1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet href="file.css" type="text/css"?> <!-- processing instruction -->
+<!-- il comento del documento XML di prova  -->
+<!DOCTYPE root-element SYSTEM "file.dtd">
+<root-element>
+    <strutturale>
+        <element></element>
+        <element></element>
+        <element></element>
+    </strutturale>
+    <testuale>testo di riferimento</testuale>
+    <misto>
+        questo è il contenuto misto
+        <element></element>
+        questo il contenuto<element>contenuto</element> misto
+    </misto>
+    <element-empty/>
+    <element>
+        <figlio>elemento annidato del elemento element</figlio>
+    </element>
+</root-element>

@@ -1,0 +1,10 @@
+<catalogo>
+    <libro>
+        <titolo>1984</titolo>
+        <autore>George Orwell</autore>
+    </libro>
+    <libro>
+        <titolo>Il Signore degli Anelli</titolo>
+        <autore>J.R.R. Tolkien</autore>
+    </libro>
+</catalogo>
