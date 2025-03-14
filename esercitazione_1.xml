@@ -1,8 +1,8 @@
-<!--prove fatte a lezione il 13/03/2025 per spiegare le gerarchie-->
+<!-- prove fatte a lezione il 13/03/2025 per spiegare le gerarchie -->
 <?xml version = "1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE root-element system "file.dtd">
 <?xml-stylesheet href="file.css" type="text/css"?> <!-- processing instruction -->
-<!-- il comento del documento XML di prova  -->
-<!DOCTYPE root-element SYSTEM "file.dtd">
+
 <root-element>
     <strutturale>
         <element></element>
