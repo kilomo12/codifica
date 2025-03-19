@@ -15,11 +15,13 @@
     <elementoFiglio>
         <elementoAnnidato>
             <elementoAnnidato>
-            <elementoFiglio>
+                <elementoFiglio>
+                </elementoFiglio> 
+            </elementoAnnidato>      <!--cambio-->
         </elementoAnnidato>
     </elementoFiglio>
-        <elementoAnnidato><elementoFiglio></elementoFiglio>
-    </elementoFiglio>
+        <elementoAnnidato/><elementoFiglio></elementoFiglio>
+        <elementoFiglio></elementoFiglio>
 </elementoRadice>
 
 <!-- epilogo -->
@@ -29,6 +31,8 @@
 
 PS C:\Users\steve\Downloads\codifica> java -cp "xerces-2_12_2-xml-schema-1.1/*" dom.Counter esercizio-doc-da-verifica.xml
 [Fatal Error] esercizio-doc-da-verifica.xml:19:11: The element type "elementoFiglio" must be terminated by the matching end-tag "</elementoFiglio>".
+
+per verificare la struttura del file XML
 -->
 
 <!-- Risultato della validazione del documento XML con il(-v)
