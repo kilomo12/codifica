@@ -1,0 +1,6 @@
+<?xml version = "1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI SYSTEM "esercizio_TEI.dtd">
+<TEI>
+    <header>testo di header </header>
+    <text>testo di text</text>
+</TEI>

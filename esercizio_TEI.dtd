@@ -1,0 +1,5 @@
+<!--esercizio definizione schema TEI-->
+<!ELEMENT TEI (header, facsimile?, text+)>
+<!ELEMENT header (#PCDATA)> 
+<!ELEMENT facsimile (#PCDATA)>
+<!ELEMENT text (#PCDATA)>

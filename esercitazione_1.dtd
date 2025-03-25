@@ -1,0 +1,7 @@
+<!ELEMENT root-element (strutturale, testuale, misto, element-empty?, element+)>
+<!ELEMENT strutturale (element*)>
+<!ELEMENT testuale (#PCDATA)>
+<!ELEMENT misto (#PCDATA | element)*>
+<!ELEMENT element-empty EMPTY>
+<!ELEMENT element (#PCDATA | figlio)*>
+<!ELEMENT figlio (#PCDATA)>
