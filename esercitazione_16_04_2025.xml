@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE 
+<!DOCTYPE TEI SYSTEM "">
 <TEI version="" xmlns="">
     <teiHeader>
         <fileDesc> <!-- l'ordine è obligatorio-->
@@ -14,12 +14,25 @@
                 </respStmt>
             </tittleStmt>
             <editionStmt></editionStmt><!-- opzionale-->
-            <publicationStmt></publicationStmt>
-            <sourcesDesc></sourcesDesc>
+            <publicationStmt>
+                <publisher>Università di Pisa</publisher>
+                <date></date>
+            </publicationStmt>
+            <sourcesDesc>
+                <bibl>
+                    <tittle></tittle>
+                    <date></date>
+                </bibl>
+            </sourcesDesc>
         </fileDesc> <!-- il primo figlio obbligatorio-->
         <encodingDesc></encodingDesc>
         <profileDesc></profileDesc>
     </teiHeader>
-    <text></text>
+    <text><!-- possibile secondo figlio del documento Tei-->
+        <front></front>
+        <body></body><!-- quando dobbiamo codificare un unico testo -->
+        <!-- <group></group> quando dobbiamo codificare un gruppo di testi -->
+        <back></back>
+    </text>
     <facsimile></facsimile>
 </TEI>
