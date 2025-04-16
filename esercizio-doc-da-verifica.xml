@@ -20,7 +20,8 @@
             </elementoAnnidato>      <!--cambio-->
         </elementoAnnidato>
     </elementoFiglio>
-        <elementoAnnidato/><elementoFiglio></elementoFiglio>
+        <elementoAnnidato/>
+        <elementoFiglio></elementoFiglio>
         <elementoFiglio></elementoFiglio>
 </elementoRadice>
 

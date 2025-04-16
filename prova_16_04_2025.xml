@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE 
+<TEI version="" xmlns="">
+    <teiHeader>
+        <fileDesc> <!-- l'ordine è obligatorio-->
+            <tittleStmt>
+                <tittle type="short"> Comedia</tittle>
+                <tittle>Edizione digitale della Divina Comedia </tittle>
+                <author>Dante Alighieri</author>
+                <editor>Angelo del Grosso </editor>
+                <respStmt>
+                    <resp> Codificato da </resp>
+                    <name>Steve Landry Ndjock</name>
+                </respStmt>
+            </tittleStmt>
+            <editionStmt></editionStmt><!-- opzionale-->
+            <publicationStmt></publicationStmt>
+            <sourcesDesc></sourcesDesc>
+        </fileDesc> <!-- il primo figlio obbligatorio-->
+        <encodingDesc></encodingDesc>
+        <profileDesc></profileDesc>
+    </teiHeader>
+    <text></text>
+    <facsimile></facsimile>
+</TEI>
