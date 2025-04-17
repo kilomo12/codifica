@@ -1,38 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI SYSTEM "">
-<TEI version="" xmlns="">
+<!DOCTYPE TEI SYSTEM "tei_all.dtd">
+<TEI version="4.0.1" xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc> <!-- l'ordine è obligatorio-->
-            <tittleStmt>
-                <tittle type="short"> Comedia</tittle>
-                <tittle>Edizione digitale della Divina Comedia </tittle>
+            <titleStmt>
+                <title type="short"> Comedia</title>
+                <title>Edizione digitale della Divina Comedia </title>
                 <author>Dante Alighieri</author>
                 <editor>Angelo del Grosso </editor>
                 <respStmt>
                     <resp> Codificato da </resp>
                     <name>Steve Landry Ndjock</name>
                 </respStmt>
-            </tittleStmt>
-            <editionStmt></editionStmt><!-- opzionale-->
+            </titleStmt>
+            <!--<editionStmt></editionStmt> opzionale-->
             <publicationStmt>
                 <publisher>Università di Pisa</publisher>
                 <date></date>
             </publicationStmt>
-            <sourcesDesc>
+            <sourceDesc>
                 <bibl>
-                    <tittle></tittle>
+                    <title></title>
                     <date></date>
                 </bibl>
-            </sourcesDesc>
+            </sourceDesc>
         </fileDesc> <!-- il primo figlio obbligatorio-->
-        <encodingDesc></encodingDesc>
+        <encodingDesc> <p></p></encodingDesc>
         <profileDesc></profileDesc>
     </teiHeader>
     <text><!-- possibile secondo figlio del documento Tei-->
         <front></front>
-        <body></body><!-- quando dobbiamo codificare un unico testo -->
-        <!-- <group></group> quando dobbiamo codificare un gruppo di testi -->
+        <body>
+            <div type="capitolo"></div>
+        </body><!-- quando dobbiamo codificare un unico testo -->
         <back></back>
     </text>
-    <facsimile></facsimile>
+    <!--facsimile></facsimile -->
 </TEI>
