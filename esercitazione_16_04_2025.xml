@@ -31,7 +31,12 @@
     <text><!-- possibile secondo figlio del documento Tei-->
         <front></front>
         <body>
-            <div type="capitolo"></div>
+            <div n="ch1" type="capitolo">
+                <pb n="1"/> <!-- che sta per page begining-->
+                <p n="1">
+                    <ref target="#Rossi94">Rossi 1994</ref> [...]
+                </p>
+            </div>
         </body><!-- quando dobbiamo codificare un unico testo -->
         <back></back>
     </text>

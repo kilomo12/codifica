@@ -1,0 +1,6 @@
+<!ELEMENT ROOT_doc (strutturale, figlio, figlia)>
+<!ELEMENT strutturale (#PCDATA)>
+<!ELEMENT figlio (figlia?)>
+<!ELEMENT figlia (testo?)>
+<!ELEMENT testo (titolo)>
+<!ELEMENT titolo (#PCDATA)>

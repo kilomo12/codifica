@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ROOT_doc SYSTEM "esercitazione_casa_1.dtd">
+<!-- questo esercizio è stato fatto per controllare l'acquisizione delle competenze in codifica-->
+<ROOT_doc>
+    <strutturale></strutturale>
+    <figlio><figlia></figlia></figlio>
+    <figlia>
+        <testo>
+            <titolo>
+                il titolo della mia opera è : 
+                <![CDATA[ <h1>Voglio controllare se ho capito la lezione.</h1>]]>
+            </titolo>
+        </testo>
+    </figlia>
+</ROOT_doc>
