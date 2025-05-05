@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI SYSTEM "tei_all.dtd">
+
+<TEI version="4.0.1" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc> 
+            <titleStmt>
+                <title type="short"> Letteratura al naturale </title>
+                <title>Edizione digitale di Letteratura al naturale.</title>
+                <author>Susanna Buttaroni</author>
+                <editor>Bonacci</editor>
+                <respStmt>
+                    <resp> Codificato da </resp>
+                    <name>Steve Landry Ndjock</name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <p> 2 Edizione</p>
+            </editionStmt> 
+            <publicationStmt>
+                <publisher> Roma [Italy] : Bonacci Editore</publisher>
+                <date>1989</date>
+                <availability>
+                    <p>
+                        I diriti di traduzione, di memorizzazione elettronica, di riproduzione e di adattamento totale o parziale, con qualsiasi
+                        mezzo <![CDATA[ (compresi i microfilm e le copie fotostatiche), sono riservati per tutti i paesi)]]>
+                    </p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <title>Letteratura al naturale</title>
+                    <date>1989</date>
+                </bibl>
+            </sourceDesc>
+        </fileDesc> <!-- il primo figlio obbligatorio-->
+    </teiHeader>
+    <text>
+        <front> <!-- Parte iniziale del libro: dediche, prefazioni, indici -->
+
+
+            <!-- <div type="dedication">
+                <p>Alla memoria di...</p>
+            </div>
+            <div type="preface">
+                <head>Prefazione</head>
+                <p>Testo della prefazione...</p>
+            </div> -->
+            <div type="toc">
+                <head>Indice</head>
+                <list>
+                    <item>
+                        <ref target="#intro">INTRODUZIONE</ref> ....................................................... p. 11
+                    </item>
+                    <item>
+                        <ref target="#sezione-antologica">SEZIONE ANTOLOGICA</ref> .................................... 23
+                    </item>
+
+                    <item>
+                        <ref target="#carlo-levi">Carlo Levi</ref>
+                        <ref target="#cristo-si-e-fermato">Cristo si è fermato a Eboli (1945)</ref>
+                        <list>
+                            <item><ref target="#infrastrutture">"Infrastrutture"</ref> ................................ 25</item>
+                            <item><ref target="#destino">"Destino"</ref> ............................................... 26</item>
+                            <item><ref target="#morale-sessuale">"Morale sessuale"</ref> ............................... 28</item>
+                            <item><ref target="#doppie-nature">"Doppie nature"</ref> .................................. 30</item>
+                        </list>
+                    </item>
+          
+                    <item>
+                        <ref target="#quasimodo-1946">Salvatore Quasimodo</ref>
+                        <ref target="#piede-straniero">Con il piede straniero sopra il cuore (1946)</ref>
+                        <list>
+                            <item><ref target="#fronde-salici">Alle fronde dei salici</ref> ............................. 33</item>
+                            <item><ref target="#elegia">Elegia</ref> .................................................... 33</item>
+                            <item><ref target="#uomo-tempo">Uomo del mio tempo</ref> .................................. 34</item>
+                        </list>
+                    </item>
+          
+                    <item>
+                        <ref target="#primo-levi">Primo Levi</ref>
+                        <ref target="#se-questo-uomo">Se questo è un uomo (1947)</ref>
+                        <list>
+                            <item><ref target="#sommersi-salvati">I sommersi e i salvati</ref> .......................... 35</item>
+                        </list>
+                    </item>
+          
+                    <item>
+                        <ref target="#eduardo">Eduardo De Filippo</ref>
+                        <ref target="#bugie-gambe">Le bugie con le gambe lunghe (1947)</ref>
+                        <list>
+                            <item><ref target="#matrimonio-ideale">"Il matrimonio ideale"</ref> ........................ 42</item>
+                        </list>
+                    </item>
+          
+                    <item>
+                        <ref target="#quasimodo-1949">Salvatore Quasimodo</ref>
+                        <ref target="#vita-non-e-sogno">La vita non è sogno (1949)</ref>
+                        <list>
+                            <item><ref target="#anno-domini">Anno Domini MCMXLVII</ref> ................................. 46</item>
+                        </list>
+                    </item>
+          
+                    <item>
+                        <ref target="#pavese">Cesare Pavese</ref>
+                        <ref target="#verra-la-morte">Verrà la morte e avrà i tuoi occhi (1951)</ref>
+                        <list>
+                            <item><ref target="#spagna">Passerò per piazza di Spagna</ref> ............................. 47</item>
+                            <item><ref target="#mattini-chiari">I mattini passano chiari ...</ref> ..................... 48</item>
+                        </list>
+                    </item>
+                </list>
+            </div>
+          
+        </front>
+    
+        <body> <!-- Corpo principale del testo -->
+            <div type="introduction" xml:id="intro">
+                <head>INFORMAZIONI NECESSARIE AL LETTORE-INSEGNATE E AL LETTORE-STUDENTE.</head>
+                <p>Quest'antologia si rivolge a studenti d'italiano di livello medio e avanzato, che vogliano fruirne in lezioni di gruppo o anche anche al di fuori della classe, in forma autonoma.
+                    In quest'introduzione vengono fornite informazioni in merito alle tecniche di lettura e alle modalità d'uso delle parti grammaticali. Si prega pertanto gli insegnanti e gli studenti di leggere attentamente queste pagine introduttive prima di passare all'uso dell'antologia.
+                </p>
+            </div>
+            <div type="section">
+                <head>Finalità dell'opera</head>
+                <p>Il progetto di quest'antologia nasce da molteplici propositi.</p>
+        
+                <list type="bulleted">
+                    <item>
+                        <label>a)</label>
+                        <p>
+                            <hi rend="bold">Arricchire la fonte linguistica</hi> dello studente: rispetto al parlato di situazioni quotidiane o allo stile della stampa periodica, la letteratura offre uno spettro di tematiche e di registri che con lo stile quotidiano s’intreccia, a volte superandolo.
+                        </p>
+                    </item>
+        
+                    <item>
+                        <label>b)</label>
+                        <p>
+                            Fornire alcuni esempi di <hi rend="italic">differenti generi, tendenze e stili</hi> nella produzione letteraria del Novecento italiano a partire dal secondo dopoguerra, spaziando dalla narrativa alla poesia al teatro alla saggistica. L’offerta di brani letterari per studenti d’italiano finora è stata infatti per lo più limitata a un ristretto repertorio letterario, comprendente essenzialmente prosa “leggera” (brevi brani umoristici o feuilletons) e per l’infanzia (pur rivolgendosi ad un pubblico adulto).
+                        </p>
+                    </item>
+        
+                    <item>
+                        <label>c)</label>
+                        <p>
+                            Dare accesso ad una <hi rend="bold">fonte di informazioni sull'Italia contemporanea</hi>. Certamente la letteratura riporta della storia e della società un'eco a volte indiretta o filtrata da un atteggiamento lirico, emozionale e, in ogni  caso, soggettivo: in tal senso la letteratura non può certo sostituire i trattati specialistici. È certamente vero che questi ultimi hanno dalla loro l'abbondanza e la quantificabilità dei dati (ma non necessariamente l'oggettività); mi sembra tuttavia altrettanto legittimo considerare l'interpretazione in chiave letteraria di situazioni storiche e sociologiche come una parte del quadro culturale di un Paese.
+                        </p>
+                    </item>
+                </list>
+            </div>
+    
+            <div type="section" xml:id="sezione-antologica">
+                <head>Capitolo 2. La scrittura ecologica</head>
+                <p>Testo del capitolo...</p>
+            </div>
+        </body>
+    
+        <back> <!-- Parte finale del libro: appendici, note, bibliografia -->
+          <div type="notes">
+            <head>Note</head>
+            <note>Nota 1...</note>
+            <note>Nota 2...</note>
+          </div>
+    
+          <div type="bibliography">
+            <head>Bibliografia</head>
+            <listBibl>
+              <bibl>Autore, *Titolo*, Editore, Anno.</bibl>
+            </listBibl>
+          </div>
+        </back>
+    </text>
+</TEI>
