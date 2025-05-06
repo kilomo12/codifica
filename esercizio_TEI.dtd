@@ -2,4 +2,7 @@
 <!ELEMENT TEI (header, facsimile?, text+)>
 <!ELEMENT header (#PCDATA)> 
 <!ELEMENT facsimile (#PCDATA)>
-<!ELEMENT text (#PCDATA)>
+<!ELEMENT text (name , div*)>
+<!ELEMENT name (#PCDATA)>
+
+<!ATTLIST name title (Mr | Me | Mrs) "Mr.">
