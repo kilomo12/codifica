@@ -5,4 +5,4 @@
 <!ELEMENT text (name , div*)>
 <!ELEMENT name (#PCDATA)>
 
-<!ATTLIST name title (Mr | Me | Mrs) "Mr.">
+<!ATTLIST name title (Mr | Me | Mrs) #IMPLIED> <!-- si può anche mettere il valore di default al posto dello #IMPLIED = "Me"-->
