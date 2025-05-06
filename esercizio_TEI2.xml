@@ -3,6 +3,6 @@
 <TEI>
     <header type="intestazione" lang="it">testo di header </header>
     <testo id="primo" type="romantesco">
-        fu una volta nel quartière dove ero cresciuto
+        fu una volta nel quartière dove ero cresciuto.
     </testo>
 </TEI>
