@@ -11,7 +11,7 @@
     <testuale>testo di riferimento</testuale>
     <misto>
         questo è il contenuto misto
-        <element></element>
+        <element>Mi trovo bello</element>
         questo il contenuto<element>contenuto</element> misto
     </misto>
     <element-empty/>
