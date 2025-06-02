@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI SYSTEM "tei_all.dtd">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="article">I CARUSI IN SICILIA.</title>
+        <author>Anonimo</author>
+        <editor>La Rassegna Settimanale</editor>
+        <principal>Università di Pisa</principal>
+        <respStmt> <resp>Codifica a cura di</resp> <name>Steve Landry Ndjock</name> </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>LA RASSEGNA SETTIMANALE DI POLITICA, SCIENZE, LETTERE ED ARTI.</publisher>
+        <pubPlace>ROMA</pubPlace>
+        <date when="1881-05-01">1 Maggio 1881</date>
+        <availability>
+          <p>Pubblicazione storica di dominio pubblico</p>
+        </availability>
+        <idno type="issue">174</idno>
+      </publicationStmt>
+      
+      <seriesStmt>
+        <title level="s">Rassegna Settimanale</title>
+        <biblScope unit="volume">7</biblScope>
+        <biblScope unit="pages">273-275</biblScope>
+      </seriesStmt>
+
+      <sourceDesc>
+        <p>Trascrizione basata sulle immagini fornite e sul file di testo "i_carusi_in_sicilia.txt". L'ordine del contenuto testuale segue la sequenza delle immagini come specificato per il corpo dell'articolo.</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="it">Italiano</language>
+      </langUsage>
+    </profileDesc>
+    <encodingDesc>
+      <p>Codifica realizzata seguendo le linee guida TEI e le convenzioni esemplificate.</p>
+    </encodingDesc>
+  </teiHeader>
+
+  <facsimile xml:id="facsimile_carusi">
+    <surface xml:id="surf_carusi">
+      <graphic url='page_1_carusi.png' width='723.4px' height='918.4px' />
+      <zone xml:id="zone_titolo_carusi" points="34,138 346,138 346,150 34,150"/>
+      <zone xml:id="zone_par1_carusi" points=" 34,157 346,158 349,626 29,631 "/>
+      <zone xml:id="zone_par2_carusi" points=" 29,633 350,631 351,757 35,763 "/>
+      <zone xml:id="zone_par3_carusi" points=" 37,762 351,758 354,891 39,891 "/>
+      <zone xml:id="zone_par3_carusi2" points=" 353,133 664,135 671,499 354,503 "/>
+      <zone xml:id="zone_fn1_img" points="39,895 351,895 351,915 39,915"/>
+      <zone xml:id="zone_fn2_img" points="354,895 671,895 671,915 354,915"/>
+    </surface>
+  </facsimile>
+
+  <text>
+    <body>
+      <div n="1">
+        <pb xml:id="pb_img1" n="1" facs="#surf_carusi"/>
+        <head facs="#zone_titolo_carusi">I CARUSI IN SICILIA.</head>
+        <p facs="#zone_par1_carusi">
+          Sono trascorsi ormai dieci lunghi anni da quando l'on. <persName>Lanza</persName>, essendo ministro dell'Interno, presentava al <orgName>Senato</orgName> un progetto di codice sanitario contenente alcune disposizioni, intese a disciplinare il lavoro dei fanciulli nelle fabbriche e nelle miniere. 
+          Da quella volta numerose proposte di legge furono presentate al <orgName>Parlamento Italiano</orgName>, sempre collo scopo di regolare questo importante e delicato argomento.  
+          Il governo stesso si fece iniziatore di un' inchiesta, i cui risultati comparvero non ha guari in un grosso volume pubblicato dal <orgName>Ministero di agricoltura, industria e commercio</orgName>, e furono adoperati dagli onorevoli <persName>Depretis</persName> e <persName>Miceli</persName> per la presentazione di un nuovo progetto di legge alquanto diverso nei particolari da quello presentato poco tempo innanzi dagli onorevoli <persName>Minghetti</persName>, <persName>Luzzatti</persName>, <persName>Villari</persName> e <persName>Sidney Sonnino</persName>, ma informato allo stesso concetto generale. 
+          Senonchè mentre l'urgenza di accordare una protezione legale alle donne e ai fanciulli impiegati nell'industria è riconosciuta da molti in Parlamento e fuori, senza distinzione di partito politico, le sessioni succedono alle sessioni, le legislature alle legislature senza che si giunga a prendere alcun provvedimento concreto; e, quel ch'è peggio, la <orgName>Commissione parlamentare</orgName>, incaricata di riferire sul progetto <persName>Depretis</persName>-<persName>Miceli</persName>, dorme ingiustamente i suoi sonni. 
+          Intanto i mali esistenti non ricevono rimedio e, trascurati come sono, inacerbiscono. Perciò, l'animo nostro rimase tristamente impressionato quando, alcuni mesi or sono, un maggiorente dell'industria italiana, ed economista appassionato, volle dimostrare l'inopportunità di una legge regolatrice del lavoro giovanile e muliebre nell'industria recando innanzi l'argomentazione che come in <placeName>Italia</placeName> non s'erano prodotti ancora i gravi inconvenienti pei quali in altri paesi la libertà del contratto di lavoro era stata ristretta, così non v'era presso di noi ragione sufficiente per seguire questo esempio <ref target="#fn1" type="noteMarker">*</ref>. 
+          Strana teoria, secondo la quale la legge dovrebbe intervenire soltanto quando il disordine ch'essa deve impedire si fosse già manifestato in gravi proporzioni.
+        </p>
+        <p facs="#zone_par2_carusi"> 
+          Non è vero d'altronde che in <placeName>Italia</placeName> non esistano i mali altrove lamentati. 
+          Anche presso di noi si trova impiegato nell'industria un gran numero di donne e di fanciulli. 
+          Secondo le cifre recate dalla <title>Statistica di alcune industrie italiane</title>, sopra 382,131 operai delle manifatture si avrebbero in <placeName>Italia</placeName> 188,486 donne adulte e 90083 fanciulli d'ambo i sessi. 
+          Altre notizie raccolte dagli ingegneri delle miniere recano che nell'anno <date when="1878">1878</date> su 40,556 operai addetti ai lavori minerari (non comprese le cave) si contavano 6138 fanciulli (d'età inferiore a 14 anni) e 1722 donne.
+        </p>
+        <p facs="#zone_par3_carusi"> 
+          Ora, le ricerche fatte negli anni scorsi dal <orgName>Ministero d'agricoltura, industria e commercio</orgName> e l'inchiesta ordinata dall'onorevole <persName>Cairoli</persName> (allorché aveva l'interim di quel ministero), valgono a testimoniare che quei fanciulli sono, per una gran parte, di età inferiore non solo a 10 o 9 anni, ma sovente anche ad 8 e a 7, talvolta a 6 e perfino a 5 anni, e che, oltre a ciò, non pochi sono i casi in cui donne e fanciulli sono sottoposti ad un lavoro eccessivo, deleterio per le loro forze fisiche e intellettuali, mentre devono prestar l'opera propria in condizioni pericolose
+        </p>
+        <note xml:id="fn1" facs="#zone_fn1_img" n="*"> <persName>ALESSANDRO ROSSI</persName>, <title>perché una legge ?</title> - V. <title level="j">Rassegna</title>, vol V, pag. 414</note>
+      </div>
+      <div n="2">
+        <pb facs="#surf_carusi"/> <!-- Aggiunto pb per associare questo div all'immagine -->
+        <p facs="#zone_par3_carusi2">
+          per la loro moralità. Specialmente in alcune miniere di zolfo della <placeName>Sicilia</placeName> il lavoro dei fanciulli trae seco conseguenze disastroso. 
+          Esso fu fatto particolare oggetto di accurati studi dovuti o all'iniziativa privata o a quella del governo. 
+          Così recently il senatore <persName>Tamaio</persName>, prefetto di <placeName>Girgenti</placeName>, indirizzò al governo alcune proposte intese al miglioramento delle condizioni in cui versano gli operai minatori, e in ispecie i più giovani, di quella provincia. 
+          Uno studio teste pubblicato dal sig. <persName>Vittorio Savorini</persName>, <ref target="#fn2" type="noteMarker">*</ref> raccoglie i risultati ottenuti da una inchiesta ordinata e presieduta dallo stesso prefetto. 
+          Questi ha fatto ispezionare minutamente, cominciando dal novembre ultimo, 72 miniere, visitandone alcune egli stesso. 
+          Tali miniere danno occupazione a 3875 operai, 69 dei quali sono capi maestri o sorveglianti dell'escavazione; 110 sono catastieri, pesatori o scrivani, specie di magazzinieri e speditori ; 956 sono <term>picconieri</term>, ossia operai occupati nella escavazione dello zolfo dalla miniera; 2626 sono per la maggior parte fanciulli o giovanetti, chiamati <term>carusi</term>, i quali hanno il compito di trasportare a spalla lo zolfo scavato dal fondo della miniera fino al piano dell'apertura. 
+          V'hanno poi 114 donne incaricate ordinariamente di trasportare lo zolfo dalla bocca della miniera fino alla catasta. 
+          L'età dei <term>carusi</term> nelle miniere di <placeName>Licata</placeName> varia dai 10 a 18 anni ; in quelle di <placeName>Gianciana</placeName> dai 6 ai 20; in quelle di <placeName>Palma</placeName> o d'<placeName>Aragona</placeName> dai 7 ai 18; in quelle di <placeName>Castel Termini</placeName> dai 7 a 19; in quelle di <placeName>Favara</placeName> dagli 8 ai 20. 
+          In alcune miniere si trovano però <term>carusi</term> pervenuti anche ad un età superiore, e fino a 50 anni.
+        </p>
+        <note xml:id="fn2" facs="#zone_fn2_img" n="*"> <persName>VITTORIO SAVORINI</persName>, <title>Condizioni economiche e morali dei lavoratori nelle miniere di zolfo e degli agricoltori della provincia di Girgenti</title>. - <placeName>Girgenti</placeName>, <date when="1881">1881</date>.</note>
+      </div>
+    </body>
+  </text>
+</TEI>
