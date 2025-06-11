@@ -43,32 +43,15 @@
     <facsimile xml:id="facsimile_leggenda_napoli">
         <surface xml:id="surf_leggenda_p1_292">
             <graphic url='292.png' width='XXXXpx' height='YYYYpx' /> 
-            <zone xml:id="zone_publisher_rs" points=''/> 
-            <zone xml:id="zone_issue_date_rs" points=''/> 
-            <zone xml:id="zone_head_leggenda" points="XXX,YYY XXX,YYY XXX,YYY XXX,YYY"/>
-            <zone xml:id="zone_p1_leggenda_p292" points="XXX,YYY XXX,YYY XXX,YYY XXX,YYY"/>
-            <zone xml:id="zone_p2_leggenda_p292" points="XXX,YYY XXX,YYY XXX,YYY XXX,YYY"/>
+            
         </surface>
         <surface xml:id="surf_leggenda_p2_293">
             <graphic url='293.png' width='XXXXpx' height='YYYYpx' /> <!-- Replace XXXX/YYYY with actual dimensions -->
-            <zone xml:id="zone_page_num_293" points=''/> <!-- Zone for page number "293" -->
-            <zone xml:id="zone_header_293" points=''/> <!-- Zone for "8 Maggio '81.] LA RASSEGNA SETTIMANALE." -->
-            <zone xml:id="zone_p3_leggenda_p293" points="XXX,YYY XXX,YYY XXX,YYY XXX,YYY"/>
-            <zone xml:id="zone_p4_leggenda_p293" points="XXX,YYY XXX,YYY XXX,YYY XXX,YYY"/>
-            <zone xml:id="zone_p5_leggenda_p293" points="XXX,YYY XXX,YYY XXX,YYY XXX,YYY"/>
-            <zone xml:id="zone_p6_leggenda_p293" points="XXX,YYY XXX,YYY XXX,YYY XXX,YYY"/>
-            <zone xml:id="zone_p7_leggenda_p293" points="XXX,YYY XXX,YYY XXX,YYY XXX,YYY"/>
+            
         </surface>
         <surface xml:id="surf_leggenda_p3_294">
             <graphic url='294.png' width='XXXXpx' height='YYYYpx' /> <!-- Replace XXXX/YYYY with actual dimensions -->
-            <zone xml:id="zone_page_num_294" points=''/> <!-- Zone for page number "294" -->
-            <zone xml:id="zone_header_294" points=''/> <!-- Zone for "LA RASSEGNA SETTIMANALE. [Vol. 7°, N° 175." -->
-            <zone xml:id="zone_p8_leggenda_p294" points="XXX,YYY XXX,YYY XXX,YYY XXX,YYY"/>
-            <zone xml:id="zone_p9_leggenda_p294" points="XXX,YYY XXX,YYY XXX,YYY XXX,YYY"/>
-            <zone xml:id="zone_p10_leggenda_p294" points="XXX,YYY XXX,YYY XXX,YYY XXX,YYY"/>
-            <zone xml:id="zone_p11_leggenda_p294" points="XXX,YYY XXX,YYY XXX,YYY XXX,YYY"/>
-            <zone xml:id="zone_p12_leggenda_p294" points="XXX,YYY XXX,YYY XXX,YYY XXX,YYY"/>
-            <zone xml:id="zone_author_leggenda" points="XXX,YYY XXX,YYY XXX,YYY XXX,YYY"/>
+            
         </surface>
     </facsimile>
 
