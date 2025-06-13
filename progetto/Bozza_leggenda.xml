@@ -8,7 +8,10 @@
                 <author>MATILDE SERAO</author>
                 <editor>La Rassegna Settimanale</editor>
                 <principal>Università di Pisa</principal>
-                <respStmt> <resp>Codifica a cura di</resp> <name>Steve Landry Ndjock</name> </respStmt>
+                <respStmt> 
+                    <resp>Codifica a cura di</resp> 
+                    <name>Steve Landry Ndjock</name> 
+                </respStmt>
             </titleStmt>
             <publicationStmt>
                 <publisher facs="#zone_publisher_rs">LA RASSEGNA SETTIMANALE.</publisher>
@@ -27,8 +30,11 @@
             </seriesStmt>
 
             <sourceDesc>
-                <p>Trascrizione basata sulle immagini fornite e sul file di testo OCR.</p>
+                <p>
+                    Trascrizione basata sul materiale fornito dal professore per l'esame di codifica di testo.
+                </p>
             </sourceDesc>
+
         </fileDesc>
         <profileDesc>
             <langUsage>

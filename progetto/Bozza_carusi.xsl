@@ -6,7 +6,6 @@
 
   <xsl:output method="html" encoding="UTF-8" indent="yes"/>
 
-  <!-- Il template nominato "formatDate" è stato rimosso -->
 
   <xsl:template match="/tei:TEI">
     <html>
@@ -23,13 +22,13 @@
           <h2>Metadati</h2>
           <p><strong>Titolo: </strong> <xsl:value-of select="tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title[@type='article']"/></p>
           <p><strong>Autore: </strong> <xsl:value-of select="tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:author"/></p>
-          <p><strong>Editor: </strong> <xsl:value-of select="tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:editor"/></p>
+          <p><strong>Editore: </strong> <xsl:value-of select="tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:editor"/></p>
           <p><strong>Ente responsabile: </strong> <xsl:value-of select="tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:principal"/></p>
           <p><strong>Responsabilità:</strong>
             <xsl:value-of select="tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:respStmt/tei:resp"/> -
             <xsl:value-of select="tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:respStmt/tei:name"/>
           </p>
-          <!-- Casa Editrice con data-zone-id -->
+          <!-- Casa editrice con data-zone-id -->
           <p>
             <xsl:variable name="publisher_node" select="tei:teiHeader/tei:fileDesc/tei:publicationStmt/tei:publisher"/>
             <xsl:variable name="publisher_facs" select="$publisher_node/@facs"/>
@@ -44,7 +43,7 @@
           </p>
           <p><strong>Luogo di pubblicazione: </strong> <xsl:value-of select="tei:teiHeader/tei:fileDesc/tei:publicationStmt/tei:pubPlace"/></p>
           <p><strong>Data: </strong>
-            <!-- Logica di formatDate inline per teiHeader/publicationStmt/date -->
+            <!-- Logica di recuperazione della data  -->
             <xsl:variable name="headerDateNode" select="tei:teiHeader/tei:fileDesc/tei:publicationStmt/tei:date"/>
             <xsl:choose>
                 <xsl:when test="normalize-space($headerDateNode) and not($headerDateNode/@when)">
@@ -56,9 +55,6 @@
                 <xsl:when test="$headerDateNode/@when">
                     <xsl:value-of select="$headerDateNode/@when"/>
                 </xsl:when>
-                <xsl:otherwise>
-                    <xsl:text></xsl:text>
-                </xsl:otherwise>
             </xsl:choose>
           </p>
           <p><strong>Volume: </strong> <xsl:value-of select="tei:teiHeader/tei:fileDesc/tei:seriesStmt/tei:biblScope[@unit='volume']"/></p>
