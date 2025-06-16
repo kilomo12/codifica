@@ -41,9 +41,11 @@
   </teiHeader>
 
   <facsimile xml:id="facsimile_carusi">
-    <surface xml:id="surf_carusi">
-      <graphic url='page_1_carusi.png' width='723.4px' height='918.4px' />
 
+    <!-- page_1_carusi-->
+    <surface xml:id="surf_carusi">
+
+      <graphic url='page_1_carusi.png' width='723.4px' height='918.4px' />
       <zone xml:id="zone_casa_editrice" points=' 35,11  33,82  660,86  663,10 '/>
       <zone xml:id="zone_place_pub" points=' 278,93  277,112  317,112  317,93 '/>
       <zone xml:id="zone_titolo_carusi" points=' 119,138  268,142  269,158  118,159 '/>
@@ -55,20 +57,32 @@
       <zone xml:id="zone_par5_carusi" points=' 360,736  668,735  671,867  361,868 ' />
       <zone xml:id="zone_fn1_img" points="39,895 351,895 351,915 39,915"/>
       <zone xml:id="zone_fn2_img" points=' 360,878  360,878  673,874  676,910  359,914 '/>
+
     </surface>
+    <!-- page_2_carusi-->
     <surface xml:id="surf_carusi2">
+
       <graphic url='page_2_carusi.png' width='633' height='913' />
       <zone xml:id='zone_par6_carusi' points=' 4,39  315,37  317,246  5,251 '/>
       <zone xml:id='zone_par7_carusi' points=' 3,251  316,251  317,509  4,515 '/>
       <zone xml:id='zone_par8_carusi' points=' 7,515  317,511  316,720  4,724 '/>
       <zone xml:id='zone_par9_carusi' points=' 5,723  316,720  315,867  5,867 '/>
-      <zone xml:id='zone_par9_carusi2' points=' 324,41  323,223  629,224  629,40 '/>
       <zone xml:id="zone_fn3_img" points=' 4,877  316,880  314,910  4,913 '/>
+      <zone xml:id='zone_par9_carusi2' points=' 324,41  323,223  629,224  629,40 '/>
+      <zone xml:id='zone_par10_carusi2' points=' 321,224  630,222  631,286  322,291 '/>
+      <zone xml:id='zone_par11_carusi2' points=' 322,289  631,284  631,486  322,486 '/>
+      <zone xml:id='zone_par12_carusi2' points=' 323,485  632,485  631,653  322,656 '/>
+      <zone xml:id='zone_par13_carusi2' points=' 324,657  630,652  629,911  320,913 '/>
+
     </surface>
+    <!-- page_3_carusi-->
     <surface xml:id="surf_carusi3">
-      <graphic url=""></graphic>
-      <zone xml:id="zone_par14_carusi"/>
+
+      <graphic url='page_3_carusi.png' width='975.4px' height='180.4px' />
+      <zone xml:id='zone_par14_carusi' points =' 13,79 483,80 483,148 11,147 ' />
+
     </surface>
+    
   </facsimile>
 
   <text>
@@ -141,16 +155,16 @@
         <p part="F" facs="#zone_par9_carusi2">
           qualora, trovandosi le miniere molto lontane dall'abitato, fosse necessario l'impianto di mi magazzino in prossimità di esse, i generi vi fossero venduti al prezzo stabilito dal calmiero che è ancora in uso nella <placeName>Sicilia</placeName> occidentale pel pano e per altri commestibili. Vorrebbe che fosso rimediato al grave inconvenienti che i minatori dormano nell'interno delle zolfaro per la troppa lontananza di queste dall'abitato. Egli proporrebbe quindi che gli utili del magazzino e le multe inflitte agli operai fossero destinate a provvedere questi di più umano albergo, scopi a cui potrebbero concorrere le stesse contribuzioni libere dei minatori, le quali si farebbero tanto più abbondanti quanto più l'istruzione e la civiltà, e con essi il sentimento del risparmio è del soccorso mutuo, si diffondessero fra quelle popolazioni.
         </p>
-        <p xml:id="nonno_par" facs="#zone_par10_carusi" > 
+        <p xml:id="nonno_par" facs="#zone_par10_carusi2" > 
           Contemporaneamente e perchè le famiglie povere delle provincie possano procurarsi altrove quei proventi che la proibizione dell'impiego di fanciulli nelle miniere farebbe cessare, il senatore <persName>Tamaio</persName> chiede i soccorsi governativi pel miglioramento delle condizioni agricole della provincia.
         </p>
-        <p xml:id="decimo_par" facs="#zone_par11_carusi"> 
+        <p xml:id="decimo_par" facs="#zone_par11_carusi2"> 
           Queste proposte del prefetto di <placeName>Girgenti</placeName> meritano di esser prese favorevolmente in esame. Soltanto ci sembra che il loro centro di gravità sia un pochino spostato. L'on. senatore <persName>Tamaio</persName> insiste molto sull' opportunità che il governo venga in aiuto dell'agricoltura girgentina. Ma nella condizione in cui sono oggi le cose, ai rimedi lenti, alle evoluzioni più o meno dolci non si può in coscienza pensare. Ciò che urge di più è l'intervento di una legge regolatrice del lavoro industriale ed è su questo punto che avrebbero dovuto principalmente convergere le proposte del senatore <persName>Tamaio</persName>. Che le condizioni dell'agricoltura nella provincia di <placeName>Girgenti</placeName> meritino pure, che il governo se ne prenda qualche pensiero noi non vogliamo qui disconoscere del tutto. Soltanto ci preme di far notare che questo rimedio va per ora considerato come essenzialmente sussidiario.
         </p>
-        <p xml:id="undicesimo_par" facs="#zone_par12_carusi"> 
+        <p xml:id="undicesimo_par" facs="#zone_par12_carusi2"> 
           Non ci associamo poi affatto all'altra proposta del senatore <persName>Tamaio</persName>, per cui egli vorrebbe che la esecuzione della legge fosse sorvegliata da tribunali d'arbitri, simili ai <term xml:lang="fr">Prud'hommes</term> della <placeName>Francia</placeName>, agli <term xml:lang="en">Equitable Councils</term> dell'<placeName>Inghilterra</placeName> e ai <term xml:lang="de">Schiedsgerichte</term> della <placeName>Germania</placeName>. Questi tribunali, che possono servire ad appianare qualche volta le differenze insorte fra i padroni e gli operai, non bastano a garantire la rigorosa esecuzione della legge; anzi la escludono, perchè gl'interessi locali degli imprenditori d'industria prevalgono fino a far violare la legge stessa. L'on. <persName>Tamaio</persName> dimentica che per tale rigorosa esecuzione della legge l<placeName>Inghilterra</placeName>, la <placeName>Germania</placeName> e la <placeName>Francia</placeName> hanno riconosciuta la necessità degli ispettori governativi.
         </p>
-        <p xml:id="dodicesimo_par" part="I" facs="#zone_par13_carusi"> 
+        <p xml:id="dodicesimo_par" part="I" facs="#zone_par13_carusi2"> 
           A parte queste mende, l'ultima delle quali è per noi gravissima ed essenzialissima, non può disconoscersi al Prefetto di <placeName>Girgenti</placeName> il merito di aver compiuto una di quelle statistiche del lavoro a cui troppo scarsamente si attende in <placeName>Italia</placeName>, di aver riposto a galla una questiono troppo, ormai trascurata e di aver suggerito quelle speciali misure che la legge dovrebbe prendere per regolare il lavoro dei <term>carusi</term> nelle miniere siciliane. Si smarriranno queste proposte, come frequentemente avviene, per gli intricati meandri del servizio amministrativo, o verranno fatte oggetto di un esame serio o sollecito? Si ponga fine agli indugi e la legislazione sulle fabbriche divenga un fatto compiuto anche in <placeName>Italia</placeName>. Sarebbe tempo invero di tirare un po' la somma degli studi compiuti e di por mano ai rimedi. Lo Stato soddisfa ad un'alta missione di civiltà quando provvede con ingenti spese al progresso delle scienze e delle arti, ma l'azione sua deve equamente distribuirsi ovunque venga richiesta. Nelle condizioni attuali della società è indispensabile che il potere pubblico provveda a tempo per arrecare l'ordine e la tranquillità degli animi nelle classi <w xml:id="w1" part="I">infe</w>
         </p>
         
