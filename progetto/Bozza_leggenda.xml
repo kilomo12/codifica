@@ -47,26 +47,47 @@
     </teiHeader>
 
     <facsimile xml:id="facsimile_leggenda_napoli">
+
         <surface xml:id="surf_leggenda_p1_292">
-            <graphic url='292.png' width='XXXXpx' height='YYYYpx' /> 
+            <graphic url='page_1_leggenda.png' width='572' height='812' />
+
+            <zone xml:id='zone_titolo_leggenda' points=' 315,436  313,452  541,452  540,434 ' />
+            <zone xml:id='zone_p1_leggenda_p292' points=' 293,451  563,450  564,670  291,671 '/>
+            <zone xml:id="zone_p2_leggenda_p292" points=' 292,676  566,675  564,804  293,805 '/>
             
         </surface>
         <surface xml:id="surf_leggenda_p2_293">
-            <graphic url='293.png' width='XXXXpx' height='YYYYpx' /> <!-- Replace XXXX/YYYY with actual dimensions -->
+            <graphic url='page_2_leggenda.png' width='587' height='822' />
+     
+            <zone xml:id='zone_p2_leggenda_p293' points=' 15,39  290,41  289,167  14,170 ' />
+            <zone xml:id="zone_p3_leggenda_p293" points=' 13,167  290,165  292,584  14,589 '/>
+            <zone xml:id="zone_p4_leggenda_p293" points=' 15,588  291,586  293,804  19,805 '/>
+            <zone xml:id="zone_p4_leggenda_p293_2" points=' 293,44  564,42  566,146  292,148 '/>
+            <zone xml:id="zone_p5_leggenda_p293" points=' 292,148  569,145  570,576  294,579 '/>
+            <zone xml:id="zone_p6_leggenda_p293" points=' 293,575  568,572  572,805  295,802 '/>
+            
+        
             
         </surface>
         <surface xml:id="surf_leggenda_p3_294">
-            <graphic url='294.png' width='XXXXpx' height='YYYYpx' /> <!-- Replace XXXX/YYYY with actual dimensions -->
+            <graphic url='page_3_leggenda.png' width='577' height='797' />
+     
+            <zone xml:id='zone_p6_leggenda_p294_2' points=' 12,38  289,36  289,190  9,190 '/>
+            <zone xml:id="zone_p7_leggenda_p294" points=' 14,187  289,187  287,517  10,520 '/>
+            <zone xml:id="zone_p8_leggenda_p294" points=' 13,517  10,711  285,709  287,518 '/>
+            <zone xml:id="zone_p9_leggenda_p294" points=' 11,708  287,709  287,744  10,744 '/>
+            <zone xml:id="zone_p10_leggenda_p294" points=' 9,740  287,742  286,777  12,779 '/>
+            <zone xml:id="zone_firma_leggenda" points=' 109,776  287,775  286,794  108,795 '/>
             
         </surface>
+
     </facsimile>
 
     <text>
         <body>
             <div>
                 <pb xml:id="pb_leggenda_p1" n="292" facs="#surf_leggenda_p1_292"/>
-                <head facs="#zone_head_leggenda">LA LEGGENDA DEL MARE DI NAPOLI.</head>
-        
+                <head facs="#zone_titolo_leggenda">LA LEGGENDA DEL MARE DI NAPOLI.</head>
                 <p xml:id="p1_leggenda_p292" facs="#zone_p1_leggenda_p292">
                     Voi errate lontana di qua, <persName type="epithet">anima settentrionale e vagabonda</persName>, e le brume in cui si affisa il vostro malinconico occhio vi mettono intorno quell'ambiente monotono e triste in cui si acqueta ogni agitazione. 
                     Ma nelle tranquille divagazioni dove il vostro cuore amareggiato si disacerba, nella sorridente mestizia che aleggia in quello che scrivete, io veggo ogni tanto una esclamazione vivace. 
@@ -76,7 +97,6 @@
                     Dovete soffrire di una segreta nostalgia che non osate confessare, voi, <persName type="epithet">esiliato volontario</persName>. 
                     E come l'eco dolorosa si ripercuote sul mio fedele e forte cuore d'amica, così io risponderò a quello che nascondete, invece che a quello che palesate, e vi narrerò non la storia, ma la leggenda del <placeName type="natural">mio bello e poetico golfo</placeName>.
                 </p>
-
                 <p xml:id="p2_leggenda_p292" part="I" facs="#zone_p2_leggenda_p292">
                     Ognuno sa che <persName>Iddio</persName>, generoso, misericordioso e <persName type="epithet">magnifico Signore</persName>, ha guardato sempre con un occhio di predilezione la città di <placeName>Napoli</placeName>. Per lei ha avuto tutte le carezze di un padre, di un innamorato: le ha prodigato i doni più ricchi, più splendidi che si possano immaginare. 
                     Le ha dato il cielo ridente ed aperto, raramento turbato da quei funesti pensieri scioglientisi in lagrime, che sono le nubi; l'aria leggiera, benefica e vivificante che mai non diventa troppa rude, troppo tagliente; le colline verdi macchiate di case bianche e gialle, divise dai giardini sempre fioriti; il <placeName type="natural">vulcano</placeName> fiammeggiante ed appassionato; gli uomini belli, buoni,
@@ -84,14 +104,14 @@
             </div>
             <div>
                 <pb xml:id="pb_leggenda_p2" n="293" facs="#surf_leggenda_p2_293"/>
-                <p part="F" facs="#zone_p3_leggenda_p293">
+                <p part="F" facs="#zone_p2_leggenda_p293">
                     indolenti, artisti e innamorati; le donne piacenti, brune, amabili e virtuose; i fanciulli ricciuti dai grandi occhi neri e intelligenti. 
                     Poi, per suggellare tanta grazia, le ha dato il <placeName type="natural">mare</placeName>. 
                     Ma si soggiunge che il <persName>Signore Iddio</persName>, dandole il <placeName type="natural">mare</placeName>, ha saputo quel che si faceva. 
                     Quello che sarebbero i <placeName>napoletani</placeName>, quello che vorrebbero, egli conosceva bene e nel darloro la felicità del <placeName type="natural">mare</placeName>, ha pensato alla felicità di ognuno. 
                     Questo immenso dono è saggio, è profondo, è caratteristico. Ogni bisogno, ogni inclinazione, ogni pensiero, ogni corpo, ogni fantasia, trova il suo cantuccio dove s'appaga, il suo piccolo mare nel <placeName type="natural">grande mare</placeName>.
                 </p>
-                <p xml:id="p3_leggenda_p293" facs="#zone_p4_leggenda_p293">
+                <p xml:id="p3_leggenda_p293" facs="#zone_p3_leggenda_p293">
                     Del passato, dell'antichissimo passato, è il <placeName type="natural">mare del Carmine</placeName>. 
                     Poco distante dalla spiaggia è l'antica <placeName>porta di mare</placeName> che mette nella <placeName>piazza</placeName>: sulla <placeName>piazza</placeName> storicamente famosa s'eleva il bruno <placeName>campanile</placeName>, coi suoi quattro ordini a finestruole, che lo fanno rassomigliare stranamente al giocattolo grandioso di un bimbo gigante: le <term>casupole</term> attorno sono basse, meschine, dalle finestre piccole, abitate da gente minuta. 
                     Il <placeName type="natural">mare del Carmine</placeName> è scuro, sempre agitato, continuamente tormentato. 
@@ -105,7 +125,7 @@
                     Le onde sue tempestose hanno dovuto ruggire per molto tempo: <quote><persName>Masaniello</persName>, <persName>Masaniello</persName>!</quote> E il <placeName type="natural">mare grandioso e triste</placeName> degli antichi, che sgomenta le coscienze piccine dei moderni. 
                     La sola voce del flutto rompe il silenzio che vi regna e qualche coraggioso, solitario e meditabondo spirito vi passeggia, curvando il capo sotto il peso dei ricordi, fissando l'occhio nella vita di quelli che furono.
                 </p>
-                <p xml:id="p4_leggenda_p293" facs="#zone_p5_leggenda_p293">
+                <p xml:id="p4_leggenda_p293" part="I" facs="#zone_p4_leggenda_p293">
                     Ma ferve la gente e ferve la vita sul <placeName type="natural">mare del Molo</placeName>. Non è spiaggia: è porto quieto e profondo. 
                     L'acqua non ha onde o appena s'increspa: è nera, a fondo di carbone, un nero uniforme e smorto, dove nulla si riflette. Sulla superficie galleggiano pezzi di legno, brandelli di gomene, ciabatte sformate e sorci morti. 
                     Nel <placeName>porto mercantile</placeName> si stringono l'una contro l'altra le barcacce, gli <term>schooners</term>, i brigantini, carichi di grano, di farina, di carbone, d'indaco: non vi è che una piccola linea di acqua sporca tra essi. 
@@ -113,17 +133,17 @@
                     Uomini neri di sole, di fumo e di fatica, vanno, vengono, salgono, discendono. 
                     Un puzzo di catrame è nell'aria. 
                     Sulla banchina nuova, sul terrapieno, sono infissi cannoni, a cui s'attorcigliano intorno grossissime gomene, che danno una sicurezza maggiore ai vapori postali ancorati in rada. 
-                    A destra è il <placeName>porto militare</placeName>, medesimo <placeName type="natural">mare smorto e sporco</placeName>, dove rimangono immobili le corazzate. Dappertutto barchette che sfilano, zattere lente, imbarcazioni pesanti: le voci si <w xml:id="chiamano" part="I">chia-</w>  
+                    A destra è il <placeName>porto militare</placeName>, medesimo <placeName type="natural">mare smorto e sporco</placeName>, dove rimangono immobili le corazzate. Dappertutto barchette che sfilano, zattere lente, imbarcazioni pesanti: le voci si <w xml:id="chiamano" part="I">chia</w>  
                        
                 </p> 
-                <p>  
+                <p part="F" facs="zone_p4_leggenda_p293_2">  
                     <w part="F">mano</w>, si rispondono, s'incrociano. 
                     Il sole rischiara tutto questo, facendo brulicare nel suo raggio polvere di carbone, atomi di cotone, limatura di ferro. 
                     La sera, l'occhio del faro sorveglia il <placeName>Molo</placeName>. Il <placeName type="natural">mare del Molo</placeName> è quello dei grossi negozianti, dei grossi banchieri, degli spedizionieri affaccendati, dei marinai adusti, degli ufficiali severi che corrono al loro dovere, dei viaggiatori d'affari che partono senza un rimpianto. 
                     E per essi che il <persName>Signore</persName> ha fatto il <placeName type="natural">lago nero del Molo</placeName>.
                 </p>
                 
-                <p xml:id="p5_leggenda_p293" facs="#zone_p6_leggenda_p293">
+                <p xml:id="p5_leggenda_p293" facs="#zone_p5_leggenda_p293">
                     Del popolo e pel popolo è il <placeName type="natural">mare di S. Lucia</placeName>. 
                     È un mare <w>azzurro-cupo</w>, calmo e sicuro. Una numerosa e formicolante colonia di popolani vive su quella riva. Le donne vendono lo <term>spassatiempo</term>, l'<term>acqua sulfurea</term>, i polipi cotti nell'acqua marina; gli uomini intrecciano nasse, fanno reti, pescano, fumano la pipa, guidano le barchette, vendono i frutti di mare, cantano e dormono. 
                     É un paesaggio acceso e vivace. Le linee vi sono dure e salienti: il sole ardente vi spacca le pietre. Si sente un profumo misto di alga, di zolfo e di spezierie soffritte. I bimbi, seminudi e bruni, si rotolano nella via, cascano nell'acqua talvolta, risalgono alla superficie, scuotendo il capo ricciuto e gridando di gioia.
@@ -133,7 +153,7 @@
                     Una folla borghese e provinciale assedia gli stabilimenti: scricchiolano le viottole di legno. Salgono nell'aria serena canti, suoni di chitarra, trilli d'organino, strilli di bimbi, bestemmie di facchini, rotolio di trams, profumi e cattivi odori: rifulgono i colori rabbiosi e mordenti: fiammeggiano le albe riflesse nel <placeName type="natural">mare</placeName>: fiammeggiano i meriggi lenti e voluttuosi riflessi dal <placeName type="natural">mare</placeName>: s'incendiano i tramonti sanguigni riflessi nel <placeName type="natural">mare che pare di sangue</placeName>. 
                     È il <placeName type="natural">mare del popolo</placeName>, <placeName type="natural">mare laborioso, fedele e fruttifero</placeName>, <placeName type="natural">mare amante ed amato</placeName>, per cui vive e con cui vive il <placeName>popolo napoletano</placeName>.
                 </p>
-                <p xml:id="p6_leggenda_p293" part="I" facs="#zone_p7_leggenda_p293">
+                <p xml:id="p6_leggenda_p293" part="I" facs="#zone_p6_leggenda_p293">
                     Eppure, a breve distanza, tutto cangia d'aspetto. Dalla strada larga e deserta si vede il <placeName type="natural">mare del Chiatamone</placeName>.
                     La vista si estende per quel vastissimo piano, si estende quasi all'infinito, poichè è lontanissima la curva dell'orizzonte.    
                     Quel <placeName type="natural">piano d'acqua è desolato, è grigio</placeName>. Nulla vi è d'azzurro e la medesima serenità ha qualche cosa di solitario che rattrista. 
@@ -142,32 +162,33 @@
                     Di lontano appare una linea nera: è una nave sconosciuta che fugge verso i paesi ignoti. 
                     Alla sera passa lentamente qualche barca misteriosa che porta una fiaccola di luce sanguigna
                 </p>
-
+            </div>
+            <div>
                 <pb xml:id="pb_leggenda_p3" n="294" facs="#surf_leggenda_p3_294"/>
-                <p part="F" facs="#zone_p8_leggenda_p294">
+                <p part="F" facs="#zone_p6_leggenda_p294_2">
                     a poppa e che mette una striscia rossa nel palpito del <placeName type="natural">mare</placeName>: sono pescatori che stordiscono il pesce. 
                     In quelle acque un giovanetto nuotatore, bello e gagliardo, vinto dalle onde, invano ha chiamato aiuto ed è morto affogato.
                     In una notte d'inverno una fanciulla disperata ha pronunziata una breve preghiera e si è slanciata in <placeName type="natural">mare</placeName>, donde
                     l'hanno tratta, orribile cadavere sfracellato e tumefatto. È il <placeName type="natural">mare del nord</placeName> con la sua mestizia, la sua vastità deserta, i suoi scogli lacerati, il metro piangente dell'onda: è il <placeName type="natural">nord</placeName> coi suoi fantasmi, con le sue nebulosità. 
                     È il <placeName type="natural">mare</placeName> che <persName>Iddio</persName> — come dice la vecchia leggenda — ha fatto per i malinconici, per gli ammalati, per i nostalgici, per gl'innamorati dell'infinito.
                 </p>
-                <p xml:id="p7_leggenda_p294" facs="#zone_p9_leggenda_p294">
+                <p xml:id="p7_leggenda_p294" facs="#zone_p7_leggenda_p294">
                     Invece ride il <placeName type="natural">mare di Mergellina</placeName>: ride nella luce rosea delle giornate stupende: ride nelle morbide notti di estate, quando il raggio lunaro pare diviso in sottilissimi fili d'argento: ride nelle vele bianche delle sue navicelle che paiono giocondi pensieri aleggianti nella fantasia. Sulla riva scorre la fontana con un cheto e allegro mormorio: i fanciulli e le fantesche in abito succinto vengono a riempirvi le loro brocche. Un <term>yacht</term> elegante, dall'attrezzeria sottile come un merletto, dalle valette candide orlate di rosso, si culla lentamente sulle onde come una creola indolente: porta il nome a lettere d'oro, il nome dolce di qualche donna amata e bruna: <persName type="character">Fulvia</persName>. 
                     Uno stabilimento di bagni, piccolo ed aristocratico, si congiunge alla riva per una breve viottola: sulla viottola passano le belle fanciulle vestite di bianco, coi grandi cappelli di paglia coperti da una primavera di fiori, con gli ombrellini dai colori splendidi che si accendono al sole: passano le sposine giovinette, gaie e fresche, attaccate al braccio dello sposo innamorato: passano i bimbi graziosi, dai volti ridenti e arrossati dal caldo. 
                     E nel <placeName type="natural">mare</placeName>, giù, è un ridere, uno scherzare, un gridio fra il comico spavento e l'allegria dell'acqua fredda: e corpi bianchi che scivolano fra due onde e braccia rotonde che si sollevano e volti bruni dai capelli bagnati. — È la <placeName>festa di Mergellina</placeName>, di <placeName>Mergellina</placeName> la sorridente, fatta per coloro cui allieta la gioventù, cui fiorisce la salute, fatta pei giovani che sperano e che amano, fatta per coloro cui la vita è una ghirlanda di rose che si sfogliano e rinascono sempre vive e profumate.
                 </p>
-                <p xml:id="p8_leggenda_p294" facs="#zone_p10_leggenda_p294">
+                <p xml:id="p8_leggenda_p294" facs="#zone_p8_leggenda_p294">
                     Ma il <placeName type="natural">mare dove finisce il dolore</placeName>, è il <placeName type="natural">mare di Posilipo</placeName>, il <placeName type="natural">glauco mare</placeName> che prende tutte le tinte, che si adorna di tutte le bellezze. 
                     Quanto può ideare cervello umano per figurarsi il <placeName>paradiso</placeName>, esso lo fa vero. È l'armonia del cielo, delle stelle, della luce, dei colori, l'armonia del firmamento con la natura: <placeName type="natural">mare</placeName> e <placeName>terra</placeName>. Si sfogliano i fiori sulla sponda, canta l'acqua penetrando nelle grotte, l'orizzonte è tutto un sorriso. <placeName>Posilipo</placeName> è l'altissimo ideale che sfuma nella indefinita e lontana linea dell'avvenire, <placeName>Posilipo</placeName> è tutta la vita, tutto quello che si può desiderare, tutto quello che si può volere. <placeName>Posilipo</placeName> è l'imagine della felicità piena, completa, per tutt'i sensi, per tutte le facoltà. 
                     È la vita vibrante, fremente, nervosa e lenta, placida ed attiva. È il punto massimo di ogni sogno, di ogni poesia. Il <placeName type="natural">mare di Posilipo</placeName> è quello che <persName>Dio</persName> ha fatto per i poeti, per i sognatori, per gli artisti, per gl'innamorati di quell'ideale che informa e trasforma l'esistenza.
                 </p>
-                <p xml:id="p9_leggenda_p294" facs="#zone_p11_leggenda_p294">
+                <p xml:id="p9_leggenda_p294" facs="#zone_p9_leggenda_p294">
                     Quando il <persName>Signore</persName> ebbe dato a noi il <placeName type="natural">nostro bel golfo</placeName>, udite quello che la sacrilega leggenda gli fa dire; uditelo voi, <persName type="epithet">anima glaciale e mano inerte</persName>.
                 </p>
-                <p xml:id="p10_leggenda_p294" facs="#zone_p12_leggenda_p294">
+                <p xml:id="p10_leggenda_p294" facs="#zone_p10_leggenda_p294">
                     Egli disse: <quote>Sii felice per quello che t'ho dato; e se non lo puoi, se l'incurabile dolore ti traversa l'anima, muori nelle onde glauche del mare.</quote>
                 </p>
-                <signed facs="#zone_author_leggenda"><persName>MATILDE SERAO</persName>.</signed>
+                <signed facs="#zone_firma_leggenda"><persName>MATILDE SERAO</persName>.</signed>
             </div>
         </body>
     </text>

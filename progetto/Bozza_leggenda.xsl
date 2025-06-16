@@ -27,7 +27,7 @@
                 <p><strong>Editore: </strong> <xsl:value-of select="tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:editor"/></p>
                 <p><strong>Ente responsabile: </strong> <xsl:value-of select="tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:principal"/></p>
                 <p>
-                    <strong>Responsabilità:</strong>
+                    <strong>Responsabilità: </strong>
                     <xsl:value-of select="tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:respStmt/tei:resp"/> -
                     <xsl:value-of select="tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:respStmt/tei:name"/>
                 </p>
@@ -66,15 +66,16 @@
                             "originalWidth": "<xsl:value-of select="normalize-space(translate(ancestor::tei:surface/tei:graphic/@width, 'px', ''))"/>",
                             "originalHeight": "<xsl:value-of select="normalize-space(translate(ancestor::tei:surface/tei:graphic/@height, 'px', ''))"/>"
                         }<xsl:if test="position() != last()">,</xsl:if> 
-                }   </xsl:for-each>
+                    </xsl:for-each>
+                }
             </script>
             <script src="script.js"></script>
         </body>
     </html>
 
     </xsl:template>
-    
-<!-- 
+
+
     <xsl:template match="tei:text/tei:body/tei:div">
 
         <xsl:variable name="page_n" select="if (@n) then @n else position()"/>
@@ -92,7 +93,7 @@
                 </div>
             </xsl:if>
             <div class="text-column" id="text-column-page-{$page_n}">
-                <xsl:apply-templates select="*[self::tei:head or self::tei:p or self::tei:note]"/>
+                <xsl:apply-templates select="*[self::tei:head or self::tei:p or self::tei:signed]"/>
             </div>
         </div>
 
@@ -113,13 +114,17 @@
         </p>
     </xsl:template>
 
-    <xsl:template match="tei:note">
-        <div class="note">
+    <xsl:template match="tei:signed">
+        <p class="firma">
             <xsl:copy-of select="@*"/>
-            <sup><xsl:value-of select="@n"/></sup>
-            <xsl:apply-templates/>
-        </div>
+            <strong>
+                <xsl:value-of select="tei:persName"/>
+            </strong>
+            <xsl:text>.</xsl:text>
+        </p>
     </xsl:template>
+
+
 
     <xsl:template match="tei:head">
         <h2>
@@ -156,7 +161,7 @@
     </xsl:template>
 
     <xsl:template match="tei:date">
-         Logica di formatDate inline per tutti gli altri tei:date 
+        <!-- Logica di formatDate inline per tutti gli altri tei:date -->
         <xsl:variable name="currentDateNode" select="."/>
         <xsl:choose>
             <xsl:when test="normalize-space($currentDateNode) and not($currentDateNode/@when)">
@@ -175,6 +180,5 @@
     </xsl:template>
 
     <xsl:template match="tei:pb"/>
--->
 
 </xsl:stylesheet>
