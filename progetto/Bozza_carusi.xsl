@@ -125,6 +125,25 @@
 
   <xsl:template match="tei:w[@part='F' and @corresp]"/>
   
+  <!-- Template per ricostruire dei paragrafi spezzati fino a trovare il punto -->
+
+  <xsl:template match="tei:p[@part='I' and @xml:id]">
+    <xsl:variable name="id" select="@xml:id"/>
+    <xsl:variable name="second" select="//tei:p[@part='F' and @corresp=concat('#', $id)]"/>
+
+    <xsl:element name="p">
+      <!-- Copia gli attributi del nodo corrente -->
+      <xsl:copy-of select="@*"/>
+
+      <xsl:apply-templates/>
+      <xsl:text> </xsl:text>
+      <xsl:apply-templates select="$second/node()"/>
+    </xsl:element>
+  </xsl:template>
+
+  <!-- Ignora il paragrafo con part='F' perché è già stato gestito -->
+  <xsl:template match="tei:p[@part='F' and @corresp]"/>
+
   <xsl:template match="tei:p">
     <p>
       <xsl:copy-of select="@*"/>

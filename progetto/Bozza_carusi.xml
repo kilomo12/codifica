@@ -54,7 +54,7 @@
       <zone xml:id="zone_par1_carusi" points=" 34,157 346,158 349,626 29,631 "/>
       <zone xml:id="zone_par2_carusi" points=" 29,633 350,631 351,757 35,763 "/>
       <zone xml:id="zone_par3_carusi" points=" 37,762 351,758 354,891 39,891 "/>
-      <zone xml:id="zone_par3_carusi2" points=" 353,133 664,135 671,499 354,503 "/>
+    <!--<zone xml:id="zone_par3_carusi2" points=" 353,133 664,135 671,499 354,503 "/>-->
       <zone xml:id="zone_par4_carusi" points=' 356,502  672,500  674,732  357,737 '/>
       <zone xml:id="zone_par5_carusi" points=' 360,736  668,735  671,867  361,868 ' />
       <zone xml:id="zone_fn1_img" points="39,895 351,895 351,915 39,915"/>
@@ -70,7 +70,7 @@
       <zone xml:id='zone_par8_carusi' points=' 7,515  317,511  316,720  4,724 '/>
       <zone xml:id='zone_par9_carusi' points=' 5,723  316,720  315,867  5,867 '/>
       <zone xml:id="zone_fn3_img" points=' 4,877  316,880  314,910  4,913 '/>
-      <zone xml:id='zone_par9_carusi2' points=' 324,41  323,223  629,224  629,40 '/>
+    <!-- <zone xml:id='zone_par9_carusi2' points=' 324,41  323,223  629,224  629,40 '/>-->
       <zone xml:id='zone_par10_carusi2' points=' 321,224  630,222  631,286  322,291 '/>
       <zone xml:id='zone_par11_carusi2' points=' 322,289  631,284  631,486  322,486 '/>
       <zone xml:id='zone_par12_carusi2' points=' 323,485  632,485  631,653  322,656 '/>
@@ -114,7 +114,7 @@
 
       <div>
         <pb xml:id="pb_img1_sectn_2" n="273" facs="#surf_carusi"/> 
-        <p part="F" facs="#zone_par3_carusi2">
+        <p part="F" corresp="#terzo_par" facs="#zone_par3_carusi2">
           per la loro moralità. Specialmente in alcune miniere di zolfo della <placeName>Sicilia</placeName> il lavoro dei fanciulli trae seco conseguenze disastroso. 
           Esso fu fatto particolare oggetto di accurati studi dovuti o all'iniziativa privata o a quella del governo. 
           Così recently il senatore <persName>Tamaio</persName>, prefetto di <placeName>Girgenti</placeName>, indirizzò al governo alcune proposte intese al miglioramento delle condizioni in cui versano gli operai minatori, e in ispecie i più giovani, di quella provincia. 
@@ -137,7 +137,7 @@
 
       <div>
         <pb xml:id="pb_img2" n="274" facs="#surf_carusi2"/>
-        <p part="F" facs="#zone_par6_carusi">
+        <p part="F" corresp="#quinto_par" facs="#zone_par6_carusi">
           inferiore a quella pattuita pel suo salario. Ma v'ha di più. Il <term>picconiere</term> retribuisce il <term>caruso</term> in natura anziché in danaro, somministrandogli la così detta spesa, cioè farina di grano, olio e spesso solo pane, e da ciò sa trarre guadagno in duo modi, provvedendo il <term>caruso</term> di generi di pessima qualità, e conteggiandoli sul salario di questo ad un prezzo superiore a quello reale del mercato. Per tal modo vige ancora in <placeName>Italia</placeName> quel sistema immorale di retribuzione del lavoro che fu conosciuto in <placeName>Inghilterra</placeName> sotto il nome di <term xml:lang="en">truck system</term>, e contro il quale quest’ultimo paese adottò assai per tempo severe norme legislative. Il <term>caruso</term> della <placeName>Sicilia</placeName>, siccome ha altri bisogni, oltre a quelli che le cose somministrategli del <term>picconiere</term> valgono a soddisfare, rivende alla sua volta ciò che ha ricevuto. Così un rotolo di pane che vale trenta contesimi gli è conteggiato in ragione di 40 ed è da lui venduto in ragione di 20.
         </p>
         <p xml:id="sesto_par" facs="#zone_par7_carusi"> 
@@ -154,7 +154,7 @@
 
       <div>
         <pb xml:id="pb_img2_sectn_2" n="274" facs="#surf_carusi2"/>
-        <p part="F" facs="#zone_par9_carusi2">
+        <p part="F" corresp="#ottesimo_par" facs="#zone_par9_carusi2">
           qualora, trovandosi le miniere molto lontane dall'abitato, fosse necessario l'impianto di mi magazzino in prossimità di esse, i generi vi fossero venduti al prezzo stabilito dal calmiero che è ancora in uso nella <placeName>Sicilia</placeName> occidentale pel pano e per altri commestibili. Vorrebbe che fosso rimediato al grave inconvenienti che i minatori dormano nell'interno delle zolfaro per la troppa lontananza di queste dall'abitato. Egli proporrebbe quindi che gli utili del magazzino e le multe inflitte agli operai fossero destinate a provvedere questi di più umano albergo, scopi a cui potrebbero concorrere le stesse contribuzioni libere dei minatori, le quali si farebbero tanto più abbondanti quanto più l'istruzione e la civiltà, e con essi il sentimento del risparmio è del soccorso mutuo, si diffondessero fra quelle popolazioni.
         </p>
         <p xml:id="nonno_par" facs="#zone_par10_carusi2" > 
@@ -167,14 +167,14 @@
           Non ci associamo poi affatto all'altra proposta del senatore <persName>Tamaio</persName>, per cui egli vorrebbe che la esecuzione della legge fosse sorvegliata da tribunali d'arbitri, simili ai <term xml:lang="fr">Prud'hommes</term> della <placeName>Francia</placeName>, agli <term xml:lang="en">Equitable Councils</term> dell'<placeName>Inghilterra</placeName> e ai <term xml:lang="de">Schiedsgerichte</term> della <placeName>Germania</placeName>. Questi tribunali, che possono servire ad appianare qualche volta le differenze insorte fra i padroni e gli operai, non bastano a garantire la rigorosa esecuzione della legge; anzi la escludono, perchè gl'interessi locali degli imprenditori d'industria prevalgono fino a far violare la legge stessa. L'on. <persName>Tamaio</persName> dimentica che per tale rigorosa esecuzione della legge l<placeName>Inghilterra</placeName>, la <placeName>Germania</placeName> e la <placeName>Francia</placeName> hanno riconosciuta la necessità degli ispettori governativi.
         </p>
         <p xml:id="dodicesimo_par" part="I" facs="#zone_par13_carusi2"> 
-          A parte queste mende, l'ultima delle quali è per noi gravissima ed essenzialissima, non può disconoscersi al Prefetto di <placeName>Girgenti</placeName> il merito di aver compiuto una di quelle statistiche del lavoro a cui troppo scarsamente si attende in <placeName>Italia</placeName>, di aver riposto a galla una questiono troppo, ormai trascurata e di aver suggerito quelle speciali misure che la legge dovrebbe prendere per regolare il lavoro dei <term>carusi</term> nelle miniere siciliane. Si smarriranno queste proposte, come frequentemente avviene, per gli intricati meandri del servizio amministrativo, o verranno fatte oggetto di un esame serio o sollecito? Si ponga fine agli indugi e la legislazione sulle fabbriche divenga un fatto compiuto anche in <placeName>Italia</placeName>. Sarebbe tempo invero di tirare un po' la somma degli studi compiuti e di por mano ai rimedi. Lo Stato soddisfa ad un'alta missione di civiltà quando provvede con ingenti spese al progresso delle scienze e delle arti, ma l'azione sua deve equamente distribuirsi ovunque venga richiesta. Nelle condizioni attuali della società è indispensabile che il potere pubblico provveda a tempo per arrecare l'ordine e la tranquillità degli animi nelle classi <w xml:id="inferiore" part="I">infe</w>
+          A parte queste mende, l'ultima delle quali è per noi gravissima ed essenzialissima, non può disconoscersi al Prefetto di <placeName>Girgenti</placeName> il merito di aver compiuto una di quelle statistiche del lavoro a cui troppo scarsamente si attende in <placeName>Italia</placeName>, di aver riposto a galla una questiono troppo, ormai trascurata e di aver suggerito quelle speciali misure che la legge dovrebbe prendere per regolare il lavoro dei <term>carusi</term> nelle miniere siciliane. Si smarriranno queste proposte, come frequentemente avviene, per gli intricati meandri del servizio amministrativo, o verranno fatte oggetto di un esame serio o sollecito? Si ponga fine agli indugi e la legislazione sulle fabbriche divenga un fatto compiuto anche in <placeName>Italia</placeName>. Sarebbe tempo invero di tirare un po' la somma degli studi compiuti e di por mano ai rimedi. Lo Stato soddisfa ad un'alta missione di civiltà quando provvede con ingenti spese al progresso delle scienze e delle arti, ma l'azione sua deve equamente distribuirsi ovunque venga richiesta. Nelle condizioni attuali della società è indispensabile che il potere pubblico provveda a tempo per arrecare l'ordine e la tranquillità degli animi nelle classi <w xml:id="inferiori" part="I">infe</w>
         </p>
         
       </div>
       <div>
         <pb xml:id="pb_img3" n="275" facs="#surf_carusi3"/>
-        <p part="F" facs="#zone_par14_carusi">
-          <w part="F" corresp="#inferiore">riore.</w> Ove ciò non faccia, l'edifizio sociale, ricco di merlature e di ornamenti squisiti nelle parti più alte, si logora invece continuamente alla base.
+        <p part="F" corresp="#dodicesimo_par" facs="#zone_par14_carusi">
+          <w part="F" corresp="#inferiori">riori.</w> Ove ciò non faccia, l'edifizio sociale, ricco di merlature e di ornamenti squisiti nelle parti più alte, si logora invece continuamente alla base.
         </p>
       </div>
 
