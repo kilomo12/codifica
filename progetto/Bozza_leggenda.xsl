@@ -65,10 +65,13 @@
                             "points": "<xsl:value-of select="normalize-space(@points)"/>",
                             "originalWidth": "<xsl:value-of select="normalize-space(translate(ancestor::tei:surface/tei:graphic/@width, 'px', ''))"/>",
                             "originalHeight": "<xsl:value-of select="normalize-space(translate(ancestor::tei:surface/tei:graphic/@height, 'px', ''))"/>"
+                            <xsl:if test="@xml:id = 'zone_p2_leggenda_p292' or @xml:id = 'zone_p2_leggenda_p293'">,
+                            "group": "leggenda_1"</xsl:if>
                         }<xsl:if test="position() != last()">,</xsl:if> 
                     </xsl:for-each>
                 }
             </script>
+
             <script src="script.js"></script>
         </body>
     </html>
@@ -106,6 +109,41 @@
             data-original-height="{normalize-space(translate(@height, 'px', ''))}"
         />
     </xsl:template>
+
+    <!-- Template per ricostruire le parole spezzate -->
+
+    <xsl:template match="tei:w[@part='I' and @xml:id]">
+        <xsl:variable name="id" select="@xml:id"/>
+        <xsl:variable name="second" select="//tei:w[@part='F' and @corresp=concat('#', $id)]/text()"/>
+        <xsl:element name="w">
+            <xsl:value-of select="concat(., $second)"/>
+        </xsl:element>
+    </xsl:template>
+    
+
+    <xsl:template match="tei:w[@part='F' and @corresp]"/>
+
+
+    <!-- Template per ricostruire dei paragrafi spezzati fino a trovare il punto -->
+
+    <xsl:template match="tei:p[@part='I' and @xml:id]">
+        <xsl:variable name="id" select="@xml:id"/>
+        <xsl:variable name="second" select="//tei:p[@part='F' and @corresp=concat('#', $id)]"/>
+
+        <xsl:element name="p">
+            <!-- Copia gli attributi del nodo corrente -->
+            <xsl:copy-of select="@*"/>
+
+            <xsl:apply-templates/>
+            <xsl:text> </xsl:text>
+            <xsl:apply-templates select="$second/node()"/>
+        </xsl:element>
+    </xsl:template>
+
+    <!-- Ignora il paragrafo con part='F' perché è già stato gestito -->
+    <xsl:template match="tei:p[@part='F' and @corresp]"/>
+
+
 
     <xsl:template match="tei:p">
         <p>

@@ -111,6 +111,20 @@
          data-original-height="{normalize-space(translate(@height, 'px', ''))}"/>
   </xsl:template>
 
+
+  <!-- Template per ricostruire le parole spezzate -->
+
+  <xsl:template match="tei:w[@part='I' and @xml:id]">
+    <xsl:variable name="id" select="@xml:id"/>
+    <xsl:variable name="second" select="//tei:w[@part='F' and @corresp=concat('#', $id)]/text()"/>
+    <xsl:element name="w">
+      <xsl:value-of select="concat(., $second)"/>
+    </xsl:element>
+  </xsl:template>
+    
+
+  <xsl:template match="tei:w[@part='F' and @corresp]"/>
+  
   <xsl:template match="tei:p">
     <p>
       <xsl:copy-of select="@*"/>

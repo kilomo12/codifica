@@ -59,10 +59,10 @@
         <surface xml:id="surf_leggenda_p2_293">
             <graphic url='page_2_leggenda.png' width='587' height='822' />
      
-            <zone xml:id='zone_p2_leggenda_p293' points=' 15,39  290,41  289,167  14,170 ' />
+        <!--<zone xml:id='zone_p2_leggenda_p293' points=' 15,39  290,41  289,167  14,170 ' />-->
             <zone xml:id="zone_p3_leggenda_p293" points=' 13,167  290,165  292,584  14,589 '/>
             <zone xml:id="zone_p4_leggenda_p293" points=' 15,588  291,586  293,804  19,805 '/>
-            <zone xml:id="zone_p4_leggenda_p293_2" points=' 293,44  564,42  566,146  292,148 '/>
+        <!--<zone xml:id="zone_p4_leggenda_p293_2" points=' 293,44  564,42  566,146  292,148 '/>-->
             <zone xml:id="zone_p5_leggenda_p293" points=' 292,148  569,145  570,576  294,579 '/>
             <zone xml:id="zone_p6_leggenda_p293" points=' 293,575  568,572  572,805  295,802 '/>
             
@@ -72,7 +72,7 @@
         <surface xml:id="surf_leggenda_p3_294">
             <graphic url='page_3_leggenda.png' width='577' height='797' />
      
-            <zone xml:id='zone_p6_leggenda_p294_2' points=' 12,38  289,36  289,190  9,190 '/>
+        <!--<zone xml:id='zone_p6_leggenda_p294_2' points=' 12,38  289,36  289,190  9,190 '/>-->
             <zone xml:id="zone_p7_leggenda_p294" points=' 14,187  289,187  287,517  10,520 '/>
             <zone xml:id="zone_p8_leggenda_p294" points=' 13,517  10,711  285,709  287,518 '/>
             <zone xml:id="zone_p9_leggenda_p294" points=' 11,708  287,709  287,744  10,744 '/>
@@ -104,7 +104,7 @@
             </div>
             <div>
                 <pb xml:id="pb_leggenda_p2" n="293" facs="#surf_leggenda_p2_293"/>
-                <p part="F" facs="#zone_p2_leggenda_p293">
+                <p part="F" corresp="#p2_leggenda_p292" facs="#zone_p2_leggenda_p293">
                     indolenti, artisti e innamorati; le donne piacenti, brune, amabili e virtuose; i fanciulli ricciuti dai grandi occhi neri e intelligenti. 
                     Poi, per suggellare tanta grazia, le ha dato il <placeName type="natural">mare</placeName>. 
                     Ma si soggiunge che il <persName>Signore Iddio</persName>, dandole il <placeName type="natural">mare</placeName>, ha saputo quel che si faceva. 
@@ -136,8 +136,8 @@
                     A destra è il <placeName>porto militare</placeName>, medesimo <placeName type="natural">mare smorto e sporco</placeName>, dove rimangono immobili le corazzate. Dappertutto barchette che sfilano, zattere lente, imbarcazioni pesanti: le voci si <w xml:id="chiamano" part="I">chia</w>  
                        
                 </p> 
-                <p part="F" facs="zone_p4_leggenda_p293_2">  
-                    <w part="F">mano</w>, si rispondono, s'incrociano. 
+                <p part="F" corresp="#p4_leggenda_p293" facs="zone_p4_leggenda_p293_2">  
+                    <w part="F" corresp="#chiamano">mano</w>, si rispondono, s'incrociano.
                     Il sole rischiara tutto questo, facendo brulicare nel suo raggio polvere di carbone, atomi di cotone, limatura di ferro. 
                     La sera, l'occhio del faro sorveglia il <placeName>Molo</placeName>. Il <placeName type="natural">mare del Molo</placeName> è quello dei grossi negozianti, dei grossi banchieri, degli spedizionieri affaccendati, dei marinai adusti, degli ufficiali severi che corrono al loro dovere, dei viaggiatori d'affari che partono senza un rimpianto. 
                     E per essi che il <persName>Signore</persName> ha fatto il <placeName type="natural">lago nero del Molo</placeName>.
@@ -165,7 +165,7 @@
             </div>
             <div>
                 <pb xml:id="pb_leggenda_p3" n="294" facs="#surf_leggenda_p3_294"/>
-                <p part="F" facs="#zone_p6_leggenda_p294_2">
+                <p part="F" corresp="#p6_leggenda_p293" facs="#zone_p6_leggenda_p294_2">
                     a poppa e che mette una striscia rossa nel palpito del <placeName type="natural">mare</placeName>: sono pescatori che stordiscono il pesce. 
                     In quelle acque un giovanetto nuotatore, bello e gagliardo, vinto dalle onde, invano ha chiamato aiuto ed è morto affogato.
                     In una notte d'inverno una fanciulla disperata ha pronunziata una breve preghiera e si è slanciata in <placeName type="natural">mare</placeName>, donde
