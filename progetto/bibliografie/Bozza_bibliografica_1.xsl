@@ -49,11 +49,11 @@
                             </xsl:when>
                         </xsl:choose>
                     </p>
-                    <p><strong>Volume: </strong> <xsl:value-of select="tei:teiHeader/tei:fileDesc/tei:seriesStmt/tei:biblScope[@unit='volume']"/></p> <!-- Mantenuto se usato in altri XML -->
+                    <p><strong>Volume: </strong> <xsl:value-of select="tei:teiHeader/tei:fileDesc/tei:publicationStmt/tei:idno[@type='volume']"/></p>
                     <p><strong>Numero: </strong> <xsl:value-of select="tei:teiHeader/tei:fileDesc/tei:publicationStmt/tei:idno[@type='issue']"/></p>
                     <p><strong>Pagine: </strong> <xsl:value-of select="tei:teiHeader/tei:fileDesc/tei:publicationStmt/tei:idno[@type='pages']"/></p>
-                    <p><strong>Fonte: </strong> <xsl:apply-templates select="tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:biblStruct/tei:monogr | tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:p"/></p>
-                    <p><strong>Lingua: </strong> <xsl:value-of select="tei:teiHeader/tei:profileDesc/tei:langUsage/tei:language/@ident | tei:teiHeader/tei:profileDesc/tei:langUsage/tei:language[not(@ident)]"/></p>
+                    <p><strong>Fonte: </strong> <xsl:apply-templates select="tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:biblStruct/tei:monogr"/></p>
+                    <p><strong>Lingua: </strong> <xsl:value-of select="tei:teiHeader/tei:profileDesc/tei:langUsage/tei:language"/></p>
                     <p><strong>Descrizione della codifica: </strong> <xsl:value-of select="tei:teiHeader/tei:encodingDesc/tei:p"/></p>
                 </div>
 
@@ -66,7 +66,7 @@
                     DECOMMENTALA QUANDO IL TUO FILE XML CONTIENE LA SEZIONE <facsimile>
                     CON GLI ELEMENTI <surface> E <zone> CORRETTAMENTE DEFINITI.
                 -->
-                <!--
+                <!---->
                 <script id="zoneData" type="application/json">
                     {
                         <xsl:for-each select="tei:facsimile/tei:surface/tei:zone">
@@ -78,7 +78,7 @@
                         </xsl:for-each>
                     }
                 </script>
-                -->
+                
 
                 <!-- Includi lo script JavaScript principale -->
                 <script src="script.js"></script>
@@ -132,7 +132,7 @@
         <xsl:variable name="id" select="@xml:id"/>
         <xsl:variable name="second_part_node" select="//tei:w[@part='F' and @corresp=concat('#', $id)]"/>
         <xsl:element name="w">
-            <xsl:copy-of select="@*[not(name()='part') and not(name()='corresp')]"/>
+            <xsl:copy-of select="@*"/>
             <xsl:value-of select="."/>
             <xsl:if test="$second_part_node">
                 <xsl:value-of select="$second_part_node/text()"/>
@@ -142,19 +142,40 @@
     <xsl:template match="tei:w[@part='F' and @corresp]"/>
 
     <!-- Template per ricostruire i paragrafi spezzati -->
+
+    <!-- Template per ricostruire i paragrafi spezzati (I, M, F) -->
     <xsl:template match="tei:p[@part='I' and @xml:id]">
-        <xsl:variable name="id" select="@xml:id"/>
-        <xsl:variable name="second_part_node" select="//tei:p[@part='F' and @corresp=concat('#', $id)]"/>
-        <xsl:element name="p">
-            <xsl:copy-of select="@*[not(name()='part') and not(name()='corresp')]"/>
+        <xsl:variable name="id_val" select="@xml:id"/>
+        <xsl:variable name="corresp_target_with_hash" select="concat('#', $id_val)"/>
+        <xsl:variable name="corresp_target_without_hash" select="$id_val"/>
+
+        <p> <!-- Elemento HTML paragrafo unito -->
+            <!-- Copia attributi dalla parte iniziale, escludendo quelli di gestione della divisione e l'xml:id originale -->
+            <xsl:copy-of select="@*[not(name()='part' or name()='corresp' or name='xml:id')]"/>
+
+            <!-- Contenuto della parte iniziale (I) -->
             <xsl:apply-templates/>
-            <xsl:if test="$second_part_node">
-                <xsl:text> </xsl:text>
-                <xsl:apply-templates select="$second_part_node/node()"/>
+
+            <!-- Contenuto delle parti intermedie (M) -->
+            <xsl:for-each select="//tei:p[@part='M' and (@corresp=$corresp_target_with_hash or @corresp=$corresp_target_without_hash)]">
+                <xsl:text> </xsl:text> <!-- Spazio tra le parti -->
+                <xsl:apply-templates select="node()"/>
+            </xsl:for-each>
+
+            <!-- Contenuto della parte finale (F) -->
+            <xsl:variable name="final_part_node"
+                select="//tei:p[@part='F' and (@corresp=$corresp_target_with_hash or @corresp=$corresp_target_without_hash)]"/>
+            <xsl:if test="$final_part_node">
+                <xsl:text> </xsl:text> <!-- Spazio tra le parti -->
+                <xsl:apply-templates select="$final_part_node[1]/node()"/>
             </xsl:if>
-        </xsl:element>
+        </p>
     </xsl:template>
-    <xsl:template match="tei:p[@part='F' and @corresp]"/>
+
+    <!-- Impedisci che le parti M e F con @corresp vengano processate autonomamente, 
+        perché sono già incluse dal template per @part='I'.
+        Questo template ha priorità su quello generico per tei:p. -->
+    <xsl:template match="tei:p[(@part='M' or @part='F') and @corresp]"/>
 
     <!-- Template generico per i paragrafi non spezzati -->
     <xsl:template match="tei:p">
