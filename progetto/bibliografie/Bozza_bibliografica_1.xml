@@ -59,7 +59,7 @@
 
                 <!-- Contenuto della Pagina 331 -->
                 <div>
-
+                    <pb n="331" facs="#surface_p331"/>
                     <head type="section" facs="#zone_p331_section_head"><rs type="theme">FILOLOGIA</rs>.</head>
                     <bibl facs="#zone_p331_bibl_entry">
                         <persName>RAFFAELLO FORNACIARI</persName>. <title level="m">Grammatica italiana dell'uso moderno</title>
