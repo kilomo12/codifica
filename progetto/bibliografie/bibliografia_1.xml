@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI SYSTEM "tei_all.dtd">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Recensione della "Grammatica italiana dell'uso moderno" di Raffaello Fornaciari</title>
+                <author>Anonimo</author>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>La Rassegna Settimanale</publisher>
+                <date when="1879-11-09">9 Novembre 1879</date>
+                <idno type="issue">Vol. 4°, N° 97</idno>
+                <idno type="pages">331-332</idno>
+                <availability>
+                    <p>Pubblicazione storica, diritti non più vigenti</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <monogr>
+                        <author>Raffaello Fornaciari</author>
+                        <title>Grammatica italiana dell'uso moderno</title>
+                        <imprint>
+                            <pubPlace>Firenze</pubPlace>
+                            <publisher>Sansoni</publisher>
+                            <date when="1879">1879</date>
+                        </imprint>
+                    </monogr>
+                    <ref target="#review">Recensione pp. 331-332</ref>
+                </biblStruct>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#generi">
+                    <term type="genre">Recensione</term>
+                    <term type="topic">Filologia</term>
+                    <term type="topic">Lingua italiana</term>
+                    <term type="topic">Grammatica</term>
+                </keywords>
+            </textClass>
+            <abstract>
+                <p>
+                    Analisi critica della grammatica di Fornaciari, con focus sull'approccio all'uso moderno, 
+                    la trattazione della pronuncia e delle forme poetiche.
+                </p>
+            </abstract>
+        </profileDesc>
+    </teiHeader>
+    <text>
+    <front>
+        <div type="header">
+            <head>LA RASSEGNA SETTIMANALE</head>
+            <bibl>
+                <date>9 Novembre 1879</date>
+                <biblScope unit="volume">Vol. 4°</biblScope>
+                <biblScope unit="issue">N° 97</biblScope>
+                <biblScope unit="page">331</biblScope>
+            </bibl>
+        </div>
+    </front>
+    <body>
+        <div type="review" xml:id="review">
+            <head>FILOLOGIA</head>
+            <div type="section">
+                <p>
+                    Al Vocabolario era naturale che seguisse anche la <title>Grammatica dell'uso moderno</title>. 
+                    Il concetto, gl'intendimenti e i criteri sono gli stessi, poiché corrispondono allo stesso bisogno, di dare alla nostra lingua, ancora in parte indecisa tra diversi sistemi e tendenze, regole più sicure 
+                    e determinate fondandosi sull'uso...
+                </p>
+          
+                <p>
+                    Il <persName>Fornaciari</persName>, toscano di nascita e scrittore purgato... ha tentato, 
+                    ci pare, felicemente. La <title>Grammatica</title> che egli ci dà è lavoro pensato e coscienzioso 
+                    in cui si cerca di conciliare le ragioni dell'uso con quelle della tradizione e della scienza.
+                </p>
+          
+                <p>
+                    Qui per la prima volta troviamo esposte le regole della <term>pronuncia</term>, e, sulla fine, 
+                    quelle della <term>prosodia</term> e della <term>metrica</term> con ordine e metodo non disformi 
+                    dai dettati della filologia...
+                </p>
+            </div>
+        
+            <div type="criticism">
+                <p>Ma dove ci pare che l'A. abbia troppo conceduto... è nel fare una parte troppo larga alle 
+                <term>forme poetiche</term>. La poesia ha volto un linguaggio a sé, pieno d'arcaismi e di forme 
+                speciali che non può essere in tutto e per tutto considerato in una grammatica dell'uso...</p>
+          
+                <p>
+                    Terminiamo col raccomandare agli studiosi della nostra lingua questa <title>Grammatica</title>, 
+                    nella quale, malgrado i difetti e le dubbiezze di un primo tentativo, troveranno corrette non poche 
+                    false idee correnti per le scuole...
+                </p>
+            </div>
+        </div>
+    </body>
+    <back>
+        <div type="colophon">
+            <p><persName>Leopoldo Franchetti</persName> | Direttori Proprietari.</p>
+            <p><persName>Sidney Sonnino</persName></p>
+            <p><persName>Pietro Pampaloni</persName>, Gerente Responsabile.</p>
+            <p><placeName>Roma</placeName>. 1879. — Tipografia <orgName>Barbèra</orgName>.</p>
+        </div>
+    </back>
+  </text>
+</TEI>

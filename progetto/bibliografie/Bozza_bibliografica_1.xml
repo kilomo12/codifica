@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI SYSTEM "tei_all.dtd">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="article">FILOLOGIA. Recensione a "<title level="m">Grammatica italiana dell'uso moderno</title>" di <persName>Raffaello Fornaciari</persName></title>
+                <author role="reviewer"><persName>Raffaello Fornaciari</persName></author>
+                <editor><name type="publication">La Rassegna Settimanale</name></editor>
+                <principal><orgName>Università di Pisa</orgName></principal>
+                <respStmt>
+                    <resp>Codifica TEI a cura di</resp>
+                    <name><persName>Steve Landry Ndjock</persName></name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher><name type="publication">La Rassegna Settimanale</name></publisher>
+                <date when="1879-11-09">9 Novembre 1879</date>
+                <idno type="issue">Vol. 4°, N° 97</idno>
+                <idno type="pages">331-332</idno>
+                <availability>
+                    <p>Pubblicazione storica, diritti non più vigenti</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <monogr>
+                        <author><persName>Raffaello Fornaciari</persName></author>
+                        <title level="m">Grammatica italiana dell'uso moderno</title>
+                        <imprint>
+                            <pubPlace><placeName>Firenze</placeName></pubPlace>
+                            <publisher><name type="publisher">Sansoni</name></publisher>
+                            <date when="1879">1879</date>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="it">Italiano</language>
+            </langUsage>
+            <creation>Recensione pubblicata il <date when="1879-11-09">9 Novembre 1879</date></creation>
+        </profileDesc>
+        <encodingDesc>
+            <p>Codifica realizzata seguendo le linee guida TEI.</p>
+            <appInfo>
+                <application version="1.0" ident="TEIZoner">
+                    <label>TEIZoner</label>
+                    <p>Le coordinate delle zone sono state definite utilizzando TEIZoner.</p>
+                </application>
+            </appInfo>
+        </encodingDesc>
+    </teiHeader>
+    <text>
+        <body>
+
+            <div type="review"> <!-- Contenitore generale per la recensione -->
+
+                <!-- Contenuto della Pagina 331 -->
+                <div>
+
+                    <head type="section" facs="#zone_p331_section_head"><rs type="theme">FILOLOGIA</rs>.</head>
+                    <bibl facs="#zone_p331_bibl_entry">
+                        <persName>RAFFAELLO FORNACIARI</persName>. <title level="m">Grammatica italiana dell'uso moderno</title>
+                        — <pubPlace><placeName>Firenze</placeName></pubPlace>, <publisher><name type="publisher">Sansoni</name></publisher>, <date when="1879">1879</date>.
+                    </bibl>
+
+                    <div type="col" n="1"> <!-- Colonna 1 -->
+                        <p xml:id="p331_c1_p1">
+                            Al <title level="m">Vocabolario</title> era naturale che <rs type="verbum">seguisse</rs> anche la <title level="m">Grammatica dell'uso moderno</title>. Il concetto, gl'intendimenti e i criteri sono gli stessi, poiché <rs type="verbum">corrispondono</rs> allo stesso bisogno, di <rs type="verbum">dare</rs> alla nostra lingua, ancora in parte <rs type="theme">indecisa tra diversi sistemi e tendenze</rs>, <rs type="theme">regole più sicure e determinate</rs> <rs type="verbum">fondandosi</rs> sull'<rs type="theme">uso</rs>.
+                            Se non che per il <title level="m">Vocabolario</title> l'impresa essendo relativamente facile, potè <rs type="verbum">compiersi</rs> presto e abbastanza felicemente. Le molte <rs type="theme">raccolte di voci vive toscane</rs> che s'eran venute <rs type="verbum">pubblicando</rs> dal <persName>Carena</persName> in poi, e i copiosi <rs type="theme">vocabolari della lingua scritta</rs> <rs type="verbum">offrivano</rs> un ricco materiale, dal quale non era difficile <rs type="verbum">scegliere</rs> e <rs type="verbum">presentare</rs> acconciamente ordinato quello che c'era di più italiano, di vivo, di opportuno, <rs type="verbum">rifiutando</rs> ciò che <rs type="verbum">suonava</rs> vieto, rozzo o provinciale.
+                        </p>
+                        <p xml:id="p331_c1_p2">
+                            Ma il <rs type="verbum">compilare</rs> una <rs type="theme">grammatica</rs> cogli stessi criteri è cosa che <rs type="verbum">presenta</rs> ben altre <rs type="theme">difficoltà</rs>. Non si tratta solo di una scelta giudiziosa di voci isolate, ma di un <rs type="theme">sistema complicato di teorie</rs>, in cui la <rs type="theme" subtype="historical">tradizione</rs> e la <rs type="theme" subtype="social">consuetudine</rs> da una parte, i <rs type="theme">progressi della filologia</rs> e i <rs type="theme">nuovi bisogni</rs> dall'altra si <rs type="verbum">disputano</rs> il terreno.
+                            L'<rs type="theme">uso</rs> in fatto di grammatica è ancor più difficile a <rs type="verbum">determinare</rs> e più pericoloso a <rs type="verbum">seguire</rs> ciecamente che non pel <title level="m">Vocabolario</title>. L'<rs type="theme" subtype="social">uso popolare</rs> è pieno di <rs type="theme">sgrammaticature</rs> e di <rs type="theme">falsi costrutti</rs>, e l'<rs type="theme" subtype="social">uso delle persone colte</rs> si <rs type="verbum">risente</rs> delle <rs type="theme">incertezze della grammatica letteraria</rs>.
+                        </p>
+                    </div>
+                    <div type="col" n="2"> <!-- Colonna 2 -->
+                        <p xml:id="p331_c2_p1">
+                            Inoltre nella <title level="m">Grammatica</title> un <rs type="theme">chiaro ed esatto ordinamento della materia</rs>, senza di cui un libro non <rs type="verbum">riuscirà</rs> mai di <rs type="theme">utilità generale</rs>, <rs type="verbum">richiede</rs> una <rs type="theme">conoscenza non superficiale dei progressi della filologia</rs> e insieme molto tatto per <rs type="verbum">sapersene giovare</rs>.
+                            Il <persName>Fornaciari</persName>, <rs type="epithet">toscano</rs> di nascita e scrittore <rs type="epithet">purgato</rs>, che nel suo primo saggio di <title level="m">Grammatica storica</title> aveva <rs type="verbum">mostrato</rs> di <rs type="verbum">conoscere</rs> ed <rs type="verbum">apprezzare</rs> i nuovi studi, era il meglio preparato a un siffatto lavoro, e lo ha <rs type="verbum">tentato</rs>, ci pare, felicemente.
+                            La <title level="m">Grammatica</title> che egli ci <rs type="verbum">dà</rs> è lavoro pensato e coscienzioso in cui si <rs type="verbum">cerca</rs> di <rs type="verbum">conciliare</rs> le <rs type="theme">ragioni dell'uso</rs> con quelle della <rs type="theme" subtype="historical">tradizione</rs> e della <rs type="theme">scienza</rs>.
+                        </p>
+                        <p xml:id="p331_c2_p2">
+                            Qui per la prima volta <rs type="verbum">troviamo esposte</rs> le <rs type="theme">regole della pronuncia</rs>, e, sulla fine, quelle della <rs type="theme" subtype="literary">prosodia</rs> e della <rs type="theme" subtype="literary">metrica</rs> con <rs type="theme">ordine e metodo</rs> non disformi dai <rs type="theme">dettati della filologia</rs> senza che la <rs type="theme">chiarezza</rs> e l'<rs type="theme">utile pratico</rs>, a cui <rs type="verbum">mira</rs> il libro, ne <rs type="verbum">risentano</rs> alcun danno.
+                            Anzi questo studio della <rs type="theme">chiarezza</rs> ci pare talvolta soverchio. Cosi se rispetto alla <rs type="theme">pronuncia</rs> non possiamo che <rs type="verbum">approvare</rs> il sistema adottato dall'A. di <rs type="verbum">segnare</rs> con accento grave o acuto l'e e l'o secondochè <rs type="verbum">suonano</rs> aperte o chiuse, non vediamo affatto ragione di <rs type="verbum">accentare</rs> anche l'a l'i e l'u in parole piane, <rs type="verbum">scrivendo</rs> p. e.
+                            <term>guadàgno</term>, <term>sicùro</term>, <term>vestìto</term> sulle quali non potrebbe mai, per un italiano, <rs type="verbum">cadere</rs> equivoco.
+                        </p>
+                        <p xml:id="p331_c2_p3">
+                            Invece ci parrebbe utile <rs type="verbum">porre</rs>, come gli <name type="nationality">Spagnuoli</name>, l'accento, oltreché sulle voci tronche, anche sulle sdrucciole, che sono, per gli stranieri specialmente, il grande scoglio nella lettura dell'<name type="language">italiano</name>, <rs type="verbum">adottando</rs> per il resto la massima che ogni voce non accentata <rs type="verbum">suona</rs> piana.
+                            Certamente anche per maggiore <rs type="theme">semplicità e chiarezza</rs> l'A. si è <rs type="verbum">indotto</rs> ad <rs type="verbum">accettare</rs> per tutti i plurali dei nomi in <term>-io</term> il doppio <term>i</term>, che è certo contrario all'<rs type="theme">uso toscano</rs> il quale ha <rs type="verbum">ammesso</rs> da molto tempo per la più parte dei casi la contrazione, <rs type="verbum">pronunciandosi</rs> <term>studi</term>, <term>premi</term>, <term>giudizi</term>, ecc.
+                            Ma dove ci pare che l'A. abbia troppo <rs type="verbum">conceduto</rs> allo <rs type="theme">scopo pratico</rs> del libro è nel <rs type="verbum">fare</rs> una parte troppo larga alle <rs type="theme" subtype="literary">forme poetiche</rs>.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Contenuto della Pagina 332 -->
+                <div>
+                    <pb xml:id="pb_332" n="332" facs="#surface_p332"/>
+
+                    <div type="col" n="1"> <!-- Assumendo colonna 1, o da rimuovere se layout a colonna unica -->
+                        <p xml:id="p332_c1_p1">
+                            La <rs type="theme" subtype="literary">poesia</rs> ha <rs type="verbum">volto</rs> un <rs type="theme" subtype="literary">linguaggio a sé</rs>, pieno d'<rs type="theme" subtype="literary">arcaismi</rs> e di <rs type="theme" subtype="literary">forme speciali</rs> che non può essere in tutto e per tutto <rs type="verbum">considerato</rs> in una <rs type="theme">grammatica dell'uso</rs>.
+                            Forse l'A. ha avuto di mira con ciò l'<rs type="theme" subtype="social">utilità scolastica</rs>, <rs type="verbum">rendendo</rs> ai giovinetti più accessibile la <rs type="theme" subtype="literary">lingua dei nostri poeti</rs>. Ma <rs type="verbum">dubitiamo</rs> che a questo scopo <rs type="verbum">bastino</rs> i pochi cenni sparsi qua e là, i quali, per la loro concisione, non <rs type="verbum">lasciano</rs> sempre <rs type="verbum">intendere</rs> se si tratti di <rs type="theme" subtype="literary">forme poetiche antiche</rs> od ancora ammesse, e potrebbero talvolta <rs type="verbum">far prendere</rs> per voce poetica una <rs type="theme">forma dialettale</rs> o <rs type="theme" subtype="social">plebea</rs> usata per eccezione da qualche poeta in rima; come là dove è detto che <term>piobbe</term> è forma poetica per <term>piovve</term>, mentre la prima non è che una antica <rs type="theme">forma senese</rs> egualmente estranea alla <rs type="theme" subtype="literary">poesia</rs> che alla <rs type="theme" subtype="literary">prosa</rs>.
+                            Le <rs type="theme" subtype="literary">forme poetiche antiche</rs> sono di tal varietà che a volerne <rs type="verbum">dare</rs> un concetto adeguato ai giovani <rs type="verbum">occorrerebbe</rs> un non breve lavoro a parte, cioè una vera <title level="m" ana="#grammatica_poetica_concept">Grammatica poetica</title> non solo diversa ma spesso pe' suoi criteri in perfetta opposizione colla <title level="m" ana="#grammatica_uso_concept">Grammatica dell' uso</title>.
+                            <rs type="verbum">Terminiamo</rs> col <rs type="verbum">raccomandare</rs> agli studiosi della nostra lingua questa <title level="m">Grammatica</title>, nella quale, malgrado i <rs type="theme">difetti</rs> e le <rs type="theme">dubbiezze</rs> di un primo tentativo, <rs type="verbum">troveranno corrette</rs> non poche <rs type="theme" subtype="social">false idee correnti per le scuole</rs>, <rs type="verbum">tolte</rs> parecchie <rs type="theme">incertezze</rs> ed <rs type="verbum">esposte</rs> le <rs type="theme">regole della nostra lingua</rs> con quella <rs type="theme">sobria accuratezza</rs> di cui principalmente <rs type="verbum">difettano</rs> i libri di tal genere che <rs type="verbum">vanno</rs> per le nostre scuole.</p>
+                    </div>
+
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>
