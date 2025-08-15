@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI SYSTEM "tei_all.dtd">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="article">Recensione a "<title level="m">Malombra</title>" di <persName>A. Fogazzaro</persName></title>
+                <editor><name type="publication">La Rassegna Settimanale</name></editor>
+                <principal><orgName>Università di Pisa</orgName></principal> 
+                <respStmt>
+                    <resp>Codifica TEI a cura di</resp>
+                    <name><persName>Steve Landry Ndjock</persName></name> 
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher><name type="publication">La Rassegna Settimanale</name></publisher>
+                <date when="1881-08-14">14 Agosto 1881</date>
+                <idno type="issue">N° 189</idno>
+                <idno type="volume">Vol. 8°</idno>
+                <idno type="pages">109-111</idno>
+                <availability>
+                    <p>Pubblicazione storica, diritti non più vigenti</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <monogr>
+                        <author><persName>A. Fogazzaro</persName></author>
+                        <title level="m">Malombra</title>
+                        <imprint>
+                            <pubPlace><placeName>Milano</placeName></pubPlace>
+                            <publisher><name type="publisher">lib. ed. G. Brigola</name></publisher>
+                            <date when="1881">1881</date>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="it">Italiano</language>
+            </langUsage>
+            <creation>Recensione pubblicata il <date when="1881-08-14">14 Agosto 1881</date></creation>
+        </profileDesc>
+        <encodingDesc>
+            <p>Codifica realizzata seguendo le linee guida TEI.</p>
+            <appInfo>
+                <application version="1.0" ident="TEIZoner">
+                    <label>TEIZoner</label>
+                    <p>Le coordinate delle zone sono state definite utilizzando TEIZoner.</p>
+                </application>
+            </appInfo>
+        </encodingDesc>
+    </teiHeader>
+    <facsimile>
+        <surface xml:id="surface_p109">
+            <graphic url="page_1.png" width="577" height="840"/> 
+            <zone xml:id="zone_bibliografia_head" points="159,380 348,380 348,393 159,393"/>
+            <zone xml:id="zone_fogazzaro_bibl" points="15,404 477,404 477,422 15,422"/>
+            <zone xml:id="zone_fogazzaro_p1_col2" points="296,423 478,423 478,826 296,826"/>
+        </surface>
+        <surface xml:id="surface_p110">
+            <graphic url="page_2.png" width="577" height="840"/> 
+            <zone xml:id="zone_fogazzaro_p2_col1" points="14,48 288,48 288,825 14,825" />
+            <zone xml:id="zone_fogazzaro_p2_col2" points="296,49 479,49 479,825 296,825" />
+        </surface>
+        <surface xml:id="surface_p111">
+            <graphic url="page_3.png" width="577" height="840"/> 
+            <zone xml:id="zone_fogazzaro_p3_col1" points="16,49 288,49 288,623 16,623"/>
+            <zone xml:id="zone_fogazzaro_p3_col2" points="295,49 478,49 478,339 295,339"/>
+        </surface>
+    </facsimile>
+    <text>
+        <body>
+            <div type="review">
+
+                <pb n="109" facs="#surface_p109"/>
+                <head type="section" facs="#zone_bibliografia_head">BIBLIOGRAFIA.</head>
+                
+                <div type="review_item">
+                    <bibl facs="#zone_fogazzaro_bibl">
+                        <persName>A. FOGAZZARO</persName>, <title level="m">Malombra</title>. — <pubPlace><placeName>Milano</placeName></pubPlace>, <publisher><name type="publisher">lib. ed. G. Brigola</name></publisher>, <date when="1881">1881</date>.
+                    </bibl>
+                
+                    <div type="col" n="2"> 
+                        <p facs="#zone_fogazzaro_p1_col2" part="I">
+                            <rs type="verbum">Letto</rs> rapidamente, talvolta con vivissima curiosità, questo grosso volume — grosso e <rs type="verbum">stampato</rs> a caratteri fitti fitti — si <rs type="verbum">affaccia</rs> la domanda: È possibile? Non solo possibile,
+                            ma vero. 
+                            È un <rs type="theme">romanzo italiano</rs>, è un <rs type="theme">romanzo lungo</rs>, eppure non <rs type="verbum">annoia</rs>; si <rs type="verbum">percorre</rs> tutto intero, senza interruzioni, senza salti. E <rs type="verbum">badate</rs> che non <rs type="verbum">segue</rs> nessuna moda; non <rs type="verbum">solletica</rs> i sensi, non <rs type="verbum">s'accosta</rs> allo scandalo tanto da <rs type="verbum">rasentarlo</rs>; piuttosto che <rs type="verbum">indurvi</rs> a <rs type="verbum">pensare</rs> al <persName>Balzac</persName> o allo <persName>Zola</persName>, vi <rs type="verbum">ricorda</rs> il <persName>Dickens</persName>, ma nessuna figura o situazione del fecondo e geniale scrittore inglese in particolare; piuttosto che <rs type="verbum">cercare</rs> attrattive in un <rs type="theme">intreccio complicato</rs>, si <rs type="verbum">ferma</rs> a <rs type="verbum">disegnar paesaggi</rs>, a <rs type="verbum">riferire</rs> conversazioni intime, a <rs type="verbum">cesellare caratteri</rs>; tra i caratteri <rs type="verbum">coglie</rs> i secondari e gli umili assai meglio de' principali.
+                            Il <persName>Fogazzaro</persName> aveva tutte le buone intenzioni di <rs type="verbum">scrivere</rs> un <term>libro illeggibile</term>. 
+                            <rs type="verbum">Pare</rs> un bisticcio, ed è la pura verità, <rs type="verbum">essendosi</rs> egli <rs type="verbum">messo</rs> al lavoro col capo pieno di <rs type="theme">preconcetti</rs>, artistici e anti-artistici, di modelli, di tesi.
+                            Il <rs type="theme">nodo del romanzo</rs>, infatti, <rs type="verbum">vorrebbe arieggiare</rs>, nel <rs type="theme">terribile</rs>, nel <rs type="theme">fantastico</rs>, ai racconti del <persName>Pöe</persName>, dell'<persName>Hoffman</persName>, ma ne <rs type="verbum">rimane</rs> di gran lunga lontano, perchè il terribile e il fantastico vi sono <rs type="verbum">toccati</rs> alla sfuggita, quasi con timidezza. 
+                            <persName>Marina</persName>, fanciulla capricciosa, indocile, <rs type="verbum">obbligata</rs> dalla perdita dei parenti e della fortuna a <rs type="verbum">chiudersi</rs> nel solitario castello del conte <persName>Cesare</persName> suo zio, tra <rs type="theme">luoghi selvaggi</rs>, popolati di spiriti dalla fantasia popolare, <rs type="verbum">legge</rs> per caso la storia d'una povera donna della sua famiglia, maniaca, la quale si <rs type="verbum">credeva</rs> chiusa e <rs type="verbum">maltrattata</rs> dal marito per un amore colpevole, e, <rs type="verbum">aspirando</rs> a vendetta, la <rs type="verbum">prevedeva</rs> sicura in una nuova vita, in cui, sotto altro nome, <rs type="verbum">avrebbe serbato</rs> la ricordanza della infelicissima esistenza che <rs type="verbum">menava</rs> mentre <rs type="verbum">scriveva</rs> quelle pagine <rs type="verbum">destinate</rs> a sè stessa.
+                            <persName>Marina</persName>, a lungo andare, <rs type="verbum">finisce</rs> che <rs type="verbum">s'immedesima</rs>, come <rs type="verbum">direbbe</rs> un filosofo, con la povera <persName>Cecilia</persName>; si <rs type="verbum">figura</rs> una <rs type="theme">missione vendicatrice</rs>, l'<rs type="verbum">accetta</rs> con piena fede, <rs type="verbum">crede</rs> <persName>Corrado Silla</persName>, da lei <rs type="verbum">amato</rs> a dispetto di prevenzioni e di antipatie, sia l'amante di <persName>Cecilia</persName>, <rs type="verbum">ritornato</rs> in terra a <rs type="verbum">renderla</rs> felice, fors'anche ad <rs type="verbum">aiutarla</rs> a <rs type="verbum">compiere</rs> i suoi biechi proponimenti.
+                            Per vendetta, <rs type="verbum">consente</rs> a <rs type="verbum">sposare</rs> <persName>Nepo</persName>, parente del conte <persName>Cesare d'Ormengo</persName>, <rs type="verbum">promettendosi</rs> di <rs type="verbum">calpestarlo</rs> dopo le nozze; per vendetta si <rs type="verbum">presenta</rs> una notte al conte, e gli
+                            <rs type="verbum">parla</rs> in guisa da <rs type="verbum">spaventarlo</rs>, da <rs type="verbum">fargli venire</rs> un'<rs type="theme">apoplessia</rs> che lo <rs type="verbum">uccide</rs> in pochi giorni. 
+                            E quando <rs type="verbum">vede</rs> che <persName>Corrado</persName> non <rs type="verbum">ricorda</rs> punto di <rs type="verbum">essere stato</rs> altra volta <persName>Renato</persName>, e di aver <rs type="verbum">amato</rs> <persName>Cecilia</persName>, quando lo <rs type="verbum">vede</rs> freddo, pronto ad <rs type="verbum">allontanarsi</rs> da lei, gli <rs type="verbum">tira</rs> un colpo di pistola; poi <rs type="verbum">va</rs> a <rs type="verbum">gettarsi</rs> in una voragine, come si <rs type="verbum">contava</rs> avesse <rs type="verbum">fatto</rs> <persName>Cecilia</persName>.
+                            Or se il <persName>Fogazzaro</persName> ha <rs type="verbum">immaginato</rs> un complesso di circostanze adatte a <rs type="verbum">produrre</rs> fremiti e ansietà, gli è <rs type="verbum">mancata</rs> la forza o il coraggio di <rs type="verbum">valersene</rs> in modo da <rs type="verbum">colpire</rs> la nostra fantasia, da <rs type="verbum">sollevarci</rs> nella regione del <rs type="theme">misterioso</rs> e dello <rs type="theme">strano</rs> e <rs type="verbum">trattenervici</rs> esterrefatti. 
+                            Poichè si può <rs type="verbum">essere</rs> sicuri della assoluta insussistenza di certi fenomeni, o della loro indole affatto subbiettiva, e nondimeno <rs type="verbum">esser trascinati</rs> a <rs type="verbum">dimenticare</rs> tale sicurezza, a <rs type="verbum">prestar fede</rs> all'incredibile. Anche la <persName>Radcliffe</persName>, anche <persName>Paolo Féval</persName>, <rs type="verbum">riescono</rs>, nostro malgrado, a <rs type="verbum">darci</rs> la pelle d'oca, a <rs type="verbum">sollevare</rs> irti i capelli sul nostro capo. 
+                            Di ciò non è traccia in <title level="m">Malombra</title>.
+                            L'<rs type="theme">apparizione di Marina al conte Cesare</rs>, il quale non era un dappoco — tutt'altro — le parole roventi ch'ella <rs type="verbum">dovè pronunziare</rs>, la <rs type="theme">resistenza del vecchio gentiluomo al terrore</rs> dal quale sentiva <rs type="verbum">invadersi</rs>, e la <rs type="theme">vittoria del terrore</rs>, ecco una <rs type="theme">scena altamente drammatica</rs>, dove il fantastico <rs type="verbum">avrebbe potuto produrre</rs> i suoi effetti più profondi: è certo <rs type="verbum">avvenuta</rs>, l'A. ce lo <rs type="verbum">assicura</rs>, ce ne <rs type="verbum">dà</rs> a <rs type="verbum">vedere</rs> gli effetti tristissimi; ma egli non l'ha <rs type="verbum">descritta</rs>. 
+                            Pure, il romanzo, in ciò che ha di essenziale, si <rs type="verbum">avvolge</rs> intorno a detta scena; i fatti che la <rs type="verbum">precedono</rs> ne sono, nella mente dello scrittore, gli antecedenti, la <rs type="theme">preparazione necessaria</rs>; i fatti che la <rs type="verbum">seguono</rs>, son <rs type="verbum">determinati</rs> da essa.
+                            Ma <rs type="verbum">lasciamo stare</rs> il fantastico, <rs type="verbum">dimentichiamo</rs> l'apparizione di <persName>Marina</persName> al conte, <rs type="verbum">sforziamoci</rs> a <rs type="verbum">persuaderci</rs> che il <persName>Fogazzaro</persName> abbia <rs type="verbum">voluto</rs> semplicemente <rs type="verbum">narrare</rs> la <rs type="theme">storia della mania della fanciulla</rs>. 
+                            In astratto, anche se <rs type="verbum">leggete</rs> non il libro, ma un semplice sunto, <rs type="verbum">ammetterete</rs> la <w xml:id="verosimiglianza" part="I">verosi</w>
+                        </p>
+                    </div>
+                </div>
+
+                <pb n="110" facs="#surface_p110"/>
+                <div type="review_item"> 
+                    <div type="col" n="1">
+                        <p facs="#zone_fogazzaro_p2_col1" part="M" corresp="#zone_fogazzaro_p1_col2">
+                            <w part="F" corresp="verosomiglianza">miglianza</w> del caso. 
+                            Ma <rs type="verbum">basta</rs> ciò in un romanzo? <rs type="verbum">Sarebbe</rs> lo stesso che <rs type="verbum">dire</rs>: <pc>«</pc><rs type="verbum">datemi</rs> la trama, <rs type="verbum">indicatemi</rs> il soggetto, e <rs type="verbum">risparmiatevi</rs> la pena di <rs type="verbum">scrivere</rs> il libro.<pc>»</pc> 
+                            L'impressione vivissima della lettura del <rs type="theme">manoscritto di Cecilia</rs>, in una donna come <persName>Marina</persName>; la vita di lei nel castello; l'ambiente da cui è <rs type="verbum">circondata</rs>; in una parola, tutto quello che ogni giorno, ad ogni ora, la <rs type="verbum">costringe</rs> a <rs type="verbum">ritornare</rs> con la mente a <persName>Cecilia</persName>; il <rs type="theme">lento svolgersi della malattia morale</rs>, il passaggio graduale e forse insensibile dall'impressione prima all'<term>idea fissa</term>, le <rs type="theme">allucinazioni</rs>, la <rs type="theme">soddisfazione selvaggia</rs> di aver <rs type="verbum">compiuto</rs> la vendetta sul conte <persName>Cesare</persName>, il dolore acutissimo di non <rs type="verbum">sentirsi amata</rs> freneticamente come ella <rs type="verbum">ama</rs> da quello ch'è al tempo stesso, per lei, <persName>Renato</persName> e <persName>Corrado</persName>, la tempesta che <rs type="verbum">dovè scatenarlesi</rs> nell'anima prima della uccisione del giovane, la fermezza con cui si <rs type="verbum">avvia</rs> al <rs type="theme">suicidio</rs> — quale storia truce insieme e patetica, se un artista <rs type="verbum">avesse</rs> l'attitudine a <rs type="verbum">svolgerla</rs>, a <rs type="verbum">colorirla</rs> tutta! Ma <rs type="verbum">cercatela</rs> in <title level="m">Malombra</title>, e non vi <rs type="verbum">troverete</rs> se non accenni e vi <rs type="verbum">chiederete</rs> se davvero <rs type="verbum">francasse</rs> la spesa d'<rs type="verbum">immaginare</rs> un personaggio da tragedia, qual è <persName>Marina</persName>, per <rs type="verbum">farne</rs> un fantoccio <rs type="verbum">dotato</rs> di parola, il quale, a tempo e a luogo, quando <rs type="verbum">piace</rs> all'autore di <rs type="verbum">tirare</rs> il filo, <rs type="verbum">chiacchieri</rs>, <rs type="verbum">imprechi</rs>, <rs type="verbum">vada</rs> in barca sul lago, <rs type="verbum">spari</rs> colpi di pistola. 
+                            Nè <rs type="verbum">vale opporre</rs> che <persName>Marina</persName> è pazza; poichè pazzia non <rs type="verbum">diremo</rs> più ragionante, ma certo più calma e meno appariscente della sua, è difficile <rs type="verbum">figurarsela</rs>. 
+                            Pazza nel vero senso non è; l'<term>idea fissa</term> non le <rs type="verbum">impedisce</rs> punto di <rs type="verbum">condursi</rs> da persona perfettamente sana; anzi è questa un'<term>antitesi naturalissima</term> dalla quale l'autore non ha <rs type="verbum">tratto</rs> tutto il partito che <rs type="verbum">avrebbe potuto</rs>.
+                            Ci si <rs type="verbum">permetta</rs> di <rs type="verbum">addurre</rs> almeno una prova a conferma delle nostre opinioni. 
+                            <persName>Marina</persName>, pur <rs type="verbum">amando</rs> <persName>Corrado</persName>, ha <rs type="verbum">consentito</rs> a <rs type="verbum">sposare</rs> <persName>Nepo</persName>. 
+                            <rs type="verbum">Ritiratasi</rs> nelle sue stanze (e qui il <persName>Fogazzaro</persName> <rs type="verbum">s'avventura</rs> a una <rs type="theme">descrizione delle forme della fanciulla</rs>, in cui le <term>frasi fatte</term> <rs type="verbum">accusano</rs> il <term>convenzionalismo</term>), <rs type="verbum">abbandonatasi</rs> alle sue fantasie, <rs type="verbum">giunge</rs> a <rs type="verbum">domandarsi</rs> perchè non <rs type="verbum">fugga</rs> per <rs type="verbum">raggiungere</rs> <persName>Corrado</persName>, perchè
+                            <pc>«</pc>questa commedia con <persName>Nepo Salvador</persName>.<pc>»</pc>
+                            <pc>«</pc>C'era bene il perchè, e <persName>Marina</persName> non <rs type="verbum">poteva dimenticarlo</rs> a lungo. 
+                            Quelle ultime parole del manoscritto! — <rs type="verbum">Lasciar fare</rs> a Dio. <rs type="verbum">Sieno</rs> figli, <rs type="verbum">sieno</rs> nipoti, <rs type="verbum">sieno</rs> parenti, la vendetta sarà buona su tutti. Qui, <rs type="verbum">aspettarla</rs> qui. — E i fatti
+                            non <rs type="verbum">accennavano</rs> già confusamente da lontano com'ella potrebbe <rs type="verbum">raggiungere</rs> insieme la <rs type="theme">vendetta</rs> e l'<rs type="theme">amore</rs>? Le <rs type="verbum">tornò</rs> la fede.<pc>»</pc> Ecco il momento, per l'A. di <rs type="verbum">tirarsi</rs> da parte lui, di <rs type="verbum">lasciare</rs> i pensieri, i sentimenti diversi, contraddittori di <persName>Marina</persName> liberi di <rs type="verbum">manifestarsi</rs> nella loro spontaneità.
+                            Invece, egli <rs type="verbum">procede</rs> oltre a <rs type="verbum">narrare</rs> come la fanciulla, <rs type="verbum">messasi</rs> a <rs type="verbum">contemplare</rs> <pc>«</pc>lo stipo del segreto<pc>»</pc> fu <pc>«</pc><rs type="verbum">assalita</rs>, <rs type="verbum">pietrificata</rs> da una delle sue <rs type="theme">reminiscenze misteriose</rs>. Le
+                            <rs type="verbum">pareva esser venuta</rs> su quella soglia un'altra volta, anni ed anni addietro, di notte, discinta, con i capelli sciolti; aver <rs type="verbum">visto</rs> a' suoi piedi l'ombra oscillante del candeliere, il lume intorno a sè per breve spazio di pareti e di pavimento, e là davanti lo stipo nero, i caratteri arcani.<pc>»</pc> 
+                            Niente altro; il capitolo si <rs type="verbum">chiude</rs> là. 
+                            Chi di voi s'è <rs type="verbum">sentito rimescolare</rs> il sangue? Le <rs type="verbum">tornò</rs> la fede, fu <rs type="verbum">assalita</rs> da una reminiscenza, le <rs type="verbum">pareva</rs>... <term>Generalità vuote</term> e subito dopo una descrizioncella importuna, la quale <rs type="verbum">scaccia</rs>, se pur <rs type="verbum">venivansi producendo</rs>, l'aspettativa intensa, la <rs type="theme">sensazione glaciale dell'ignoto</rs>, il <rs type="theme">presentimento vago d'una grande sciagura</rs>, che dalla situazione <rs type="verbum">rampollerebbero</rs>. <rs type="verbum">Noteremo</rs> qui che l'A. 
+                            si era anche <rs type="verbum">proposto</rs> di <rs type="verbum">attribuire</rs> alla <rs type="theme">fatalità</rs> una parte importante nel suo racconto.
+                            Il <rs type="theme">sentimento della fatalità</rs>, quando si sa <rs type="verbum">ispirarlo</rs>, è aiuto efficace per gli scrittori che <rs type="verbum">mirano</rs> al grandioso, al terribile. In <title level="m">Malombra</title> però certe combinazioni o son volgari o troppo artificiose, perchè <rs type="verbum"><w xml:id="appariscano" part="I">appa</w></rs>
+                        </p>
+                    </div>
+                    <div type="col" n="2">
+                        <p facs="#zone_fogazzaro_p2_col2" part="F" corresp="#zone_fogazzaro_p2_col1">
+                            <w corresp="#appariscano" part="F">riscano</w> effetto d'una <term>legge occulta ma inesorabile</term>. È un
+                            destino un po' a uso <persName>Dumas</persName>: se <persName>D'Artagnan</persName> <rs type="verbum">soccombesse</rs>
+                            a uno de' tanti pericoli che gli si <rs type="verbum">parano</rs> innanzi mentre
+                            <rs type="verbum">va</rs> in <placeName>Inghilterra</placeName>, <title level="m">I Tre Moschettieri</title> <rs type="verbum">finirebbero</rs> <term>ipso facto</term>.
+                            Son casi; a <rs type="verbum">voler prenderli</rs> e <rs type="verbum">farli prendere</rs> per opera del
+                            fato si <rs type="verbum">rischia</rs> di <rs type="verbum">scoprire</rs> la mano del romanziere che li
+                            va <rs type="verbum">apparecchiando</rs>. Ad ogni modo, non vi <rs type="verbum">lasciano</rs> punto
+                            l'impressione di <term>ferrea necessità</term>, alla quale volere o forza
+                            umana non <rs type="verbum">possa sottrarsi</rs>. Forse non è tutta colpa del <persName>Fogazzaro</persName>: ma come non ha <rs type="verbum">riflettuto</rs> che nell'<rs type="theme">ambiente intellettuale</rs>, in cui <rs type="verbum">viviamo</rs> lui e noi, non c'è posto per il concetto della <rs type="theme">predestinazione</rs> e simili? Ma ci <rs type="verbum">credeva</rs> <persName>Marina</persName>.
+                            Sì, e all'esaltata fantasia di lei <rs type="verbum">dovevano</rs> veramente <rs type="verbum">affacciarsi</rs> come effetto del fato alcuni eventi; ma <rs type="verbum">sarebbe stato</rs>
+                            utile secondo noi <rs type="verbum">contrapporre</rs> a quella illusione il <rs type="theme">concetto
+                            scientifico della vita</rs>, e <rs type="verbum">far intendere</rs> ai lettori che il romanziere non è responsabile delle opinioni dei suoi <term>personaggi</term>.
+                            Si <rs type="verbum">poteva</rs>, senza <rs type="verbum">turbare</rs> il racconto nè con <term>professioni di
+                            fede</term>, nè con <term>disquisizioni astratte</term>.
+                            Altro <rs type="theme">preconcetto</rs>. Il <persName>Fogazzaro</persName> ha <rs type="verbum">voluto introdurre</rs>
+                            in <title level="m">Malombra</title> il <rs type="theme">problema religioso</rs> e <rs type="verbum">discuterlo</rs>, <rs type="verbum">obbligarci</rs>
+                            a <rs type="verbum">fermarvi</rs> su l'attenzione, a <rs type="verbum">discuterlo</rs> anche noi. <persName>Steinegge</persName>,
+                            un vecchio tedesco materialista, è <rs type="verbum">convertito</rs> al <rs type="theme">cattolicismo</rs>
+                            da sua figlia <persName>Edith</persName>, con l'aiuto d'un buon curato di campagna: <rs type="verbum">torna</rs> a <rs type="verbum">credere</rs>, e fino ad <rs type="verbum">eseguire</rs> i precetti del
+                            culto esterno. Fortunatamente, l'arte ha <rs type="verbum">cacciato</rs> da banda
+                            le <rs type="theme">preoccupazioni religiose e filosofiche</rs> dello scrittore.
+                            <persName>Steinegge</persName>, in fondo, non si <rs type="verbum">converte</rs> perchè le ragioni del
+                            curato lo <rs type="verbum">persuadano</rs>, o perchè le sue stesse riflessioni lo <rs type="verbum">inducano</rs> a <rs type="verbum">uscire</rs> dallo <rs type="theme">scetticismo</rs>, in cui è <rs type="verbum">rimasto</rs> per tanto
+                            tempo. No, ciò che il <persName>Fogazzaro</persName> <rs type="verbum">chiama</rs> <term>conversione</term>, è
+                            semplice <rs type="theme">sovrabbondanza di affetto paterno</rs>. Quell'uomo
+                            <rs type="verbum">prega</rs> Dio, in buona fede, ma non sa <rs type="verbum">figurarsi</rs> Dio se non
+                            <rs type="verbum">pensa</rs> alla figliuola, così affettuosa, così pura, così pronta
+                            all'abnegazione, al sacrifizio. Il fenomeno è assai bene <rs type="verbum">osservato</rs>, e assai bene <rs type="verbum">dipinto</rs>, forse a dispetto dell'A. e nonostante le <rs type="theme">dispute affatto inutili</rs> tra il curato e <persName>Steinegge</persName>. Ma il preconcetto ha <rs type="verbum">prodotto</rs> risultati deplorevoli.
+                            Il curato ha una <rs type="theme">fisonomia sua propria</rs>; però, in fondo, non
+                            è un carattere, è una <term>personificazione</term>, di quelle ch'erano di
+                            moda, non son molti anni, nei libri de' <persName>manzoniani</persName>. <persName>Steinegge</persName>,
+                            benchè scettico, rozzo, era una gran brava persona, fior di galantuomo, pieno di <rs type="theme">aspirazioni nobili</rs>, di <rs type="theme">sentimenti forti e
+                            delicati</rs>. Che ci ha <rs type="verbum">guadagnato</rs> a <rs type="verbum">ridiventar</rs> cattolico? <persName>Edith</persName>
+                            è un miracolo; val quanto <rs type="verbum">dire</rs> che non è una donna. S'intende il suo <rs type="theme">affetto smisurato pel padre</rs>, s'<rs type="verbum">intendono</rs> le sue
+                            <rs type="theme">smanie per la salute eterna di lui</rs>; non s'<rs type="verbum">intende</rs> perchè a
+                            quell'affetto e a quelle smanie <rs type="verbum">debba sacrificare</rs> l'amore che
+                            <rs type="verbum">sente</rs> per <persName>Silla</persName>, amore <rs type="verbum">ricambiato</rs>. O davvero non <rs type="verbum">potevano
+                            star</rs> tutti e tre in una stessa casa? O altre donne, pure e
+                            sante, non han <rs type="verbum">saputo conciliare</rs> sulla terra, come nei romanzi
+                            e nei drammi, la <rs type="theme">devozione filiale</rs> con la <rs type="theme">qualità di spose amorevoli</rs>? <term>Carattere chiuso, mistico</term>, <persName>Edith</persName> è un <term>enigma</term>; ed
+                            è antipatica appunto perchè la sua condotta non si <rs type="verbum">spiega</rs>.
+                            Nulla, <rs type="verbum">ripetiamo</rs>, tranne il suo <rs type="theme">misticismo</rs>, la <rs type="verbum">obbliga</rs> a
+                            <rs type="verbum">comportarsi</rs> a quel modo, ed è un <rs type="theme">misticismo poco attivo</rs>, fin
+                            troppo sereno, sicuro di sè tanto da <rs type="verbum">parere</rs> <term>egoismo</term>. Almeno
+                            le <rs type="theme">battaglie</rs>, che senza dubbio, secondo l'A. si <rs type="verbum">combattono</rs>
+                            nel cuore di lei, ci <rs type="verbum">fossero svelate</rs>!
+                            Siamo <rs type="verbum">stati</rs> severi, fin qui, perchè abbiam <rs type="verbum">creduto</rs> dover nostro <rs type="verbum">sollevare</rs> la <rs type="theme">critica</rs> alle altezze che il <persName>Fogazzaro</persName> ha <rs type="verbum">vagheggiate</rs>. Egli <rs type="verbum">pensa</rs>; egli <rs type="verbum">intende</rs> l'arte come
+                            qualcosa di molto più serio che generalmente non si <rs type="verbum">creda</rs>.
+                            Ha <rs type="verbum">sbagliato</rs>; ma vi son <rs type="verbum">cadute</rs>, le quali <rs type="verbum">annunziano</rs> trionfi
+                            vicini. Invece è <rs type="verbum">riuscito</rs> felicemente dove forse non ha <rs type="verbum">messo</rs>
+                            il maggiore studio, il più forte desiderio. Intorno al <rs type="theme">fatto
+                            centrale</rs>, che abbiam <rs type="verbum">indicato</rs>, si <rs type="verbum">svolgono</rs> i mille incidenti</p>
+                    </div>
+                </div>
+
+                <pb n="111" facs="#surface_p111"/>
+                <div type="review_item"> <!-- Continuing Fogazzaro review -->
+                    <div type="col" n="1">
+                        <p facs="#zone_fogazzaro_p3_col1" part="M" corresp="#zone_fogazzaro_p2_col2">della vita, <rs type="verbum">riprodotti</rs> con <term>fare largo</term>, con <term>cura fors'anche eccessiva</term>, ma che <rs type="verbum">raggiunge</rs> lo scopo di <rs type="verbum">trattenerci</rs> sul <rs type="theme">terreno
+                            solido della realtà</rs>. Non si <rs type="verbum">sente</rs>, in <title level="m">Malombra</title>, quel <term>processo
+                            di astrazione, di condensamento</term>, che è tutta l'arte di alcuni
+                            romanzieri, per il quale si <rs type="verbum">arriva</rs> all'<term>inverosimile</term>, a caratteri,
+                            a situazioni che <rs type="verbum">sembrano appartenere</rs> ad un mondo diverso
+                            dal nostro. Nella società si <rs type="verbum">intrecciano</rs> variamente istinti, affetti, passioni, si <rs type="verbum">compiono</rs> azioni buone e malvagie, e intanto
+                            non si <rs type="verbum">rinunzia</rs> ad abitudini, a occupazioni, che son tanta parte dell'esistenza, e <rs type="verbum">possono esser giudicate</rs> indegne di <rs type="verbum">entrare</rs>
+                            in un'<term>opera d'arte</term> solo da chi ha idea monca dell'arte, o poca
+                            familiarità con i grandi scrittori. Il <persName>Fogazzaro</persName> non concentra esclusivamente la sua attenzione sugli <term>attori principali del dramma</term>; ma, con essi, <rs type="verbum">introduce</rs> sulla scena molte
+                            altre <term>figure di minore importanza</term>, di quello che nella vita
+                            reale <rs type="verbum">stanno</rs> necessariamente vicine anche agli eroi. Nel
+                            <rs type="verbum">modellarle</rs> dal vero mentre <rs type="verbum">discorrono</rs> ed <rs type="verbum">operano</rs>, è in
+                            gran parte l'attrattiva del romanzo. Alcune, come la contessa <persName>Fosca</persName>, <persName>Steinegge</persName>, <persName>Catte</persName>, <persName>Rico</persName>, <persName>Fanny</persName>, ci <rs type="verbum">balzano</rs> innanzi <rs type="verbum">improntate</rs> di <rs type="theme">schietto umorismo</rs>. Ognuna ha <term>personalità autonoma</term>; son donne, son uomini, non comparse, non
+                            puri nomi. La contessa, così loquace, <rs type="verbum">pare staccata</rs> dalle
+                            pagine del <persName>Goldoni</persName> (è veneziana appunto). Peccato che, accanto a queste, altre figure non sieno con eguale abilità
+                            <rs type="verbum">disegnate</rs>. <persName>Nepo</persName>, <term>caricatura non nuova</term>, è insipido, volgare
+                            fino all'<term>esagerazione</term>; <persName>Ferrieri</persName> si <rs type="verbum">accende</rs> di <persName>Edith</persName> con <term>foga
+                            incomprensibile</term>; <persName>Corrado</persName> <rs type="verbum">passa</rs> più agevolmente che non si
+                            <rs type="verbum">aspetterebbe</rs> dall'amore per <persName>Marina</persName> all'amore per <persName>Edith</persName>, e
+                            da questo nuovamente a quello, per <rs type="verbum">strapparselo</rs> dal petto
+                            subito dopo. Siffatte <rs type="theme">alternative</rs> sono possibili, specie ne' caratteri fiacchi come <persName>Corrado</persName>; ma <rs type="verbum">bisogna</rs> l'<term>analisi dei motivi intimi, prossimi di esse</term>, per non <rs type="verbum">urtare</rs> le <term>nozioni più diffuse intorno al sorgere e al modificarsi delle passioni umane</term>.
+                            <rs type="verbum">Limitarsi</rs> a <rs type="verbum">raccontare</rs> che il mutamento è <rs type="verbum">avvenuto</rs>, non ci
+                            <rs type="verbum">pare</rs> il metodo migliore.
+                            Non piccola parte del romanzo, nè la meno piacevole,
+                            sono le <rs type="theme">descrizioni</rs>. L'A. <rs type="verbum">osserva</rs> attentamente la natura, e
+                            nel <rs type="verbum">descriverla</rs>, non contento della <term>precisione delle linee</term>,
+                            della <term>vivacità del colore</term>, si <rs type="verbum">sforza</rs> di <rs type="verbum">esprimere</rs> anche il sentimento o almeno l'<term>impressione degli spettacoli naturali</term>.
+                            Per questo verso, si <rs type="verbum">vede</rs> che ha <rs type="verbum">studiato</rs>, e con frutto, i
+                            <rs type="theme">romanzieri inglesi e tedeschi</rs>. Qua e là la descrizione, comunque esatta o smagliante, è <term>inutile lusso</term>. Altra volta non
+                            <rs type="verbum">concorre</rs>, come <rs type="verbum">dovrebbe</rs>, a <rs type="verbum">produrre</rs> <term>effetti psicologici</term>. È
+                            evidente che i luoghi in mezzo ai quali ella <rs type="verbum">vive</rs>, non sono
+                            estranei alle <rs type="theme">modificazioni del carattere di Marina</rs>; ma forse
+                            a queste attinenze l'A. non ha <rs type="verbum">badato</rs> molto. Nella <term>ricerca di
+                            particolari anche minimi</term>, nel <rs type="verbum">dar</rs> quasi vita agli <term>oggetti materiali</term>, non sempre si <rs type="verbum">ricorda</rs> del <term>ne quid nimis</term>; ma quando
+                            se ne <rs type="verbum">ricorda</rs>, ci <rs type="verbum">dà</rs> <term>quadri o macchiette di evidenza e di
+                            grazia rara</term>. Tal è la descrizione della <term>casetta del curato</term>.
+                            «La piccola casa <rs type="verbum">rideva</rs> tutta. Non c'era un granello di
+                            polvere sugli arredi nè sulle invetriate: le tendine di percallo bianco, appena <rs type="verbum">lavate</rs> e <rs type="verbum">stirate</rs>, <rs type="verbum">diffondevano</rs> nelle
+                            stanzette una luce color di perla, <rs type="verbum">mandavano</rs> odore di nettezza. Nel salottino da pranzo a pian terreno un passero
+                            solitario <rs type="verbum">gorgheggiava</rs> festosamente fra le due porte che
+                            <rs type="verbum">mettono</rs> nell'orto: in mezzo alla tavola un vasetto di porcellana bianca <rs type="verbum">portava</rs> dei fiori. Da quelle due porte, da
+                            ogni finestra della casa <rs type="verbum">entrava</rs> il verde tenero della campagna, <rs type="verbum">entrava</rs> un senso profondo di riposo per chi <rs type="verbum">veniva</rs>
+                            dalla città e aveva ancora negli orecchi il fragore del treno,
+                            nelle ossa la stanchezza di una lunga corsa in carrozza.
+                            V'era tranquillità e pace perfino nell'alto canapè di vecchio
+                            stampo, nelle antiche incisioni giallognole del salotto,
+                            negli uccelli impagliati che <rs type="verbum">nidificavano</rs> dentro due campane
+                            di vetro, sopra il caminetto dello studio. Anche l'orologio a</p>
+                    </div>
+                    <div type="col" n="2">
+                        <p facs="#zone_fogazzaro_p3_col2" part="F" corresp="#zone_fogazzaro_p3_col1">pendolo fra due campane, con la sua <term>raucedine acuta e sfiatata di vecchione sordo</term>, <rs type="verbum">riposava</rs> lo spirito. E v'era, sotto
+                            a questo <term>sorridere pacato della casetta</term>, una <term>castità verginale</term>, senza sospetto, <rs type="verbum">posata</rs> innocentemente in seno alla natura amorosa, aperta alla contemplazione della vita. La si
+                            <rs type="verbum">leggeva</rs> perfino nella forma incomoda di certe suppellettili;
+                            perchè, se tutto là dentro <rs type="verbum">diceva</rs> pace e quiete, nè gli alti
+                            canapè stretti, nè le seggiole impagliate a spalliera verticale
+                            <rs type="verbum">promettevano</rs> la voluttà del riposo spensierato e delle immaginazioni vagabonde. Dallo studio, zeppo di libri, <rs type="verbum">usciva</rs>
+                            uno <term>spirito di austerità pensosa</term>, cosicchè l'aspetto della
+                            casa <rs type="verbum">rendeva</rs> immagine, in qualche modo, dell'aspetto di
+                            <persName>Don Innocenzio</persName>, ilare, semplice, pieno di pensiero.»
+                            In questa forma disinvolta, immaginosa, scorrevole insieme e ricca di rilievo, è <rs type="verbum">scritto</rs> tutto il libro. S'intende
+                            perchè la lettura non <rs type="verbum">stanchi</rs>, non <rs type="verbum">affatichi</rs>. <term>Pregi rari</term>, i
+                            quali <rs type="verbum">coprono</rs> le poche mende, qualche <term>francesismo</term>, qualche
+                            <term>metafora arrischiata</term>. Ma, tra le mende, ce n'è una che <rs type="verbum">fa</rs>
+                            il possibile per <rs type="verbum">mettersi</rs> in vista e <rs type="verbum">dar</rs> sui nervi, — <term>l'uso
+                            frequentissimo, costante, del ci come pronome di persona</term>:
+                            «A quella lì ci <rs type="verbum">voglio far</rs> la corte io» — «C'è <rs type="verbum">venuto</rs>
+                            (al conte) un altro accidente» ecc. <term>Solecismo importuno</term>,
+                            è capace di <rs type="verbum">guastar</rs> l'effetto delle pagine più belle.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

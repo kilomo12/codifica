@@ -60,10 +60,9 @@
             <zone xml:id="zone_sottotitolo" points=' 15,656  287,658  287,683  15,683 '/>
             <zone xml:id="zone_paragrafo_1" points=' 13,683  288,683  289,823  11,822 '/>
         </surface>
-<!--    <surface xml:id="surface_p332">
+        <surface xml:id="surface_p332">
             <graphic url="page_2_bibliografia_1.png"></graphic>
-            <zone></zone>
-        </surface>--> 
+        </surface>
     </facsimile>
     <text>
         <body>

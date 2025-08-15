@@ -11,7 +11,7 @@
         <respStmt> <resp>Codifica a cura di</resp> <name><persName>Steve Landry Ndjock</persName></name> </respStmt>
       </titleStmt>
       <publicationStmt>
-        <publisher facs="#zone_casa_editrice"><name type="publication">LA RASSEGNA SETTIMANALE DI POLITICA, SCIENZE, LETTERE ED ARTI.</name></publisher>
+        <publisher ><name type="publication">LA RASSEGNA SETTIMANALE DI POLITICA, SCIENZE, LETTERE ED ARTI.</name></publisher>
         <pubPlace facs="#zone_place_pub"><placeName>ROMA</placeName></pubPlace>
         <date when="1881-05-01">1 Maggio 1881</date>
         <availability>
@@ -48,7 +48,6 @@
     <surface xml:id="surf_carusi">
 
       <graphic url='page_1_carusi.png' width='723.4px' height='918.4px' />
-      <zone xml:id="zone_casa_editrice" points=' 35,11  33,82  660,86  663,10 '/>
       <zone xml:id="zone_place_pub" points=' 278,93  277,112  317,112  317,93 '/>
       <zone xml:id="zone_titolo_carusi" points=' 119,138  268,142  269,158  118,159 '/>
       <zone xml:id="zone_par1_carusi" points=" 34,157 346,158 349,626 29,631 "/>

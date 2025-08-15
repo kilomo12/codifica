@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE teiCorpus SYSTEM "tei_all.dtd">
+<teiCorpus version="3.3.0" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Corpus di Articoli dalla "Rassegna Settimanale"</title>
+                <editor>
+                    <persName>Steve Landry Ndjock</persName>
+                </editor>
+            </titleStmt>
+            <publicationStmt>
+                <p>Questo file TEI Corpus unisce due articoli codificati separatamente.</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>I testi originali sono stati trascritti come parte di un esame di codifica di testo.</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+
+    <!-- Primo articolo -->
+    <TEI xmlns="http://www.tei-c.org/ns/1.0">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title type="article">I <term>CARUSI</term> IN <placeName>SICILIA</placeName>.</title>
+                    <author><persName type="anonymous">Anonimo</persName></author>
+                    <editor><name type="publication">La Rassegna Settimanale</name></editor>
+                    <principal><orgName>Università di Pisa</orgName></principal>
+                    <respStmt>
+                        <resp>Codifica a cura di</resp>
+                        <name><persName>Steve Landry Ndjock</persName></name>
+                    </respStmt>
+                </titleStmt>
+                <publicationStmt>
+                    <publisher>
+                        <name type="publication">LA RASSEGNA SETTIMANALE DI POLITICA, SCIENZE, LETTERE ED ARTI.</name>
+                    </publisher>
+                    <pubPlace facs="#zone_place_pub"><placeName>ROMA</placeName></pubPlace>
+                    <date when="1881-05-01">1 Maggio 1881</date>
+                    <availability>
+                        <p>Pubblicazione storica di dominio pubblico</p>
+                    </availability>
+                    <idno type="issue">174</idno>
+                </publicationStmt>
+                <seriesStmt>
+                    <title level="s"><name type="publication">Rassegna Settimanale</name></title>
+                    <biblScope unit="volume">7</biblScope>
+                    <biblScope unit="pages">273-275</biblScope>
+                </seriesStmt>
+                <sourceDesc>
+                    <p>Trascrizione basata sul materiale fornito dal professore per l'esame di codifica di testo.</p>
+                </sourceDesc>
+            </fileDesc>
+            <profileDesc>
+                <langUsage>
+                    <language ident="it">Italiano</language>
+                </langUsage>
+            </profileDesc>
+            <encodingDesc>
+                <p>Codifica realizzata seguendo le linee guida TEI e le convenzioni esemplificate.</p>
+            </encodingDesc>
+        </teiHeader>
+        <facsimile xml:id="facsimile_carusi">
+            <!-- page_1_carusi-->
+            <surface xml:id="surf_carusi">
+
+                <graphic url='page_1_carusi.png' width='723.4px' height='918.4px' />
+                <zone xml:id="zone_place_pub" points=' 278,93  277,112  317,112  317,93 '/>
+                <zone xml:id="zone_titolo_carusi" points=' 119,138  268,142  269,158  118,159 '/>
+                <zone xml:id="zone_par1_carusi" points=" 34,157 346,158 349,626 29,631 "/>
+                <zone xml:id="zone_par2_carusi" points=" 29,633 350,631 351,757 35,763 "/>
+                <zone xml:id="zone_par3_carusi" points=" 37,762 351,758 354,891 39,891 "/>
+                <!--<zone xml:id="zone_par3_carusi2" points=" 353,133 664,135 671,499 354,503 "/>-->
+                <zone xml:id="zone_par4_carusi" points=' 356,502  672,500  674,732  357,737 '/>
+                <zone xml:id="zone_par5_carusi" points=' 360,736  668,735  671,867  361,868 ' />
+                <zone xml:id="zone_fn1_img" points="39,895 351,895 351,915 39,915"/>
+                <zone xml:id="zone_fn2_img" points=' 360,878  360,878  673,874  676,910  359,914 '/>
+
+            </surface>
+            <!-- page_2_carusi-->
+            <surface xml:id="surf_carusi2">
+
+                <graphic url='page_2_carusi.png' width='633' height='913' />
+                <zone xml:id='zone_par6_carusi' points=' 4,39  315,37  317,246  5,251 '/>
+                <zone xml:id='zone_par7_carusi' points=' 3,251  316,251  317,509  4,515 '/>
+                <zone xml:id='zone_par8_carusi' points=' 7,515  317,511  316,720  4,724 '/>
+                <zone xml:id='zone_par9_carusi' points=' 5,723  316,720  315,867  5,867 '/>
+                <zone xml:id="zone_fn3_img" points=' 4,877  316,880  314,910  4,913 '/>
+                <!-- <zone xml:id='zone_par9_carusi2' points=' 324,41  323,223  629,224  629,40 '/>-->
+                <zone xml:id='zone_par10_carusi2' points=' 321,224  630,222  631,286  322,291 '/>
+                <zone xml:id='zone_par11_carusi2' points=' 322,289  631,284  631,486  322,486 '/>
+                <zone xml:id='zone_par12_carusi2' points=' 323,485  632,485  631,653  322,656 '/>
+                <zone xml:id='zone_par13_carusi2' points=' 324,657  630,652  629,911  320,913 '/>
+
+            </surface>
+            <!-- page_3_carusi-->
+            <surface xml:id="surf_carusi3">
+
+                <graphic url='page_3_carusi.png' width='975.4px' height='180.4px' />
+                <zone xml:id='zone_par14_carusi' points =' 13,79 483,80 483,148 11,147 ' />
+
+            </surface>
+            </facsimile>
+        <text>
+            <body>
+                <pb xml:id="pb_img1" n="273" facs="#surf_carusi"/>
+                <head facs="#zone_titolo_carusi">I <term>CARUSI</term> IN <placeName>SICILIA</placeName>.</head>
+                <p xml:id="primo_par" facs="#zone_par1_carusi">
+                    Sono trascorsi ormai dieci lunghi anni da quando l'<persName role="minister">on. Lanza</persName>, essendo ministro dell'Interno, <rs type="verbum">presentava</rs> al <orgName>Senato</orgName> un <rs type="theme" subtype="legislation">progetto di codice sanitario</rs> contenente alcune disposi<lb break="yes"/>zioni, intese a <rs type="verbum">disciplinare</rs> il <rs type="theme" subtype="child_labor">lavoro dei fanciulli</rs> nelle <rs type="theme" subtype="workplace">fab<lb break="yes"/>briche</rs> e nelle <rs type="theme" subtype="workplace">miniere</rs>. 
+                    Da quella volta numerose <rs type="theme" subtype="legislation">propostedi legge</rs> furono <rs type="verbum">presentate</rs> al <orgName>Parlamento Italiano</orgName>, sempre collo scopo di <rs type="verbum">regolare</rs> questo importante e delicato argo<lb break="yes"/>mento.
+                    Il <rs type="governmental_body">governo</rs> stesso si <rs type="verbum">fece iniziatore</rs> di un'<rs type="theme" subtype="investigation">inchiesta</rs>, i cui risultati <rs type="verbum">comparvero</rs> non ha guari in un grosso vo<lb break="yes"/>lume pubblicato dal <orgName>Ministero di agricoltura, industria e commercio</orgName>, e furono <rs type="verbum">adoperati</rs> dagli <persName role="parliament_member">onorevoli Depretis</persName> e <persName role="parliament_member">Miceli</persName> per la presentazione di un nuovo <rs type="theme" subtype="legislation">progetto di legge</rs> alquanto diverso nei particolari da quello presentato poco tempo innanzi dagli <persName role="parliament_member">onorevoli Minghetti</persName>, <persName role="parliament_member">Luzzatti</persName>, <persName role="parliament_member">Villari</persName> e <persName role="parliament_member">Sidney Sonnino</persName>, ma <rs type="verbum">informato</rs> allo stesso concetto generale.
+                    Senonchè mentre l'urgenza di <rs type="verbum">accordare</rs> una <rs type="theme" subtype="social_protection">protezione legale alle donne e ai fanciulli impiegati nell'industria</rs> è <rs type="verbum">rico<lb break="yes"/>nosciuta</rs>da molti in <orgName>Parlamento</orgName> e fuori, senza distinzione di partito politico, le sessioni <rs type="verbum">succedono</rs> alle sessioni, le legis<lb break="yes"/>lature alle legislature senza che si <rs type="verbum">giunga</rs> a <rs type="verbum">prendere</rs> alcun provvedimento concreto; e, quel ch'è peggio, la <orgName>Com<lb break="yes"/>missione parlamentare</orgName>, incaricata di <rs type="verbum">riferire</rs> sul <rs type="theme" subtype="legislation">progetto <persName>Depretis</persName>-<persName>Miceli</persName></rs>, <rs type="verbum">dorme</rs> ingiustamente i suoi sonni.
+                    Intanto i <rs type="theme" subtype="social_problem">mali esistenti</rs> non <rs type="verbum">ricevono rimedio</rs> e, <rs type="verbum">trascurati</rs> come sono, <rs type="verbum">inacerbiscono</rs>. 
+                    Perciò, l'animo nostro <rs type="verbum">rimase</rs> tristamente impressionato quando, alcuni mesi or sono, un <rs type="epithet">maggiorente dell'industria italiana</rs>, ed <rs type="epithet">economista appassionato</rs>, <rs type="verbum">volle dimo<lb break="yes"/>strare</rs> l'inopportunità di una <rs type="theme" subtype="labor_law">legge regolatrice del lavoro <rs type="theme" subtype="child_labor">giovanile</rs>  e muliebre nell'industria</rs> <rs type="verbum">recando</rs> innanzi <rs>l'argomenta<lb break="yes"/>zione</rs> che come in <placeName>Italia</placeName> non s' erano <rs type="verbum">prodotti</rs> ancora i gravi inconvenienti pei quali in altri paesi la <rs type="theme" subtype="economic_principle">libertà del contratto di lavoro</rs> era stata <rs type="verbum">ristretta</rs>, così non v'era presso di noi <w>ra<lb break="yes"/>gione</w> sufficiente per <rs type="verbum">seguire</rs> questo esempio <ref target="#fn1" type="noteMarker">*</ref>. 
+                    Strana <w>teo<lb break="yes"/>ria</w>, secondo la quale la <rs type="theme" subtype="legislation">legge</rs> dovrebbe<lb/> <rs type="verbum">intervenire</rs> soltanto quando il disordine ch'essa deve <rs type="verbum">impedire</rs> si fosse già <rs type="verbum">ma<lb break="yes"/>nifestato</rs> in gravi proporzioni.
+                </p>
+                <p xml:id="secon_par" facs="#zone_par2_carusi"> 
+                    Non è vero d'altronde che in <placeName>Italia</placeName> non <rs type="verbum">esistano</rs> i mali altrove <rs type="verbum">lamentati</rs>. 
+                    Anche presso di noi si <rs type="verbum">trova impiegato</rs> nell'industria un gran numero di <rs type="theme" subtype="worker_demographic">donne</rs> e di <rs type="theme" subtype="worker_demographic">fanciulli</rs>. 
+                    <w>Se<lb break="yes"/>condo</w> le cifre <rs type="verbum">recate</rs> dalla <title level="m">Statistica di alcune industrie <w>ita<lb break="yes"/>liane</w></title>, sopra 382,131 operai delle manifatture si <rs type="verbum">avrebbero</rs> in <placeName>Italia</placeName> 188,486 <rs type="theme" subtype="worker_demographic">donne adulte</rs> e 90083 <rs type="theme" subtype="child_labor">fanciulli d'ambo i sessi</rs>. 
+                    Altre notizie <rs type="verbum">raccolte</rs> dagli <rs type="role">ingegneri delle miniere</rs> <rs type="verbum">recano</rs> che nell'anno <date when="1878">1878</date> su 40,556 operai addetti ai <rs type="theme" subtype="work_type">lavori minerari</rs> (non <rs type="verbum">comprese</rs> le <rs type="theme" subtype="workplace">cave</rs>) si <rs type="verbum">contavano</rs> 6138 <rs type="theme" subtype="child_labor">fanciulli (d'età inferiore a 14 anni)</rs> e 1722 donne.
+                </p>
+                <p xml:id="terzo_par" part="I" facs="#zone_par3_carusi"> 
+                    Ora, le ricerche <rs type="verbum">fatte</rs> negli anni scorsi dal <orgName>Ministero d'agricoltura, industria e commercio</orgName> e l'<rs type="theme" subtype="investigation">inchiesta</rs> <rs type="verbum">ordinata</rs> dall'<persName role="minister">onorevole Cairoli</persName> (allorché aveva l'interim di quel <w>mi<lb break="yes"/>nistero</w>), <rs type="verbum">valgono a testimoniare</rs> che quei <rs type="theme" subtype="child_labor">fanciulli</rs> sono, per una gran parte, di <rs type="theme" subtype="child_labor_age">età inferiore non solo a 10 o 9 anni, ma sovente anche ad 8 e a 7, talvolta a 6 e perfino a 5 anni</rs>, e che, oltre a ciò, non pochi sono i casi in cui <rs type="theme" subtype="worker_demographic">donne e fanciulli</rs> sono <rs type="verbum">sottoposti</rs> ad un <rs type="theme" subtype="exploitation" ana="#verismo_concern">lavoro eccessivo, deleterio per le loro forze fisiche e intellettuali</rs>, mentre devono <rs type="verbum">prestar</rs> l'opera propria in <rs type="theme" subtype="moral_danger">condizioni pericolose</rs><lb/>
+                </p>
+                <cb n="1"/>
+                <p part="F" corresp="#terzo_par" facs="#zone_par3_carusi2">
+                    per la loro moralità. Specialmente in alcune <rs type="theme" subtype="workplace">miniere di zolfo</rs> della <placeName>Sicilia</placeName> il <rs type="theme" subtype="child_labor">lavoro dei fanciulli</rs> <rs type="verbum">trae</rs> seco <rs type="theme" subtype="social_problem" ana="#verismo_concern">conseguenze disastrose</rs>. 
+                    Esso fu <rs type="verbum">fatto</rs> particolare oggetto di accurati <rs type="theme" subtype="research">studi</rs> <rs type="verbum">dovuti</rs> o all'iniziativa privata o a quella del <rs type="governmental_body">governo</rs>. 
+                    Così recently il <persName role="senator">senatore Tamaio</persName>, <rs role="prefect">prefetto</rs> di <placeName>Girgenti</placeName>, <rs type="verbum">indirizzò</rs> al <rs type="governmental_body">governo</rs> alcune proposte <rs type="verbum">intese</rs> al miglioramento delle <rs type="theme" subtype="social_condition" ana="#verismo_concern">condizioni in cui versano gli operai minatori</rs>, e in ispecie i più giovani, di quella provincia. 
+                    Uno studio teste pubblicato dal <persName>sig. Vittorio Savorini</persName>, <ref target="#fn2" type="noteMarker">*</ref> <rs type="verbum">raccoglie</rs> i risultati <rs type="verbum">ottenuti</rs> da una <rs type="theme" subtype="investigation">inchiesta</rs> <rs type="verbum">ordinata</rs> e <rs type="verbum">presieduta</rs> dallo stesso <rs role="prefect">prefetto</rs>. 
+                    Questi ha <rs type="verbum">fatto ispezionare</rs> minutamente, <rs type="verbum">cominciando</rs> dal <date>novembre ultimo</date>, 72 <rs type="theme" subtype="workplace">miniere</rs>, <rs type="verbum">visitandone</rs> alcune egli stesso. 
+                    Tali <rs type="theme" subtype="workplace">miniere</rs> <rs type="verbum">danno occupazione</rs> a 3875 operai, 69 dei quali sono <rs role="supervisor">capi maestri</rs> o <rs role="supervisor">sorveglianti dell'escavazione</rs>; 110 sono <rs role="clerical_worker">catastieri, pesatori o scrivani, specie di magazzinieri e speditori</rs> ; 956 sono <term><rs role="miner">picconieri</rs></term>, ossia operai <rs type="verbum">occupati</rs> nella <rs type="theme" subtype="work_type">escavazione dello zolfo</rs> dalla miniera; 2626 sono per la maggior parte <rs type="theme" subtype="child_labor">fanciulli o giovanetti</rs>, <rs type="verbum">chiamati</rs> <term><rs role="child_laborer">carusi</rs></term>, i quali <rs type="verbum">hanno</rs> il compito di <rs type="verbum">trasportare</rs> a spalla lo zolfo scavato dal fondo della miniera fino al piano dell'apertura. 
+                    V'hanno poi 114 <rs type="theme" subtype="worker_demographic">donne</rs> <rs type="verbum">incaricate</rs> ordinariamente di <rs type="verbum">trasportare</rs> lo zolfo dalla bocca della miniera fino alla catasta. 
+                    L'<rs type="theme" subtype="child_labor_age">età dei <term>carusi</term></rs> nelle <rs type="theme" subtype="workplace">miniere</rs> di <placeName>Licata</placeName> <rs type="verbum">varia</rs> dai 10 a 18 anni ; in quelle di <placeName>Gianciana</placeName> dai 6 ai 20; in quelle di <placeName>Palma</placeName> o d'<placeName>Aragona</placeName> dai 7 ai 18; in quelle di <placeName>Castel Termini</placeName> dai 7 a 19; in quelle di <placeName>Favara</placeName> dagli 8 ai 20. 
+                    In alcune <rs type="theme" subtype="workplace">miniere</rs> si <rs type="verbum">trovano</rs> però <term>carusi</term> <rs type="verbum">pervenuti</rs> anche ad un età superiore, e fino a 50 anni.
+                </p>
+                <note xml:id="fn1" facs="#zone_fn1_img" n="*"> <persName>ALESSANDRO ROSSI</persName>, <title level="a">perché una legge ?</title> - V. <title level="j">Rassegna</title>, vol V, pag. 414</note>
+            </body>
+        </text>
+    </TEI>
+
+    <!-- Qui puoi aggiungere altri articoli come nuovi <TEI> ... </TEI> -->
+
+</teiCorpus>
