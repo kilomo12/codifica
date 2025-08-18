@@ -135,7 +135,7 @@
     </xsl:template>
 
     <!-- Template per processare gli elementi di testo -->
-    <xsl:template match="tei:p | tei:head | tei:bibl | tei:signed">
+    <xsl:template match="tei:p | tei:head | tei:note | tei:bibl | tei:signed">
         <xsl:variable name="element-name" select="local-name()"/>
         <xsl:element name="{if ($element-name = 'head') then 'h2' else if ($element-name = 'note') then 'div' else 'p'}">
             <xsl:if test="$element-name = 'note'">
