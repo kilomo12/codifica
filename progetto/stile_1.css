@@ -1,0 +1,177 @@
+body {
+  font-family: 'Georgia', serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 1rem;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+  border-bottom: 2px solid #990000;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+/* --- Navigazione tra Articoli --- */
+.navigation-controls {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.navigation-controls button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #800000;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.navigation-controls button:hover:not(:disabled) {
+  background-color: #990000;
+}
+
+.navigation-controls button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.navigation-controls span {
+  margin: 0 15px;
+  font-weight: bold;
+  vertical-align: middle;
+}
+
+.article-container {
+  display: none; /* Nascosto di default */
+  border: 1px solid #ddd;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.article-container.active {
+  display: block; /* Visibile quando attivo */
+}
+
+
+/* --- Metadati --- */
+.header-info {
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin: 0 0 30px 0;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.header-info h2 {
+  font-size: 1.8em;
+  margin-top: 0;
+  margin-bottom: 15px;
+  color: #333;
+  border-bottom: 2px solid #990000;
+  padding-bottom: 5px;
+}
+
+.header-info p {
+  margin: 8px 0;
+  color: #444;
+}
+
+.header-info strong {
+  color: #990000;
+}
+
+/* --- Layout Pagina --- */
+.page-container {
+  display: flex;
+  gap: 2rem;
+  align-items: flex-start;
+  max-width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 2rem;
+}
+
+.image-column {
+  flex: 1;
+  max-width: 50%;
+  position: relative; /* Per posizionare l'overlay */
+}
+
+img.facsimile {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  border: 1px solid #ccc;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Overlay per le evidenziazioni, posizionato sopra l'immagine */
+.highlight-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none; /* Permette ai click di "passare attraverso" */
+}
+
+.text-column {
+  flex: 1;
+  max-width: 50%;
+  overflow-y: auto;
+  max-height: 90vh; /* Altezza massima per consentire lo scrolling */
+  padding-right: 15px;
+}
+
+.text-column h2 {
+  margin-top: 0;
+}
+
+.text-column p, .text-column div, .text-column h2 {
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 3px;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.text-column p:hover, .text-column div:hover, .text-column h2:hover {
+  background-color: #e9e9e9;
+}
+
+/* Stile per l'elemento di testo attivo/cliccato */
+.text-active {
+  background-color: #fffacd !important; /* Giallo chiaro */
+  box-shadow: 0 0 0 2px #ffa500; /* Bordo arancione */
+}
+
+.note {
+    font-size: 0.9em;
+    color: #555;
+    margin-left: 20px;
+    border-left: 2px solid #ccc;
+    padding-left: 10px;
+    font-style: italic;
+}
+
+/* --- Layout Responsivo --- */
+@media screen and (max-width: 800px) {
+  .page-container {
+    flex-direction: column;
+  }
+
+  .image-column, .text-column {
+    max-width: 100%;
+    flex: none;
+  }
+  .text-column {
+    max-height: none; /* Rimuove l'altezza massima in visualizzazione a colonna */
+  }
+}

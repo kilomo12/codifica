@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI SYSTEM "tei_all.dtd">
+<TEI xml:id="articolo5_notizia" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="article">CORRISPONDENZA DA <placeName>PAOLA</placeName>. L'<term>EMIGRAZIONE</term>.</title>
+                <author><persName type="anonymous">Anonimo</persName></author>
+                <editor><name type="publication">La Rassegna Settimanale</name></editor>
+                <principal><orgName>Università di Pisa</orgName></principal>
+                <respStmt>
+                    <resp>Codifica a cura di</resp>
+                    <name><persName>Steve Landry Ndjock</persName></name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name type="publication">LA RASSEGNA SETTIMANALE</name>
+                </publisher>
+                <pubPlace><placeName>ROMA</placeName></pubPlace>
+                <date when="1880-08-29">29 Agosto 1880</date>
+                <availability>
+                    <p>Pubblicazione storica di dominio pubblico</p>
+                </availability>
+                <idno type="issue">139</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="s"><name type="publication">Rassegna Settimanale</name></title>
+                <biblScope unit="volume">6</biblScope>
+                <biblScope unit="pages">132-133</biblScope>
+            </seriesStmt>
+            <sourceDesc>
+                <p>Trascrizione basata sul file PDF fornito.</p>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="it">Italiano</language>
+            </langUsage>
+        </profileDesc>
+        <encodingDesc>
+            <p>Codifica realizzata seguendo le linee guida TEI e le convenzioni esemplificate nel file di riferimento.</p>
+        </encodingDesc>
+    </teiHeader>
+    <facsimile xml:id="facsimile_emigrazione">
+        <!-- Page 1, corresponding to page 132 of the journal -->
+        <surface xml:id="surf_emig_1">
+            <graphic url='page_1.jpg' width='1000px' height='1600px' />
+            <zone xml:id="zone_title_emig" points="187,411 328,443"/>
+            <zone xml:id="zone_col1_p1_emig" points="52,481 487,700"/>
+            <zone xml:id="zone_col1_p2_emig" points="52,702 487,1217"/>
+            <zone xml:id="zone_col1_p3_emig" points="52,1219 487,1555"/>
+            <zone xml:id="zone_col2_p1_emig" points="513,119 948,564"/>
+            <zone xml:id="zone_col2_p2_emig" points="513,566 948,848"/>
+            <zone xml:id="zone_col2_p3_emig" points="513,850 948,1273"/>
+            <zone xml:id="zone_col2_p4_emig" points="513,1275 948,1555"/>
+        </surface>
+        <!-- Page 2, corresponding to page 133 of the journal -->
+        <surface xml:id="surf_emig_2">
+            <graphic url='page_2.jpg' width='1000px' height='1600px' />
+            <zone xml:id="zone_col1_p4_emig" points="48,88 483,431"/>
+            <zone xml:id="zone_col1_p5_emig" points="48,433 483,728"/>
+            <zone xml:id="zone_col1_p6_emig" points="48,730 483,966"/>
+            <zone xml:id="zone_col1_p7_emig" points="48,968 483,1154"/>
+            <zone xml:id="zone_col1_p8_emig" points="48,1156 483,1447"/>
+        </surface>
+    </facsimile>
+    <text>
+        <body>
+            <pb xml:id="pb_emig_1" n="132" facs="#surf_emig_1"/>
+            <cb n="1"/>
+            <head facs="#zone_title_emig">
+                CORRISPONDENZA DA <placeName>PAOLA</placeName>.<lb/>
+                L'<term>EMIGRAZIONE</term>.
+            </head>
+            <p facs="#zone_col1_p1_emig">
+                L'<term>emigrazione</term> del <placeName>circondario di Paola</placeName> verso l'<placeName>America meridionale</placeName> data soltanto da un decennio circa, e vi fu in<lb break="yes"/>trodotta dall'esempio della vicina <placeName>Basilicata</placeName>; nei primi anni trovò poco seguito, ma da sei o sette anni essa crebbe fino alle proporzioni di una <rs type="social_issue">questione sociale</rs>, com'è del re<lb break="yes"/>sto in altre parti d'<placeName>Italia</placeName>.
+            </p>
+            <p facs="#zone_col1_p2_emig">
+                Quanti siano gli <rs type="demographic_data">emigrati del circondario di Paola</rs> non è possibile dire esattamente, non avendosi altro dato atten<lb break="yes"/>dibile per giudicarne che il <num>numero dei passaporti rilasciati</num>, mentre di coloro che partono clandestinamente, talora nume<lb break="yes"/>rosissimi, è molto difficile accertare il numero: oltre di che quando si conoscessero esattamente i partiti, per avere il nu<lb break="yes"/>mero attuale degli emigrati, bisognerebbe fare due detrazioni, l'una per i tornati, e l'altra per i morti, entrambe le quali non si possono calcolare che molto inesattamente, ricor<lb break="yes"/>rendo, come per i partiti clandestinamente, all'investigazione locale per ogni singolo caso. Non posso quindi garentire altro che l'esattezza relativa dei numeri, che do qui sotto; ma se errore vi è, essi stanno al disotto del vero anzichè al disopra.
+            </p>
+            <p facs="#zone_col1_p3_emig">
+                Secondo i miei calcoli, il numero dei partiti per l'<placeName>Ame<lb break="yes"/>rica meridionale</placeName> a tutto il <date when="1879">1879</date> ascende a <num value="9300">9300</num> circa. Di questi però un migliaio sono tornati definitivamente in patria; e dai <num value="250">250</num> ai <num value="300">300</num> sono morti in <placeName>America</placeName>. Sicchè gli <rs type="demographic_data">emigrati attuali</rs> arrivano ad <num value="8000">8000</num> circa, piuttosto più che meno. 
+                La <rs type="demographic_data">popolazione totale del circondario di Paola</rs>, nel<lb break="yes"/>l'ultimo censimento, risultò di <num value="91426">91,426</num> abitanti; sicchè gli emigrati ne rappresentano l'<num value="0.08">8 %</num> e più. Ma più importa rilevare il rapporto fra il <rs type="demographic_data">numero degli emigrati adulti e maschi</rs>, e quello dei totali adulti e maschi del circonda<lb break="yes"/>rio. 
+                Ora degli emigrati, il <num value="0.95">95 %</num> circa, sono maschi adulti, ed il <num value="0.05">5 %</num> soltanto donne o bambini: sicchè abbiamo <num value="7600">7600</num> circa emigrati adulti e maschi su <num value="28000">28,000</num> adulti maschi che conta tutto il circondario di Paola; se ne deduce che circa un <rs type="demographic_data">quarto degli adulti di sesso forte</rs> del detto circondario si trova in <placeName>America</placeName>; mentre vi è meno dell'<num value="0.01">1 %</num> di donne, ed altrettanto di fanciulli. 
+                Quanto allo <rs type="personal_status">stato personale degli emigrati</rs>, l'<num value="0.80">80 %</num> circa di essi sono coniugati, e i più da poco tempo. 
+                Quanto alla <rs type="profession">professione</rs>, il <num value="0.90">90 %</num> circa sono conta<lb break="yes"/>dini, e il <num value="0.10">10 %</num> fra artieri, medici e preti. 
+                Osservo fin d'ora che appunto questa <rs type="social_problem">sproporzione di sesso, di età, e di stato degli emigrati</rs> genera gravi inconvenienti.
+            </p>
+            <p facs="#zone_col2_p1_emig">
+                Una cosa salta agli occhi facilmente, ed è che partono allegri: non può non convincersene chiunque veda, in qua<lb break="yes"/>lunque dei nostri villaggi o piccole città, le frotte dei com<lb break="yes"/>ponenti una prossima spedizione: escono da una <rs type="social_condition">vita di stenti senza speranze</rs>, e fantasticano un ritorno fra gli agi: anche i più maturi, i malaticci, quelli che la spesa del viaggio ha spogliati, sono lieti e fiduciosi. 
+                Una cagione di questa gioia, parrà strano ma è vero, è l'<term>usuraio</term> che impresta i denari agli emigranti. 
+                Per avere accesso da costui bisogna, anzitutto, possedere qualche cosa, casa o fondo, che valga cinque o seicento lire; e comprare poi a caro prezzo i fa<lb break="yes"/>vori di un garante. 
+                La somma che si domanda varia a se<lb break="yes"/>conda dell'agiatezza del richiedente: alcuni si limitano a quanto è strettamente necessario per pagare il viaggio (ora <num>200</num> a <num>250</num> franchi); altri domandano un po' di più, per lasciarne parte in famiglia e per portarsi qualche cosa, per<cb n="2"/> quel che può occorrere. 
+                La misura dell'<rs type="economic_practice">interesse</rs> varia; i più filantropi fra gli <term>usurai</term> fanno il seguente contratto. Previa garanzia, stipulano il <num value="0.15">15 %</num> d'interesse sulla somma, che imprestano; inoltre, la restituzione in oro di quello che si riceve in carta. Ma, pur troppo, la gente così generosa è scarsa, e dall'interesse del <num value="15">15</num>, si sale al <num value="20">20</num>, al <num value="30">30</num>, al <num value="50">50</num>, e talora al <num value="100">100 %</num>. 
+                Si aggiunga, che i primi denari mandati in patria dagli emigrati spettano di diritto al creditore; sicchè, meno rare eccezioni, dopo sette o otto mesi, questi riha il suo denaro. Un contratto ancor più oneroso è il se<lb break="yes"/>guente: chi non ha garanzia si obbliga a dividere per tre o quattro anni i suoi lucri di <placeName>America</placeName> con quegli che gli fornisce i denari per il viaggio. E l'<term>usuraio</term> è raramente frodato, principalmente per la buona fede dei suoi clienti, e poi per le misure di sorveglianza, che adotta coi mede<lb break="yes"/>simi. 
+                Ora però comincia a farsi strada un nuovo modo di procacciarsi i denari per il viaggio. Chi ha fatto fortuna in <placeName>America</placeName> si affretta a tornare in patria; ma, o novelle ambizioni, o tedio della meschina vita paesana, ben presto lo consigliano ad emigrare di nuovo. Questi emigranti, trovan<lb break="yes"/>dosi facoltosi, volentieri conducono, a loro spese, dei pa<lb break="yes"/>renti o amici in <placeName>America</placeName>. 
+                I contratti che fanno non sono meno onerosi; ma vi è il vantaggio che l'<rs type="economic_practice">eccessiva usura</rs> percepita compensa quella anteriormente pagata. 
+                Di più, vi è la speranza che, da questo principio di <rs type="economic_practice">credito fidu<lb break="yes"/>ciario</rs> fra operai, possa sorgere presto un'<orgName>associazione di mutuo credito</orgName>, che sarebbe d'incalcolabile utilità per gli emigranti.
+            </p>
+            <p facs="#zone_col2_p2_emig">
+                Un altro personaggio di cui occorrono gli uffici agli emigranti è il così detto <term>conduttore</term>. Questi ordinariamente dirige i medesimi ad un suo corrispondente in <placeName>Napoli</placeName>; ed essi per opera di costui sono ricevuti a bordo di un piro<lb break="yes"/>scafo, che li trasporta in <placeName>America</placeName>. 
+                Fra l'uno e l'altro in<lb break="yes"/>termediario prendono da <num>20</num> a <num>30</num> lire per passeggero. Questo compenso, in sostanza, viene pagato dall'emigrante, benchè appaia dato dalla società dei trasporti. Avuti i denari, in un modo o nell'altro, è assicurata la partenza. Se si può avere il passaporto, con sollecitudine, bene; altrimenti se ne fa senza, e si parte clandestinamente.
+            </p>
+            <p facs="#zone_col2_p3_emig">
+                I buoni propositi, con i quali partono, vengono dai più modificati, appena han messo il piede sul nuovo continente. 
+                Gli scapoli, quasi tutti, si naturalizzano in <placeName>America</placeName>: per qualche tempo scrivono alla famiglia: spesso mandano i denari spesi nel viaggio, e qualch'altra cosa anche; ma, dopo un anno o poco più, nuovi affetti, o vizi contratti, fanno dimenticare la famiglia lontana, in cui non han lasciato nè figli, nè moglie. 
+                Quelli che li han lasciati spesso total<lb break="yes"/>mente li obbliano. Le mogli, che di frequente incoraggiano i mariti a emigrare perchè alla loro fantasia sorridono il pen<lb break="yes"/>siero di restare per un certo tempo libero di sè, e l'illu<lb break="yes"/>sione di minor disagio, trovando facilmente, massime nei pri<lb break="yes"/>mi tempi, denari in prestito, e l'ambizioncella di diventar padrona, dovendo dare a colonia il fondo che prima colti<lb break="yes"/>vava il marito, le mogli, dico, il più delle volte provocano con la loro condotta la dimenticanza dei mariti. 
+                Ma altre volte la dimenticanza è cagionata da nuove abitudini, o nuove passioni contratte, che pel potere trasformante dell'am<lb break="yes"/>biente, affievoliscono, e poi scancellano le antiche. Un terzo forse degli emigrati restano fedeli alle promesse fatte prima della partenza, e giustificano le speranze di loro concepite.
+            </p>
+            <p facs="#zone_col2_p4_emig">
+                Le famiglie dal canto loro anch'esse si comportano in modo diverso. Se l'emigrato è un figlio di famiglia, il danno del costui abbandono non è grande, o è grande solo dal punto di vista finanziario. 
+                I pericoli ed i danni gravi sono per le famiglie di quelli coniugati, che sono i quattro quinti. Appena partito il capo di famiglia, raramente questa può mantenersi con le proprie risorse: il più delle volte<pb n="133"/><cb n="1"/> deve ricorrere a prestiti dagli <term>usurai</term>. 
+                Questi da principio son difficili, esitanti; poichè ignorano se i denari dall'<placeName>Ame<lb break="yes"/>rica</placeName> verranno, ed in che quantità. Dopo sei mesi od un anno sanno a che partito appigliarsi. Se i denari del viag<lb break="yes"/>gio sono stati restituiti, se le lettere venute annunziano nuove rimesse di denaro, allora essi si disputano il protet<lb break="yes"/>torato della famigliuola: pronti a dare qualunque cosa chiesta, ed offrirne anche spontaneamente, diventano in<lb break="yes"/>somma amministratori di quella famiglia, sicuri che di tutto saranno compensati nella misura che son soliti esigere. Ma se l'emigrato non manda denaro, ritirano la loro protezione e, brontolando contro i corrotti costumi e l'ingratitudine, se ne vanno difilato dall'usciere. Nè solo gli <term>usurai</term>, ma gli stessi parenti cercano di spillare qualche cosa dalle mogli degli emigrati buoni o fortunati.
+            </p>
+            <p facs="#zone_col1_p5_emig">
+                La <rs type="social_issue">fedeltà delle mogli</rs> poi si trova in tali circostanze di fronte a mille pericoli, ai quali non è a stupire che sfugga raramente: il numero degli esposti, cresciuto assai da un decennio nel <placeName>circondario di Paola</placeName>, ne è probabilmente un criterio; e vi è forse connesso anche qualche <rs type="crime">infanticidio</rs> verificatosi. 
+                La notizia della infedeltà della moglie porta l'<rs type="social_consequence">oblio del marito</rs>, all'oblio tien dietro la <rs type="social_consequence">miseria della fa<lb break="yes"/>miglia</rs>; come in altri casi è la miseria cagionata da oblio o disgrazia del marito, che conduce all'infedeltà. Molti mariti però al ritorno perdonano e ripigliano la moglie, ciò che è an<lb break="yes"/>cora men peggio, benchè del fallo non si tolgano le con<lb break="yes"/>seguenze tutte, nè si cancelli il mal esempio. 
+                Altre mogli poi, e per fortuna non son poche, trovano nell'amor di madre e nel sentimento del dovere, la forza di bastare alla vita della famigliuola e di serbare intatta la fede di sposa.
+            </p>
+            <p facs="#zone_col1_p6_emig">
+                Ho detto che un terzo circa degli emigrati giustifica le spe<lb break="yes"/>ranze fatte concepire alla partenza. Sono questi, per lo più, dei padri di famiglia, oltre la quarantina; quasi tutti pic<lb break="yes"/>coli proprietari, che prima vivevano bene, coltivando i propri podereiti; ma poscia si sono trovati disagiati, pei prodotti mancati, e pei pesi maggiori, che ora gravitano, special<lb break="yes"/>mente sulla piccola proprietà. 
+                Per riparare alle deficienze si è ricorso ai prestiti; i quali, una volta nati, son cre<lb break="yes"/>sciuti, finchè minacciavano di ridurre al proletariato il pic<lb break="yes"/>colo proprietario. Ad evitare la catastrofe, il capo di fa<lb break="yes"/>miglia va in <placeName>America</placeName>. 
+                Le mogli di costoro sono anch'esse di una certa età, con figli adulti, e dotate di quell'onestà tradizionale delle nostre contadine: perciò, traune il caso di morte, o di malattia dell'emigrato, la famiglia risorge, per opera di costui, dalle strettezze in cui versava.
+            </p>
+            <p facs="#zone_col1_p7_emig">
+                La <rs type="duration">durata dell'emigrazione</rs> varia. Il minimo è da due anni e mezzo a tre. Alcuni sono in <placeName>America</placeName> da otto a dieci anni, e non parlano ancora di tornare: oltre quelli che vi han preso stanza definitivamente. La dimora all'estero in<lb break="yes"/>fluisce in vario grado sugli emigrati. 
+                Alcuni tornano per<lb break="yes"/>fettamente gli stessi di quel che erano partiti: e sono questi per lo più, che maggiormente han fatto fortuna. Altri sono irriconoscibili. I più hanno esercitato in <placeName>America</placeName> un mestiere diverso da quello di contadino, e quindi difficilmente si adattano, al ritorno, alla vita campagnola. Usi alla grossa mercede dell'operaio in <placeName>America</placeName>, quella dei nostri luoghi gli sembra talmente meschina, che non valga la pena di lavorare; onde diventano oziosi; e, poichè una giornata di lavoro, in <placeName>America</placeName>, li compensa di una settimana di ozio in paese, si propongono di novellamente emigrare. 
+                Così alcuni, dopo quattro o cinque mesi dal ritorno, ripartono; e vi sono di quelli che ciò fanno per la terza o quarta volta. Perciò il contadino che emigra è spesso perduto dalle nostre compagne per sempre.
+            </p>
+            <p facs="#zone_col1_p8_emig">
+                Vediamo ora i principali <rs type="social_impact">rapporti dell'emigrazione colla società</rs>. Nel <placeName>circondario di Paola</placeName>, d'onde ho specialmente ri<lb break="yes"/>levato le considerazioni suesposte, si verifica una grande sproporzione fra la popolazione ed i mezzi di sussistenza. 
+                La classe agricola costituisce gli <num value="87">87</num> per cento della popo<lb break="yes"/>lazione totale; a ciascuno agricoltore corrispondono <num value="83">83</num> are di terreno coltivato; la coltura predominante è estremamente estensiva. 
+                Queste condizioni ci danno una produzione insuffi<lb break="yes"/>ciente, che non accenna ad aumentarsi; mentre, dall'altro lato, niente impedisce il rapido incremento della popolazione. Questo <rs type="social_problem">male sociale</rs>, che, in diverso grado, si riscontra in gran parte d'<placeName>Italia</placeName>, nel <placeName>circondario di Paola</placeName> è gravissimo ed antico. I fenomeni di esso, in passato, furono: la <rs type="social_problem">decadenza degli organismi</rs>, e la <rs type="social_problem">grande mortalità</rs>, specialmente nei fanciulli; l'<rs type="social_problem">abbassamento del livello morale</rs>, la <rs type="social_problem">tendenza alla frode</rs>, il <rs type="social_problem">brigantaggio</rs>; e, nell'economia rurale, il <rs type="economic_issue">dis<lb break="yes"/>sodamento e la coltura dei terreni incoltivabili per natura</rs>. 
+                Attualmente manifestazione della stessa malattia, è l'<term>emigra<lb break="yes"/>zione</term>. Ma, appunto perchè tale, essa contribuisce a di<lb break="yes"/>minuire e a far cessare gli altri fenomeni detti di sopra. Dippiù, l'<term>emigrazione</term> è un <rs type="solution">mezzo curativo della malattia stessa</rs>: a conti fatti, i mezzi di sussistenza sono aumentati per effetto dell'emigrazione: oltrechè essa è un mezzo pre<lb break="yes"/>ventivo contro la tendenza di aumento di queste popola<lb break="yes"/>zioni così prolifiche.
+            </p>
+            <p facs="#zone_col2_p5_emig">
+                Intesa a questo modo, l'<term>emigrazione</term> s'impone; essa non è che la fisonomia attuale della malattia antica; e durerà fino a quando sarà cessata la malattia stessa, o si mani<lb break="yes"/>festerà sott'altra forma. Intanto l'opera del governo e dei privati filantropi deve rivolgersi a tutelare l'emigra<lb break="yes"/>zione, affinchè essa produca il massimo bene, ed il mi<lb break="yes"/>nimo male.
+            </p>
+        </body>
+    </text>
+</TEI>
