@@ -53,8 +53,8 @@
         <div class="article-container">
             <div class="header-info">
                 <h2>Metadati</h2>
-                <p><strong>Titolo: </strong> <span class="highlightable-metadata" data-zone-id="{substring-after(tei:text/tei:body/tei:head/@facs, '#')}"><xsl:value-of select="tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title[@type='article']"/></span></p>
-                <p><strong>Autore: </strong> <xsl:value-of select="tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:author/tei:persName | tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:author"/></p>
+                <p><strong>Titolo: </strong> <span class="highlightable-metadata" data-zone-id="{substring-after(tei:text/tei:body/tei:head/@facs, '#')}"><xsl:value-of select="tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title"/></span></p>
+                <p><strong>Autore: </strong> <xsl:value-of select="tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:author/tei:persName"/></p>
                 <p><strong>Editore: </strong> <xsl:value-of select="tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:editor/tei:name"/></p>
                 <p><strong>Ente responsabile: </strong> <xsl:value-of select="tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:principal/tei:orgName"/></p>
                 <p><strong>Responsabilità: </strong>
@@ -73,12 +73,9 @@
                 <p><strong>Pagine: </strong> <xsl:value-of select="tei:teiHeader/tei:fileDesc/tei:seriesStmt/tei:biblScope[@unit='pages'] | tei:teiHeader/tei:fileDesc/tei:publicationStmt/tei:idno[@type='pages']"/></p>
             </div>
             
-            <!-- Due approcci possibili: -->
             <!-- 1. Approccio basato su surface (per articoli con facsimile) -->
             <xsl:apply-templates select="tei:facsimile/tei:surface"/>
-            
-            <!-- 2. Approccio basato su div (per articoli strutturati in pagine) -->
-            <xsl:apply-templates select="tei:text/tei:body/tei:div"/>
+    
         </div>
     </xsl:template>
     
@@ -103,27 +100,7 @@
         </div>
     </xsl:template>
 
-    <!-- Template per ogni div (approccio strutturato) -->
-    <xsl:template match="tei:text/tei:body/tei:div">
-        <xsl:variable name="page_n" select="if (@n) then @n else position()"/>
-        <xsl:variable name="surface_ref" select="tei:pb/@facs"/>
-        <xsl:variable name="surface_id" select="if (starts-with($surface_ref, '#')) then substring-after($surface_ref, '#') else $surface_ref"/>
-        <xsl:variable name="current_surface" select="ancestor::tei:TEI/tei:facsimile/tei:surface[@xml:id = $surface_id]"/>
 
-        <div class="container page-container" id="page-container-{$page_n}">
-            <xsl:if test="$current_surface">
-                <div class="image-column">
-                    <xsl:apply-templates select="$current_surface/tei:graphic">
-                        <xsl:with-param name="page_identifier" select="$page_n"/>
-                    </xsl:apply-templates>
-                    <div class="highlight-overlay" id="highlight-overlay-page-{$page_n}"></div>
-                </div>
-            </xsl:if>
-            <div class="text-column" id="text-column-page-{$page_n}">
-                <xsl:apply-templates select="*[self::tei:head or self::tei:p or self::tei:note]"/>
-            </div>
-        </div>
-    </xsl:template>
 
     <!-- Template per l'immagine del facsimile -->
     <xsl:template match="tei:graphic">
@@ -160,18 +137,6 @@
         </xsl:element>
     </xsl:template>
 
-    <!-- Template per unire i paragrafi spezzati -->
-    <xsl:template match="tei:p[@part='I' and @xml:id]">
-        <p>
-            <xsl:copy-of select="@*"/>
-            <xsl:apply-templates/>
-            <xsl:variable name="next_part_id" select="@xml:id"/>
-            <xsl:apply-templates select="//tei:p[@part='F' and @corresp=concat('#', $next_part_id)]/node()"/>
-        </p>
-    </xsl:template>
-
-    <!-- Ignora i paragrafi finali perché già processati -->
-    <xsl:template match="tei:p[@part='F' and @corresp]"/>
 
     <!-- Gestione degli elementi semantici inline -->
     <xsl:template match="tei:persName | tei:term | tei:rs">
