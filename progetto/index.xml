@@ -13,12 +13,12 @@
                 <p>Questo file TEI Corpus unisce degli articoli codificati separatamente per il progetto di codifica dei testi .</p>
             </publicationStmt>
             <sourceDesc>
-                <p>I testi originali sono stati estratti nella rassegna settimanale.</p>
+                <p>I testi originali sono stati estratti dalla rassegna settimanale.</p>
             </sourceDesc>
         </fileDesc>
     </teiHeader>
 
-    <!-- Primo articolo -->
+
     <TEI xml:id="articolo1" xmlns="http://www.tei-c.org/ns/1.0">
         <teiHeader>
             <fileDesc>
