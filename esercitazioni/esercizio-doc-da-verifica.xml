@@ -2,8 +2,8 @@
 <!-- documento xml da validare -->
 <!-- 
     file: esercizio-doc-da-validare
-    nome: NOME COGNOME
-    data: DATA
+    nome: Steve Landry Ndjock
+    data: 2025-03-19
 -->
 
 <!-- corpo del documento XML-->
@@ -20,9 +20,9 @@
             </elementoAnnidato>      <!--cambio-->
         </elementoAnnidato>
     </elementoFiglio>
-        <elementoAnnidato/>
-        <elementoFiglio></elementoFiglio>
-        <elementoFiglio></elementoFiglio>
+    <elementoAnnidato/>
+    <elementoFiglio></elementoFiglio>
+    <elementoFiglio></elementoFiglio>
 </elementoRadice>
 
 <!-- epilogo -->
