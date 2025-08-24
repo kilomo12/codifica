@@ -59,6 +59,12 @@
             </profileDesc>
             <encodingDesc>
                 <p>Codifica realizzata seguendo le linee guida TEI e le convenzioni esemplificate.</p>
+                <appInfo>
+                    <application version="1.0" ident="TEIZoner">
+                        <label>TEIZoner</label>
+                        <p>Le coordinate delle zone sono state definite utilizzando TEIZoner.</p>
+                    </application>
+                </appInfo>
             </encodingDesc>
         </teiHeader>
         <facsimile xml:id="facsimile_carusi">
@@ -230,6 +236,12 @@
             </profileDesc>
             <encodingDesc>
                 <p>Codifica realizzata seguendo le linee guida TEI e le convenzioni esemplificate.</p>
+                <appInfo>
+                    <application version="1.0" ident="TEIZoner">
+                        <label>TEIZoner</label>
+                        <p>Le coordinate delle zone sono state definite utilizzando TEIZoner.</p>
+                    </application>
+                </appInfo>
             </encodingDesc>
         </teiHeader>
         <facsimile xml:id="facsimile_leggenda_napoli">
@@ -371,7 +383,7 @@
                     <editor><name type="publication">La Rassegna Settimanale</name></editor>
                     <principal><orgName>Università di Pisa</orgName></principal>
                     <respStmt>
-                        <resp>Codifica TEI a cura di</resp>
+                        <resp>Codifica a cura di</resp>
                         <name><persName>Steve Landry Ndjock</persName></name>
                     </respStmt>
                 </titleStmt>
@@ -419,7 +431,7 @@
                 </appInfo>
             </encodingDesc>
         </teiHeader>
-        <facsimile>
+        <facsimile xml:id="facsimile_filologia">
             <surface xml:id="surface_p331">
                 <graphic url="page_1_bibliografia_1.png" width="577" height="840"/>
                 <zone xml:id="zone_titolo" points=" 121,643  187,642  187,658  121,659 "/>
@@ -472,7 +484,7 @@
                     <author><persName type="real_person">A. Fogazzaro</persName></author>
                     <principal><orgName>Università di Pisa</orgName></principal> 
                     <respStmt>
-                        <resp>Codifica TEI a cura di</resp>
+                        <resp>Codifica a cura di</resp>
                         <name><persName>Steve Landry Ndjock</persName></name> 
                     </respStmt>
                 </titleStmt>
@@ -516,7 +528,7 @@
                 </appInfo>
             </encodingDesc>
         </teiHeader>
-        <facsimile>
+        <facsimile xml:id="facsimile_leggenda_malombra">
             <surface xml:id="surface_p109">
                 <graphic url="page_1_malombra.png" width='701' height='912'/> 
                 <zone xml:id="zone_bibliografia_head" points=' 140,754  250,750  252,770  140,772 '/>
@@ -661,28 +673,28 @@
         <teiHeader>
             <fileDesc>
                 <titleStmt>
-                    <title type="article">CORRISPONDENZA DA PAOLA. L'<rs type="tema">EMIGRAZIONE</rs>.</title>
-                    <author><persName type="persona_reale">Anonimo</persName></author>
-                    <editor><name type="rivista">La Rassegna Settimanale</name></editor>
+                    <title type="article">CORRISPONDENZA DA PAOLA. L'<rs type="theme">EMIGRAZIONE</rs>.</title>
+                    <author><persName type="real_person">Anonimo</persName></author>
+                    <editor><name type="publication">La Rassegna Settimanale</name></editor>
                     <principal><orgName type="organizzazione">Università di Pisa</orgName></principal>
                     <respStmt>
                         <resp>Codifica a cura di</resp>
-                        <name><persName type="persona_reale">Steve Landry Ndjock</persName></name>
+                        <name><persName type="real_person">Steve Landry Ndjock</persName></name>
                     </respStmt>
                 </titleStmt>
                 <publicationStmt>
                     <publisher>
-                        <name type="rivista">LA RASSEGNA SETTIMANALE</name>
+                        <name type="publication">LA RASSEGNA SETTIMANALE</name>
                     </publisher>
-                    <pubPlace><placeName type="luogo">ROMA</placeName></pubPlace>
-                    <date type="data" when="1880-08-29">29 Agosto 1880</date>
+                    <pubPlace><placeName>ROMA</placeName></pubPlace>
+                    <date type="date" when="1880-08-29">29 Agosto 1880</date>
                     <availability>
                         <p>Pubblicazione storica di dominio pubblico</p>
                     </availability>
                     <idno type="issue">139</idno>
                 </publicationStmt>
                 <seriesStmt>
-                    <title level="s"><name type="rivista">Rassegna Settimanale</name></title>
+                    <title level="s"><name type="publication">Rassegna Settimanale</name></title>
                     <biblScope unit="volume">6</biblScope>
                     <biblScope unit="pages">132-133</biblScope>
                 </seriesStmt>
@@ -697,6 +709,12 @@
             </profileDesc>
             <encodingDesc>
                 <p>Codifica realizzata seguendo le linee guida TEI e le convenzioni esemplificate nel file di riferimento.</p>
+                <appInfo>
+                    <application version="1.0" ident="TEIZoner">
+                        <label>TEIZoner</label>
+                        <p>Le coordinate delle zone sono state definite utilizzando TEIZoner.</p>
+                    </application>
+                </appInfo>
             </encodingDesc>
         </teiHeader>
         <facsimile xml:id="facsimile_emigrazione">
@@ -704,6 +722,7 @@
             <surface xml:id="surf_emig_132">
                 <graphic url='page_1_emigrazione.png' width='651' height='907'  />
                 <zone xml:id="zone_title_emig" points=' 91,132  91,156  257,156  256,130 '/>
+                <zone xml:id="zone_title_emig1" points=' 134,144  208,146  208,159  133,157 '/>
                 <zone xml:id="zone_col1_p1_emig" points=' 10,155  329,152  330,234  10,239 '/>
                 <zone xml:id="zone_col1_p2_emig" points=' 11,236  330,233  329,405  14,407 '/>
                 <zone xml:id="zone_col1_p3_emig" points=' 14,406  329,404  328,692  11,695 '/>
@@ -729,12 +748,10 @@
                 <head facs="#zone_title_emig">
                     CORRISPONDENZA DA <placeName type="luogo">PAOLA</placeName>.<lb/>
                 </head>
-                <bibl facs="#zone_title_emig">
-                    L'<rs type="tema">EMIGRAZIONE</rs>.
-                </bibl>
+                <head type="sub" facs="#zone_title_emig1">L'<rs type="tema">EMIGRAZIONE</rs>.</head>
 
                 <p xml:id="par_1emig" facs="#zone_col1_p1_emig">
-                    L'<rs type="tema">emigrazione</rs> del <placeName type="luogo">circondario di Paola</placeName> verso l'<placeName type="luogo">America meridionale</placeName> <rs type="verbum">data</rs> soltanto da un decennio circa, e vi <rs type="verbum">fu</rs> in<lb break="yes"/>trodotta dall'esempio della vicina <placeName type="luogo">Basilicata</placeName>; nei primi anni <rs type="verbum">trovò</rs> poco seguito, ma da sei o sette anni essa <rs type="verbum">crebbe</rs> fino alle proporzioni di una <rs type="tema">questione sociale</rs>, com'<rs type="verbum">è</rs> del re<lb break="yes"/>sto in altre parti d'<placeName type="luogo">Italia</placeName>.
+                    L'<rs type="tema">emigrazione</rs> del <placeName type="luogo">circondario di Paola</placeName> verso l'<placeName type="luogo">America meridionale</placeName> <rs type="verbum"> data</rs> soltanto da un decennio circa, e vi <rs type="verbum">fu</rs> in<lb break="yes"/>trodotta dall'esempio della vicina <placeName type="luogo">Basilicata</placeName>; nei primi anni <rs type="verbum">trovò</rs> poco seguito, ma da sei o sette anni essa <rs type="verbum">crebbe</rs> fino alle proporzioni di una <rs type="tema">questione sociale</rs>, com'<rs type="verbum">è</rs> del re<lb break="yes"/>sto in altre parti d'<placeName type="luogo">Italia</placeName>.
                 </p>
                 <p xml:id="par_2emig" facs="#zone_col1_p2_emig">
                     Quanti <rs type="verbum">siano</rs> gli <persName type="personaggio">emigrati del circondario di Paola</persName> non <rs type="verbum">è</rs> possibile <rs type="verbum">dire</rs> esattamente, non <rs type="verbum">avendosi</rs> altro dato atten<lb break="yes"/>dibile per <rs type="verbum">giudicarne</rs> che il <rs type="tema">numero dei passaporti rilasciati</rs>, mentre di coloro che <rs type="verbum">partono</rs> clandestinamente, talora nume<lb break="yes"/>rosissimi, <rs type="verbum">è</rs> molto difficile <rs type="verbum">accertare</rs> il numero: oltre di che quando si <rs type="verbum">conoscessero</rs> esattamente i partiti, per <rs type="verbum">avere</rs> il nu<lb break="yes"/>mero attuale degli emigrati, <rs type="verbum">bisognerebbe</rs> <rs type="verbum">fare</rs> due detrazioni, l'una per i tornati, e l'altra per i morti, entrambe le quali non si <rs type="verbum">possono</rs> <rs type="verbum">calcolare</rs> che molto inesattamente, <rs type="verbum">ricor<lb break="yes"/>rendo</rs>, come per i <rs type="tema">partiti clandestinamente</rs>, all'investigazione locale per ogni singolo caso. Non <rs type="verbum">posso</rs> quindi <rs type="verbum">garentire</rs> altro che l'esattezza relativa dei numeri, che <rs type="verbum">do</rs> qui sotto; ma se errore vi <rs type="verbum">è</rs>, essi <rs type="verbum">stanno</rs> al disotto del vero anzichè al disopra.
@@ -800,7 +817,156 @@
         </text>
     </TEI>
 
+    <TEI xml:id="articolo6_notizia" xmlns="http://www.tei-c.org/ns/1.0">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title type="article">CORRISPONDENZA DAL CILENTO. I CONTADINI.</title>
+                    <author><persName type="real_person">Anonimo</persName></author>
+                    <editor>
+                        <name type="publication">La Rassegna Settimanale</name>
+                    </editor>
+                    <principal>
+                        <orgName>Università di Pisa</orgName>
+                    </principal>
+                    <respStmt>
+                        <resp>Codifica a cura di</resp>
+                        <name>Steve Landry Ndjock</name>
+                    </respStmt>
+                </titleStmt>
+                <publicationStmt>
+                    <publisher>
+                        <name type="publication">LA RASSEGNA SETTIMANALE.</name>
+                    </publisher>
+                    <pubPlace>
+                        <placeName>Sconosciuto</placeName>
+                    </pubPlace>
+                    <date when="1881-09-04">4 Settembre 1881</date>
+                    <availability>
+                        <p>Pubblicazione storica di dominio pubblico</p>
+                    </availability>
+                    <idno type="issue">192</idno>
+                </publicationStmt>
 
-    
+                <seriesStmt>
+                    <title level="s">
+                        <name type="publication">Rassegna Settimanale</name>
+                    </title>
+                    <biblScope unit="volume">8</biblScope>
+                    <biblScope unit="pages">147-148</biblScope>
+                </seriesStmt>
+
+                <sourceDesc>
+                    <p>
+                        Trascrizione basata sul materiale fornito dall'utente.
+                    </p>
+                </sourceDesc>
+
+            </fileDesc>
+            <profileDesc>
+                <langUsage>
+                    <language ident="it">Italiano</language>
+                </langUsage>
+            </profileDesc>
+            <encodingDesc>
+                <p>Codifica realizzata seguendo le linee guida TEI e le convenzioni esemplificate nel file prova.xml.</p>
+            </encodingDesc>
+        </teiHeader>
+        <facsimile xml:id="facsimile_I_contadini">
+            <surface xml:id="surf_contadini_147">
+
+                <graphic url="page_1_I_contadini.png" width='702' height='912'/>
+                <zone xml:id="zone_tittle_contadini" points=' 430,272  637,271  638,294  430,295 '/>
+                <zone xml:id="zone_tittle_contadini1" points=' 487,284  549,284  550,296  489,296 '/>
+                <zone xml:id="zone_col2_p1_contadini" points=' 360,294  676,291  682,426  361,429 '/>
+                <zone xml:id="zone_col2_p2_contadini" points=' 361,430  680,426  680,585  362,586 '/>
+                <zone xml:id="zone_col2_p3_contadini" points=' 362,585  680,583  680,687  362,691 '/>
+                <zone xml:id="zone_col2_p4_contadini" points=' 363,688  680,685  680,778  364,782 '/>
+                <zone xml:id="zone_col2_p5_contadini" points=' 364,780  681,777  682,893  366,899 '/>
+            
+            </surface>
+
+            <surface xml:id="surf_contadini_148">
+
+                <graphic url="page_2_I_contadini.png" width='712' height='912' />
+                <zone xml:id="zone_col1_p6_contadini" points=' 42,15  364,12  366,202  44,206 '/>
+                <zone xml:id="zone_col1_p7_contadini" points=' 45,201  366,200  366,242  44,244 '/>
+                <zone xml:id="zone_col1_p8_contadini" points=' 46,241  366,238  367,488  47,492 '/>
+                <zone xml:id="zone_col1_p9_contadini" points=' 48,489  367,485  366,786  51,791 '/>
+                <zone xml:id="zone_col1_p10_contadini" points=' 49,789  366,784  367,894  51,895 '/>
+                <!-- colonna 2-->
+                <zone xml:id="zone_col2_p11_contadini" points=' 366,15  680,17  682,124  366,125 '/>
+                <zone xml:id="zone_col2_p12_contadini" points=' 365,123  680,122  683,320  367,322 '/>
+                <zone xml:id="zone_col2_p13_contadini" points=' 367,321  683,319  682,438  367,440 '/>
+                <zone xml:id="zone_col2_p14_contadini" points=' 368,438  683,436  683,594  367,597 '/>
+                <zone xml:id="zone_col2_p15_contadini" points=' 368,595  684,593  684,675  367,680 '/>
+
+            </surface>
+        </facsimile>
+        <text>
+            <body>
+                <pb xml:id="pb_conta_147" n="147" facs="#surf_contadini_147"/>
+                <head facs="#zone_tittle_contadini">CORRISPONDENZA DAL CILENTO. </head>
+                <head type="sub" facs="#zone_tittle_contadini1">
+                    <rs type="theme" subtype="social_class" ana="#social_inquiry">I CONTADINI</rs>.
+                </head>
+                <p xml:id="par1_contadini" facs="#zone_col2_p1_contadini">
+                    Il <placeName ana="#cilento_geography">Cilento</placeName> <rs type="verb"> costituisce</rs> quella parte dell'antica <placeName>Lucania</placeName> ch'è <rs type="verb">compresa</rs> fra il corso del <placeName type="natural">fiume Alento</placeName> ad oriente, il <placeName type="natural">mar Tirreno</placeName> a occidente e a mezzogiorno, e il <placeName type="natural">fiume Solofrone</placeName> a tramontana. È una <rs type="theme" subtype="geographical_description" ana="#cilento_geography">zona montuosa d'Italia</rs>, che orograficamente è <rs type="verb">formata</rs> da tre gruppi di montagne, il più elevato dei quali è <rs type="verb">detto</rs>
+                    <placeName type="natural">Monte della Stella</placeName> (1130 metri sul livello del mare), e gli altri due, che sono <rs type="verb">distaccati</rs> dal precedente, <rs type="verb">costituiscono</rs> il <placeName type="natural">promontorio di Licosa</placeName> (m. 920 sul mare) al Sud di <placeName>Castellabate</placeName>, e quello del <placeName type="natural">Tresino</placeName> (353 m. s. m.) al Sud di <placeName>Agropoli</placeName>.
+                </p>
+                <p xml:id="par2_contadini" facs="#zone_col2_p2_contadini">
+                    Altri invece col nome di <placeName ana="#cilento_geography">Cilento</placeName>
+                    <rs type="verb">intendono</rs> tutto il <placeName type="administrative_division">circondario di Vallo della Lucania</placeName>; e in tal caso questa regione si <rs type="verb">estende</rs>, oltre la parte su descritta, fino alla <rs type="theme" subtype="geographical_description" ana="#cilento_geography">catena montuosa</rs>, che da <placeName>Capaccio</placeName> per <placeName>Monteforte Cilento</placeName> va fino a <placeName>Magliano vetere</placeName>, e scendendo giù giù pel <placeName type="natural">Monte Sacro</placeName> e pel <placeName type="natural">Monte Centaurino</placeName>, ha per confini ad oriente il <placeName type="natural">fiume Bussento</placeName>, a mezzogiorno e a ponente la <rs type="theme" subtype="landscape_description" ana="#verismo_landscape_detail">costiera frastagliata del Tirreno</rs>. Il <placeName type="natural">Monte Sacro</placeName>, o <placeName type="natural">Monte della Madonna di Novi</placeName> (1704 m. s. m.) <rs type="verb">rappresenta</rs> il vertice più elevato di tutta questa catena montuosa, <rs type="verb">tagliata</rs> per lungo, da Nord a Sud, dalle valli dell'<placeName type="natural">Alento</placeName>, della <placeName type="natural">Molpa</placeName> o del <placeName type="natural">Lambro</placeName>, del <placeName type="natural">Mingardo</placeName> e del <placeName type="natural">Bussento</placeName>.
+                </p>
+                <p xml:id="par3_contadini" facs="#zone_col2_p3_contadini">
+                    Questi però <rs type="verb">sarebbero</rs> i <rs type="theme" subtype="geographical_definition">confini geografici del Circondario</rs>; ma amministrativamente questo <rs type="verb">comprende</rs> ancora altri paesi <rs type="verb">situati</rs> nella <placeName type="natural">Valle del Calore</placeName>, come <placeName>Laurino</placeName>, <placeName>Piaggine soprane</placeName>, <placeName>Valle dell'Angelo</placeName>, <placeName>Sacco</placeName>, <placeName>Magliano</placeName>, <placeName>Stio</placeName>, e <placeName>Campora</placeName>, e tutta la zona di <rs type="theme" subtype="geographical_description">alte montagne calcaree</rs> dalle quali <rs type="verb">trae</rs> origine il fiume suddetto, che <rs type="verb">va</rs> poi a <rs type="verb">scaricarsi</rs> nol <placeName type="natural">Sele</placeName>. Tra questi monti il <placeName type="natural">Cervati</placeName> (1898 m. s. m.) <rs type="verb">forma</rs> il punto più culminante di tutto il <placeName type="administrative_division">Circondario</placeName>.
+                </p>
+                <p xml:id="par4_contadini" facs="#zone_col2_p4_contadini">
+                    <rs type="verb">Esaminiamo</rs> ora brevemente le <rs type="theme" subtype="social_condition" ana="#social_inquiry">condizioni delle classi agricole</rs> di tutto il <placeName type="administrative_division">Circondario di Vallo della Lucania</placeName>, ch'è uno dei più importanti d'Italia e dei meno conosciuti dagli Italiani. Se <rs type="verb">cerchiamo</rs> la ragione di questa ignoranza, la <rs type="verb">troveremo</rs> nella <rs type="theme" subtype="infrastructure_issue">difficile viabilità</rs> piuttosto che nell'indole e nei costumi degli abitanti di queste contrade. Ma di questo argomento non c'<rs type="verb">intratterremo</rs> per ora.
+                </p>
+                <p xml:id="par5_contadini" facs="#zone_col2_p5_contadini">
+                    Il <placeName>Cilento</placeName>
+                    <rs type="verb">presenta</rs> dei <rs type="theme" subtype="natural_beauty" ana="#cilento_landscape">territorii ubertosi e fertilissimi</rs>, che ora si <rs type="verb">stendono</rs> sul <rs type="theme" subtype="landscape_description" ana="#verismo_landscape_detail">dolce declivio delle basse colline</rs> che <rs type="verb">fiancheggiano</rs> i fiumi surriferiti, ora <rs type="verb">occupano</rs> le zone degli altipiani montuosi ed ora le valli di questi fiumi, soprattutto in vicinanza al loro sbocco nel mare. La <placeName type="natural">piana dell'Alento</placeName> fra <placeName>Casalicchio</placeName> e <placeName>Castellammare della Bruca</placeName> (l'antica <placeName>Velia</placeName>) <rs type="verb">riproduce</rs> in piccolo le stesse <rs type="theme" subtype="agricultural_condition">condizioni di fertilità e di malaria</rs> che si <rs type="verb">notano</rs> nella <placeName type="natural">piana di Pesto</placeName>, allo sbocco del <placeName type="natural">fiume Sele</placeName>.
+                </p>
+                <pb xml:id="pb_conta_148" n="148" facs="#surf_contadini_148"/>
+                <p xml:id="par6_contadini" facs="#zone_col1_p6_contadini">
+                    Il <rs type="theme" subtype="geology">terreno è formato di calcare, di argilla e di silice</rs>, con predominio della marna, ed è <rs type="epithet">capace di molte e svariate colture</rs>. Nel fatto <rs type="verb">resta</rs> in gran parte <rs type="theme" subtype="neglect" ana="#land_abandonment">abbandonato per mancanza di capitali, di braccia e di vie di comunicazione</rs> fra un paese e l'altro. L'<rs type="theme" subtype="social_issue" ana="#emigration">emigrazione copiosa e continua</rs>, che qui <rs type="verb">succede</rs> tutti gli anni, <rs type="verb">va</rs> sempre più <rs type="verb">scemando</rs> la <rs type="theme" subtype="demographics" ana="#social_consequence">popolazione agricola</rs>, e quindi la <rs type="theme" subtype="land_use" ana="#economic_consequence">zona improduttiva</rs>
+                    <rs type="verb">cresce</rs> anch'essa via via. <rs type="verb">Basta osservare</rs> i ricchi prodotti che si <rs type="verb">ottengono</rs> dal terreno nei dintorni di <placeName>Vallo della Lucania</placeName> con la <term ana="#agricultural_practice">coltura intensiva</term>, che qui si <rs type="verb">esegue</rs> su vasta scala e non sempre razionalmente, per <rs type="verb">convincersi</rs> di quel che <rs type="verb">sarebbero capaci</rs> le altre zone che <rs type="verb">trovansi</rs> nelle identiche condizioni di suolo, di clima e di irrigazione. Eppure fra quelle e queste non vi è un passaggio ma un salto.
+                </p>
+                <p xml:id="par7_contadini" facs="#zone_col1_p7_contadini">
+                    La <rs type="theme" subtype="causality" ana="#social_analysis">causa principale di queste differenze</rs>
+                    <rs type="verb">sta</rs> nell'emigrazione e nelle <rs type="theme" subtype="social_relations" ana="#land_ownership">relazioni che passano fra i proprietari dei terreni e i contadini</rs>.
+                </p>
+                <p xml:id="par8_contadini" facs="#zone_col1_p8_contadini">
+                    Nelle grandi proprietà la <rs type="theme" subtype="social_condition">condizione del contadino</rs> è la seguente. Vien <rs type="verb">rispettato</rs> fino allo scrupolo, o magari <rs type="verb">fatto rispettare</rs> tirannicamente, un <rs type="theme" subtype="social_hierarchy" ana="#labor_structure">ordinamento gerarchico</rs> in cima al quale <rs type="verb">sta</rs> il <term type="occupation">fattore</term> o l'<term type="occupation">agente generale</term> del proprietario. Questi <rs type="verb">dirige, regola</rs> ed <rs type="verb">ordina</rs> tutta l'azienda rurale. Egli <rs type="verb">agisce</rs> il più spesso indipendentemente dal proprietario, il quale <rs type="verb">vive</rs> lautamente colla rendita dei suoi poderi in qualche grande città. Sotto il fattore <rs type="verb">stanno</rs> i <term type="occupation">guardiani</term> che <rs type="verb">ricevono</rs> ed <rs type="verb">eseguono</rs> ciecamente i suoi ordini, o <rs type="verb">sorvegliano</rs> tutti gli <term type="occupation">operai salariati</term> a giornata. <rs type="verb">Seguono</rs> i <term type="occupation">pastori</term>, i <term type="occupation">bifolchi</term>, i <term type="occupation">carrettieri</term>, i <term type="occupation">cavallari</term>, i <term type="occupation">bovari</term> ec. i quali <rs type="verb">dipendono</rs> dal fattore, ma sono sotto la vigilanza dei guardiani; e questi ultimi <rs type="verb">abusano</rs> molte volte della autorità della quale sono <rs type="verb">investiti</rs>. Ma pure fin qui manco male. <rs type="verb">Vengono</rs> poi gli <term type="occupation">operai avventizi</term> che <rs type="verb">lavorano</rs> a giornata ed a squadre <rs type="verb">condotte</rs> da uno dei loro compagni <rs type="verb">denominato</rs> il <term type="occupation">caporale</term>; e questi, <rs type="verb">finito</rs> il lavoro, e <rs type="verb">riscossa</rs> la mercede pattuita innanzi col fattore o col guardiano, se ne <rs type="verb">vanno</rs>, e con loro anche il caporale.
+                </p>
+                <p xml:id="par9_contadini" facs="#zone_col1_p9_contadini">
+                    Quest' ultima classe è la <rs type="epithet">più infelice</rs> e quella che <rs type="verb">fornisce</rs> un più largo contingente all'emigrazione. L'<rs type="theme" subtype="human_condition" ana="#verismo_social_condition">esistenza dell'operaio salariato a giornata</rs>
+                    <rs type="verb">dipende</rs> dal numero dei giorni che può <rs type="verb">lavorare</rs> in ciascuna stagione dell'anno; e questo numero è <rs type="epithet">variabilissimo</rs> secondo le annate, e secondo lo stato dell' atmosfera e del terreno. <rs type="verb">Bisogna togliere</rs> i <rs type="theme" subtype="weather">giorni piovosi</rs> — e qui le pioggie sono <rs type="epithet">frequenti e copiose</rs> — e i <rs type="theme" subtype="weather">nevosi</rs>; e poi quelli di malattia e i giorni festivi. Si può <rs type="verb">ritenere</rs> che egli <rs type="verb">lavori</rs> in media da 200 a 240 giorni dell'anno; e <rs type="verb">supponendo</rs> che egli <rs type="verb">abbia</rs> L. 1,25 al giorno — come limite massimo, eccetto poche eccezioni di proprietari più generosi o di fattori più onesti — egli <rs type="verb">guadagna</rs> da 250 a 300 lire all'anno. Con questa somma egli <rs type="verb">deve provvedere</rs> a sè ed alla sua famiglia, alla casa, al fuoco, al vestito, al cibo, a <rs type="verb">rinnovare</rs> la zappa o il bidente o la scure; e nel caso di malattia a <rs type="verb">sostenere</rs> anche le spese del medico e delle medicine. È vero che la moglie <rs type="verb">lavora</rs> con lui nel podere; ma bisogna naturalmente <rs type="verb">scemare</rs> il numero dei giorni del suo lavoro, e la mercede giornaliera vien <rs type="verb">ridotta</rs> a 60 centesimi. I ragazzi fin dall'età di otto anni sono anche <rs type="verb">condotti</rs> al lavoro; ma il loro guadagno e quello della loro madre non <rs type="verb">bastano</rs> neppure per <rs type="verb">provvedere</rs> alla sussistenza dei bambini, dei vecchi e degli infermi.
+                </p>
+                <p xml:id="par10_contadini" facs="#zone_col1_p10_contadini">
+                    Che se il contadino <rs type="verb">lavora</rs> di proprio conto sul fondo altrui, la sua condizione non <rs type="verb">migliora</rs> punto. In tal caso la sua esistenza e quella della sua famiglia <rs type="verb">dipendono</rs> dall'andamento delle stagioni, e dalla maggiore o minore facilità di <rs type="verb">procurarsi</rs> con lavori avventizii il modo di <rs type="verb">pagare</rs> i tributi e le tasse comunali, e la cara pigione del suo tugurio e per <rs type="verb">provvedere</rs> sè e i suoi di certi vestiti <rs type="verb">fatti</rs> di panno ruvido e di quei strani calzari a cordella ch'essi <rs type="verb">chiamano</rs>
+                    <term ana="#traditional_clothing">zampitti</term>.
+                </p>
+                <p xml:id="par11_contadini" facs="#zone_col2_p11_contadini">
+                    Questi contadini si <rs type="verb">credono</rs> contenti quando <rs type="verb">posson dare</rs> ai loro figli ogni giorno un <rs type="theme" subtype="food" ana="#poverty_diet">piatto di minestra di cavoli cappucci cotti nell'acqua e conditi con lardo, sale e cipolle</rs>: nel quale minestrone <rs type="verb">intingono</rs> un mezzo chilogramma di pane bruno. Essi <rs type="verb">vivono</rs> nella <rs type="theme" subtype="poverty" ana="#verismo_social_condition">più squallida miseria</rs>, che <rs type="verb">cercano</rs> di <rs type="verb">dimenticare</rs>, <rs type="verb">potendolo</rs>, nei giorni festivi colle tante libazioni onore di <persName type="divine">Bacco</persName>; e <rs type="verb">disperdono</rs> in tal modo i <rs type="theme" subtype="economics">sudati e tenui risparmi</rs> della settimana.
+                </p>
+                <p xml:id="par12_contadini" facs="#zone_col2_p12_contadini">
+                    Ma in generale l'agricoltore di questo circondario è <rs type="epithet">sobrio, laborioso ed onesto</rs>. L'onestà in queste condizioni è più che virtù. Ma la virtù, <rs type="verb">messa</rs> a troppo dura prova, non <rs type="verb">impedisce</rs> il delitto; e la classe agricola mentre è <rs type="epithet">sobria e morigerata</rs>, pure è <rs type="epithet">corriva alla vendetta</rs> quando è <rs type="verb">istigata</rs>. Tanto nei paesi che nelle campagne, essa <rs type="verb">dimora</rs> in <rs type="theme" subtype="living_conditions" ana="#verismo_decay">abitazioni umide, sudice, male aereate ed illuminate</rs>, e spesso in compagnia del maiale e del ciuco. I <term type="social_class">coloni</term> e i <term type="social_class">cafoni</term> non <rs type="verb">sentono</rs> il bisogno della nettezza, e <rs type="verb">vivono</rs> come i loro inquilini. Quando il servizio militare <rs type="verb">durava</rs> cinque anni, il contadino che <rs type="verb">andava</rs> sotto le armi ne <rs type="verb">tornava</rs> mezzo incivilito; ora che è tanto breve il tempo che <rs type="verb">sta</rs> nella milizia, <rs type="verb">dimentica</rs> subito gli ammaestramenti del buon costume e della vita civile, non appena <rs type="verb">tornato</rs> nella sua bicocca, e <rs type="verb">diviene</rs> un'altra volta cafone.
+                </p>
+                <p xml:id="par13_contadini" facs="#zone_col2_p13_contadini">
+                    Se per caso il contadino si <rs type="verb">ammala</rs>, non <rs type="verb">trova</rs> un <rs type="theme" subtype="social_welfare_lack">ospedale che lo ricoveri</rs> in tutto il circondario, non un <rs type="theme" subtype="social_welfare_lack">asilo di mendicità</rs> od un qualsiasi <rs type="theme" subtype="social_welfare_lack">stabilimento di beneficenza</rs>. I comuni che <rs type="verb">danno</rs> qualche medicina agli agricoltori infermi sono come le mosche bianche. Del resto la beneficenza qui è di nome più che di fatto; e le rendite delle opere pie — <rs type="epithet">scarsissime in generale</rs> — sono <rs type="verb">sfruttate</rs> dagli amministratori, dalle imposte e dalle spese del culto. E pel povero non <rs type="verb">resta</rs> quasi niente.
+                </p>
+                <p xml:id="par14_contadini" facs="#zone_col2_p14_contadini">
+                    L'<rs type="theme" subtype="social_decay" ana="#verismo_social_condition">abbrutimento della classe agricola</rs>
+                    <rs type="verb">diviene</rs> anche maggiore quando, oltre le malattie, <rs type="verb">picchia</rs> alle porte la miseria. Si <rs type="verb">vedono</rs> allora i <rs type="theme" subtype="children_description" ana="#verismo_children">figli di questi poveri contadini, abbandonati dai loro genitori, andare girovagando</rs> per <rs type="verb">procacciarsi</rs> col lavoro di che <rs type="verb">sfamarsi</rs>: si <rs type="verb">trovano</rs>
+                    <rs type="theme" subtype="children_description" ana="#verismo_children">fanciulli di piccola età che vanno dietro le greggi</rs>, felici quando <rs type="verb">possono raccapezzare</rs> delle legna per <rs type="verb">riscaldarsi</rs>, un tozzo di pane nero, e una capanna per <rs type="verb">ricoverarsi</rs> nella rigida stagione. E i loro padri non li <rs type="verb">curano</rs> affatto; e non è quindi maraviglia se con questa <rs type="theme" subtype="social_neglect">scuola d'isolamento, senza istruzione e senza affetti</rs>, essi <rs type="verb">imparano</rs> a <rs type="verb">diventar</rs> ladri o assassini, e se <rs type="verb">vanno a finire</rs> in galera.
+                </p>
+                <p xml:id="par15_cilento_p148" facs="#zone_col2_p15_contadini">
+                    Il <rs type="theme" subtype="authorial_comment">quadro è desolante, ma pur troppo è vero</rs>. Ho <rs type="verb">voluto narrare</rs> fatti, non <rs type="verb">fare</rs> apprezzamenti. Ora, con queste condizioni si <rs type="verb">presenta</rs> dinanzi agli occhi del contadino una <rs type="theme" subtype="hope" ana="#emigration">splendida fantasmagoria, che lo alletta, lo attrae, lo trascina a sè</rs>: <rs type="verb">voglio dire</rs> l'emigrazione. E egli l'<rs type="verb">accetta</rs> come uno dei minori mali possibili.
+                </p>
+            </body>
+        </text>
+    </TEI>
 
 </teiCorpus>

@@ -53,7 +53,7 @@
         <div class="article-container">
             <div class="header-info">
                 <h2>Metadati</h2>
-                <p><strong>Titolo: </strong> <span class="highlightable-metadata" data-zone-id="{substring-after(tei:text/tei:body/tei:head/@facs, '#')}"><xsl:value-of select="tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title"/></span></p>
+                <p><strong>Titolo: </strong> <span class="highlightable-metadata" data-zone-id="{substring-after(string-join(@data-zone-id, ' '), '#')}"><xsl:value-of select="tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title"/></span></p>
                 <p><strong>Autore: </strong> <xsl:value-of select="tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:author/tei:persName"/></p>
                 <p><strong>Editore: </strong> <xsl:value-of select="tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:editor/tei:name"/></p>
                 <p><strong>Ente responsabile: </strong> <xsl:value-of select="tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:principal/tei:orgName"/></p>
@@ -112,9 +112,9 @@
     </xsl:template>
 
     <!-- Template per processare gli elementi di testo -->
-    <xsl:template match="tei:p | tei:head | tei:note | tei:bibl | tei:signed">
+    <xsl:template match="tei:p | tei:head | tei:head[@type='sub'] | tei:note | tei:bibl | tei:signed">
         <xsl:variable name="element-name" select="local-name()"/>
-        <xsl:element name="{if ($element-name = 'head') then 'h2' else if ($element-name = 'note') then 'div' else 'p'}">
+        <xsl:element name="{if ($element-name = 'head'and not (@type = 'sub')) then 'h2' else if ($element-name = 'note') then 'div' else 'p'}">
             <xsl:if test="$element-name = 'note'">
                 <xsl:attribute name="class">note</xsl:attribute>
             </xsl:if>

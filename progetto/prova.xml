@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI SYSTEM "tei_all.dtd">
+<TEI xml:id="articolo6_notizia" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="article">CORRISPONDENZA DAL CILENTO. I CONTADINI.</title>
+                <author>Sconosciuto</author>
+                <editor>
+                    <name type="publication">La Rassegna Settimanale</name>
+                </editor>
+                <principal>
+                    <orgName>Università di Pisa</orgName>
+                </principal>
+                <respStmt>
+                    <resp>Codifica a cura di</resp>
+                    <name>Steve Landry Ndjock</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name type="publication">LA RASSEGNA SETTIMANALE.</name>
+                </publisher>
+                <pubPlace>
+                    <placeName>Sconosciuto</placeName>
+                </pubPlace>
+                <date when="1881-09-04">4 Settembre 1881</date>
+                <availability>
+                    <p>Pubblicazione storica di dominio pubblico</p>
+                </availability>
+                <idno type="issue">192</idno>
+            </publicationStmt>
+
+            <seriesStmt>
+                <title level="s">
+                    <name type="publication">Rassegna Settimanale</name>
+                </title>
+                <biblScope unit="volume">8</biblScope>
+                <biblScope unit="pages">147-148</biblScope>
+            </seriesStmt>
+
+            <sourceDesc>
+                <p>
+                    Trascrizione basata sul materiale fornito dall'utente.
+                </p>
+            </sourceDesc>
+
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="it">Italiano</language>
+            </langUsage>
+        </profileDesc>
+        <encodingDesc>
+            <p>Codifica realizzata seguendo le linee guida TEI e le convenzioni esemplificate nel file prova.xml.</p>
+        </encodingDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <pb n="147"/>
+            <head>CORRISPONDENZA DAL CILENTO. <rs type="theme" subtype="social_class" ana="#social_inquiry">I CONTADINI</rs>.</head>
+            <p xml:id="p1_cilento_p147">
+                Il <placeName ana="#cilento_geography">Cilento</placeName>
+                <rs type="verb">costituisce</rs> quella parte dell'antica <placeName>Lucania</placeName> ch'è <rs type="verb">compresa</rs> fra il corso del <placeName type="natural">fiume Alento</placeName> ad oriente, il <placeName type="natural">mar Tirreno</placeName> a occidente e a mezzogiorno, e il <placeName type="natural">fiume Solofrone</placeName> a tramontana. È una <rs type="theme" subtype="geographical_description" ana="#cilento_geography">zona montuosa d'Italia</rs>, che orograficamente è <rs type="verb">formata</rs> da tre gruppi di montagne, il più elevato dei quali è <rs type="verb">detto</rs>
+                <placeName type="natural">Monte della Stella</placeName> (1130 metri sul livello del mare), e gli altri due, che sono <rs type="verb">distaccati</rs> dal precedente, <rs type="verb">costituiscono</rs> il <placeName type="natural">promontorio di Licosa</placeName> (m. 920 sul mare) al Sud di <placeName>Castellabate</placeName>, e quello del <placeName type="natural">Tresino</placeName> (353 m. s. m.) al Sud di <placeName>Agropoli</placeName>.
+            </p>
+            <p xml:id="p2_cilento_p147">
+                Altri invece col nome di <placeName ana="#cilento_geography">Cilento</placeName>
+                <rs type="verb">intendono</rs> tutto il <placeName type="administrative_division">circondario di Vallo della Lucania</placeName>; e in tal caso questa regione si <rs type="verb">estende</rs>, oltre la parte su descritta, fino alla <rs type="theme" subtype="geographical_description" ana="#cilento_geography">catena montuosa</rs>, che da <placeName>Capaccio</placeName> per <placeName>Monteforte Cilento</placeName> va fino a <placeName>Magliano vetere</placeName>, e scendendo giù giù pel <placeName type="natural">Monte Sacro</placeName> e pel <placeName type="natural">Monte Centaurino</placeName>, ha per confini ad oriente il <placeName type="natural">fiume Bussento</placeName>, a mezzogiorno e a ponente la <rs type="theme" subtype="landscape_description" ana="#verismo_landscape_detail">costiera frastagliata del Tirreno</rs>. Il <placeName type="natural">Monte Sacro</placeName>, o <placeName type="natural">Monte della Madonna di Novi</placeName> (1704 m. s. m.) <rs type="verb">rappresenta</rs> il vertice più elevato di tutta questa catena montuosa, <rs type="verb">tagliata</rs> per lungo, da Nord a Sud, dalle valli dell'<placeName type="natural">Alento</placeName>, della <placeName type="natural">Molpa</placeName> o del <placeName type="natural">Lambro</placeName>, del <placeName type="natural">Mingardo</placeName> e del <placeName type="natural">Bussento</placeName>.
+            </p>
+            <p xml:id="p3_cilento_p147">
+                Questi però <rs type="verb">sarebbero</rs> i <rs type="theme" subtype="geographical_definition">confini geografici del Circondario</rs>; ma amministrativamente questo <rs type="verb">comprende</rs> ancora altri paesi <rs type="verb">situati</rs> nella <placeName type="natural">Valle del Calore</placeName>, come <placeName>Laurino</placeName>, <placeName>Piaggine soprane</placeName>, <placeName>Valle dell'Angelo</placeName>, <placeName>Sacco</placeName>, <placeName>Magliano</placeName>, <placeName>Stio</placeName>, e <placeName>Campora</placeName>, e tutta la zona di <rs type="theme" subtype="geographical_description">alte montagne calcaree</rs> dalle quali <rs type="verb">trae</rs> origine il fiume suddetto, che <rs type="verb">va</rs> poi a <rs type="verb">scaricarsi</rs> nol <placeName type="natural">Sele</placeName>. Tra questi monti il <placeName type="natural">Cervati</placeName> (1898 m. s. m.) <rs type="verb">forma</rs> il punto più culminante di tutto il <placeName type="administrative_division">Circondario</placeName>.
+            </p>
+            <p xml:id="p4_cilento_p147">
+                <rs type="verb">Esaminiamo</rs> ora brevemente le <rs type="theme" subtype="social_condition" ana="#social_inquiry">condizioni delle classi agricole</rs> di tutto il <placeName type="administrative_division">Circondario di Vallo della Lucania</placeName>, ch'è uno dei più importanti d'Italia e dei meno conosciuti dagli Italiani. Se <rs type="verb">cerchiamo</rs> la ragione di questa ignoranza, la <rs type="verb">troveremo</rs> nella <rs type="theme" subtype="infrastructure_issue">difficile viabilità</rs> piuttosto che nell'indole e nei costumi degli abitanti di queste contrade. Ma di questo argomento non c'<rs type="verb">intratterremo</rs> per ora.
+            </p>
+            <p xml:id="p5_cilento_p147">
+                Il <placeName>Cilento</placeName>
+                <rs type="verb">presenta</rs> dei <rs type="theme" subtype="natural_beauty" ana="#cilento_landscape">territorii ubertosi e fertilissimi</rs>, che ora si <rs type="verb">stendono</rs> sul <rs type="theme" subtype="landscape_description" ana="#verismo_landscape_detail">dolce declivio delle basse colline</rs> che <rs type="verb">fiancheggiano</rs> i fiumi surriferiti, ora <rs type="verb">occupano</rs> le zone degli altipiani montuosi ed ora le valli di questi fiumi, soprattutto in vicinanza al loro sbocco nel mare. La <placeName type="natural">piana dell'Alento</placeName> fra <placeName>Casalicchio</placeName> e <placeName>Castellammare della Bruca</placeName> (l'antica <placeName>Velia</placeName>) <rs type="verb">riproduce</rs> in piccolo le stesse <rs type="theme" subtype="agricultural_condition">condizioni di fertilità e di malaria</rs> che si <rs type="verb">notano</rs> nella <placeName type="natural">piana di Pesto</placeName>, allo sbocco del <placeName type="natural">fiume Sele</placeName>.
+            </p>
+            <pb n="148"/>
+            <p xml:id="p1_cilento_p148">
+                Il <rs type="theme" subtype="geology">terreno è formato di calcare, di argilla e di silice</rs>, con predominio della marna, ed è <rs type="epithet">capace di molte e svariate colture</rs>. Nel fatto <rs type="verb">resta</rs> in gran parte <rs type="theme" subtype="neglect" ana="#land_abandonment">abbandonato per mancanza di capitali, di braccia e di vie di comunicazione</rs> fra un paese e l'altro. L'<rs type="theme" subtype="social_issue" ana="#emigration">emigrazione copiosa e continua</rs>, che qui <rs type="verb">succede</rs> tutti gli anni, <rs type="verb">va</rs> sempre più <rs type="verb">scemando</rs> la <rs type="theme" subtype="demographics" ana="#social_consequence">popolazione agricola</rs>, e quindi la <rs type="theme" subtype="land_use" ana="#economic_consequence">zona improduttiva</rs>
+                <rs type="verb">cresce</rs> anch'essa via via. <rs type="verb">Basta osservare</rs> i ricchi prodotti che si <rs type="verb">ottengono</rs> dal terreno nei dintorni di <placeName>Vallo della Lucania</placeName> con la <term ana="#agricultural_practice">coltura intensiva</term>, che qui si <rs type="verb">esegue</rs> su vasta scala e non sempre razionalmente, per <rs type="verb">convincersi</rs> di quel che <rs type="verb">sarebbero capaci</rs> le altre zone che <rs type="verb">trovansi</rs> nelle identiche condizioni di suolo, di clima e di irrigazione. Eppure fra quelle e queste non vi è un passaggio ma un salto.
+            </p>
+            <p xml:id="p2_cilento_p148">
+                La <rs type="theme" subtype="causality" ana="#social_analysis">causa principale di queste differenze</rs>
+                <rs type="verb">sta</rs> nell'emigrazione e nelle <rs type="theme" subtype="social_relations" ana="#land_ownership">relazioni che passano fra i proprietari dei terreni e i contadini</rs>.
+            </p>
+            <p xml:id="p3_cilento_p148">
+                Nelle grandi proprietà la <rs type="theme" subtype="social_condition">condizione del contadino</rs> è la seguente. Vien <rs type="verb">rispettato</rs> fino allo scrupolo, o magari <rs type="verb">fatto rispettare</rs> tirannicamente, un <rs type="theme" subtype="social_hierarchy" ana="#labor_structure">ordinamento gerarchico</rs> in cima al quale <rs type="verb">sta</rs> il <term type="occupation">fattore</term> o l'<term type="occupation">agente generale</term> del proprietario. Questi <rs type="verb">dirige, regola</rs> ed <rs type="verb">ordina</rs> tutta l'azienda rurale. Egli <rs type="verb">agisce</rs> il più spesso indipendentemente dal proprietario, il quale <rs type="verb">vive</rs> lautamente colla rendita dei suoi poderi in qualche grande città. Sotto il fattore <rs type="verb">stanno</rs> i <term type="occupation">guardiani</term> che <rs type="verb">ricevono</rs> ed <rs type="verb">eseguono</rs> ciecamente i suoi ordini, o <rs type="verb">sorvegliano</rs> tutti gli <term type="occupation">operai salariati</term> a giornata. <rs type="verb">Seguono</rs> i <term type="occupation">pastori</term>, i <term type="occupation">bifolchi</term>, i <term type="occupation">carrettieri</term>, i <term type="occupation">cavallari</term>, i <term type="occupation">bovari</term> ec. i quali <rs type="verb">dipendono</rs> dal fattore, ma sono sotto la vigilanza dei guardiani; e questi ultimi <rs type="verb">abusano</rs> molte volte della autorità della quale sono <rs type="verb">investiti</rs>. Ma pure fin qui manco male. <rs type="verb">Vengono</rs> poi gli <term type="occupation">operai avventizi</term> che <rs type="verb">lavorano</rs> a giornata ed a squadre <rs type="verb">condotte</rs> da uno dei loro compagni <rs type="verb">denominato</rs> il <term type="occupation">caporale</term>; e questi, <rs type="verb">finito</rs> il lavoro, e <rs type="verb">riscossa</rs> la mercede pattuita innanzi col fattore o col guardiano, se ne <rs type="verb">vanno</rs>, e con loro anche il caporale.
+            </p>
+            <p xml:id="p4_cilento_p148">
+                Quest' ultima classe è la <rs type="epithet">più infelice</rs> e quella che <rs type="verb">fornisce</rs> un più largo contingente all'emigrazione. L'<rs type="theme" subtype="human_condition" ana="#verismo_social_condition">esistenza dell'operaio salariato a giornata</rs>
+                <rs type="verb">dipende</rs> dal numero dei giorni che può <rs type="verb">lavorare</rs> in ciascuna stagione dell'anno; e questo numero è <rs type="epithet">variabilissimo</rs> secondo le annate, e secondo lo stato dell' atmosfera e del terreno. <rs type="verb">Bisogna togliere</rs> i <rs type="theme" subtype="weather">giorni piovosi</rs> — e qui le pioggie sono <rs type="epithet">frequenti e copiose</rs> — e i <rs type="theme" subtype="weather">nevosi</rs>; e poi quelli di malattia e i giorni festivi. Si può <rs type="verb">ritenere</rs> che egli <rs type="verb">lavori</rs> in media da 200 a 240 giorni dell'anno; e <rs type="verb">supponendo</rs> che egli <rs type="verb">abbia</rs> L. 1,25 al giorno — come limite massimo, eccetto poche eccezioni di proprietari più generosi o di fattori più onesti — egli <rs type="verb">guadagna</rs> da 250 a 300 lire all'anno. Con questa somma egli <rs type="verb">deve provvedere</rs> a sè ed alla sua famiglia, alla casa, al fuoco, al vestito, al cibo, a <rs type="verb">rinnovare</rs> la zappa o il bidente o la scure; e nel caso di malattia a <rs type="verb">sostenere</rs> anche le spese del medico e delle medicine. È vero che la moglie <rs type="verb">lavora</rs> con lui nel podere; ma bisogna naturalmente <rs type="verb">scemare</rs> il numero dei giorni del suo lavoro, e la mercede giornaliera vien <rs type="verb">ridotta</rs> a 60 centesimi. I ragazzi fin dall'età di otto anni sono anche <rs type="verb">condotti</rs> al lavoro; ma il loro guadagno e quello della loro madre non <rs type="verb">bastano</rs> neppure per <rs type="verb">provvedere</rs> alla sussistenza dei bambini, dei vecchi e degli infermi.
+            </p>
+            <p xml:id="p5_cilento_p148">
+                Che se il contadino <rs type="verb">lavora</rs> di proprio conto sul fondo altrui, la sua condizione non <rs type="verb">migliora</rs> punto. In tal caso la sua esistenza e quella della sua famiglia <rs type="verb">dipendono</rs> dall'andamento delle stagioni, e dalla maggiore o minore facilità di <rs type="verb">procurarsi</rs> con lavori avventizii il modo di <rs type="verb">pagare</rs> i tributi e le tasse comunali, e la cara pigione del suo tugurio e per <rs type="verb">provvedere</rs> sè e i suoi di certi vestiti <rs type="verb">fatti</rs> di panno ruvido e di quei strani calzari a cordella ch'essi <rs type="verb">chiamano</rs>
+                <term ana="#traditional_clothing">zampitti</term>.
+            </p>
+            <p xml:id="p6_cilento_p148">
+                Questi contadini si <rs type="verb">credono</rs> contenti quando <rs type="verb">posson dare</rs> ai loro figli ogni giorno un <rs type="theme" subtype="food" ana="#poverty_diet">piatto di minestra di cavoli cappucci cotti nell'acqua e conditi con lardo, sale e cipolle</rs>: nel quale minestrone <rs type="verb">intingono</rs> un mezzo chilogramma di pane bruno. Essi <rs type="verb">vivono</rs> nella <rs type="theme" subtype="poverty" ana="#verismo_social_condition">più squallida miseria</rs>, che <rs type="verb">cercano</rs> di <rs type="verb">dimenticare</rs>, <rs type="verb">potendolo</rs>, nei giorni festivi colle tante libazioni onore di <persName type="divine">Bacco</persName>; e <rs type="verb">disperdono</rs> in tal modo i <rs type="theme" subtype="economics">sudati e tenui risparmi</rs> della settimana.
+            </p>
+            <p xml:id="p7_cilento_p148">
+                Ma in generale l'agricoltore di questo circondario è <rs type="epithet">sobrio, laborioso ed onesto</rs>. L'onestà in queste condizioni è più che virtù. Ma la virtù, <rs type="verb">messa</rs> a troppo dura prova, non <rs type="verb">impedisce</rs> il delitto; e la classe agricola mentre è <rs type="epithet">sobria e morigerata</rs>, pure è <rs type="epithet">corriva alla vendetta</rs> quando è <rs type="verb">istigata</rs>. Tanto nei paesi che nelle campagne, essa <rs type="verb">dimora</rs> in <rs type="theme" subtype="living_conditions" ana="#verismo_decay">abitazioni umide, sudice, male aereate ed illuminate</rs>, e spesso in compagnia del maiale e del ciuco. I <term type="social_class">coloni</term> e i <term type="social_class">cafoni</term> non <rs type="verb">sentono</rs> il bisogno della nettezza, e <rs type="verb">vivono</rs> come i loro inquilini. Quando il servizio militare <rs type="verb">durava</rs> cinque anni, il contadino che <rs type="verb">andava</rs> sotto le armi ne <rs type="verb">tornava</rs> mezzo incivilito; ora che è tanto breve il tempo che <rs type="verb">sta</rs> nella milizia, <rs type="verb">dimentica</rs> subito gli ammaestramenti del buon costume e della vita civile, non appena <rs type="verb">tornato</rs> nella sua bicocca, e <rs type="verb">diviene</rs> un'altra volta cafone.
+            </p>
+            <p xml:id="p8_cilento_p148">
+                Se per caso il contadino si <rs type="verb">ammala</rs>, non <rs type="verb">trova</rs> un <rs type="theme" subtype="social_welfare_lack">ospedale che lo ricoveri</rs> in tutto il circondario, non un <rs type="theme" subtype="social_welfare_lack">asilo di mendicità</rs> od un qualsiasi <rs type="theme" subtype="social_welfare_lack">stabilimento di beneficenza</rs>. I comuni che <rs type="verb">danno</rs> qualche medicina agli agricoltori infermi sono come le mosche bianche. Del resto la beneficenza qui è di nome più che di fatto; e le rendite delle opere pie — <rs type="epithet">scarsissime in generale</rs> — sono <rs type="verb">sfruttate</rs> dagli amministratori, dalle imposte e dalle spese del culto. E pel povero non <rs type="verb">resta</rs> quasi niente.
+            </p>
+            <p xml:id="p9_cilento_p148">
+                L'<rs type="theme" subtype="social_decay" ana="#verismo_social_condition">abbrutimento della classe agricola</rs>
+                <rs type="verb">diviene</rs> anche maggiore quando, oltre le malattie, <rs type="verb">picchia</rs> alle porte la miseria. Si <rs type="verb">vedono</rs> allora i <rs type="theme" subtype="children_description" ana="#verismo_children">figli di questi poveri contadini, abbandonati dai loro genitori, andare girovagando</rs> per <rs type="verb">procacciarsi</rs> col lavoro di che <rs type="verb">sfamarsi</rs>: si <rs type="verb">trovano</rs>
+                <rs type="theme" subtype="children_description" ana="#verismo_children">fanciulli di piccola età che vanno dietro le greggi</rs>, felici quando <rs type="verb">possono raccapezzare</rs> delle legna per <rs type="verb">riscaldarsi</rs>, un tozzo di pane nero, e una capanna per <rs type="verb">ricoverarsi</rs> nella rigida stagione. E i loro padri non li <rs type="verb">curano</rs> affatto; e non è quindi maraviglia se con questa <rs type="theme" subtype="social_neglect">scuola d'isolamento, senza istruzione e senza affetti</rs>, essi <rs type="verb">imparano</rs> a <rs type="verb">diventar</rs> ladri o assassini, e se <rs type="verb">vanno a finire</rs> in galera.
+            </p>
+            <p xml:id="p10_cilento_p148">
+                Il <rs type="theme" subtype="authorial_comment">quadro è desolante, ma pur troppo è vero</rs>. Ho <rs type="verb">voluto narrare</rs> fatti, non <rs type="verb">fare</rs> apprezzamenti. Ora, con queste condizioni si <rs type="verb">presenta</rs> dinanzi agli occhi del contadino una <rs type="theme" subtype="hope" ana="#emigration">splendida fantasmagoria, che lo alletta, lo attrae, lo trascina a sè</rs>: <rs type="verb">voglio dire</rs> l'emigrazione. E egli l'<rs type="verb">accetta</rs> come uno dei minori mali possibili.
+            </p>
+        </body>
+    </text>
+</TEI>
