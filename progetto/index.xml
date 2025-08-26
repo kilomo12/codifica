@@ -16,6 +16,15 @@
                 <p>I testi originali sono stati estratti dalla rassegna settimanale.</p>
             </sourceDesc>
         </fileDesc>
+        <encodingDesc>
+            <p>Codifica realizzata seguendo le linee guida TEI.</p>
+            <appInfo>
+                <application version="1.0" ident="TEIZoner">
+                    <label>TEIZoner</label>
+                    <p>Le coordinate delle zone sono state definite utilizzando TEIZoner.</p>
+                </application>
+            </appInfo>
+        </encodingDesc>
     </teiHeader>
 
 
@@ -60,7 +69,7 @@
                 </langUsage>
             </profileDesc>
             <encodingDesc>
-                <p>Codifica realizzata seguendo le linee guida TEI e le convenzioni esemplificate.</p>
+                <p>Codifica realizzata seguendo le linee guida TEI.</p>
                 <appInfo>
                     <application version="1.0" ident="TEIZoner">
                         <label>TEIZoner</label>
@@ -237,7 +246,7 @@
                 </langUsage>
             </profileDesc>
             <encodingDesc>
-                <p>Codifica realizzata seguendo le linee guida TEI e le convenzioni esemplificate.</p>
+                <p>Codifica realizzata seguendo le linee guida TEI.</p>
                 <appInfo>
                     <application version="1.0" ident="TEIZoner">
                         <label>TEIZoner</label>
@@ -712,7 +721,7 @@
                 </langUsage>
             </profileDesc>
             <encodingDesc>
-                <p>Codifica realizzata seguendo le linee guida TEI e le convenzioni esemplificate nel file di riferimento.</p>
+                <p>Codifica realizzata seguendo le linee guida TEI .</p>
                 <appInfo>
                     <application version="1.0" ident="TEIZoner">
                         <label>TEIZoner</label>
@@ -873,7 +882,13 @@
                 </langUsage>
             </profileDesc>
             <encodingDesc>
-                <p>Codifica realizzata seguendo le linee guida TEI e le convenzioni esemplificate nel file prova.xml.</p>
+                <p>Codifica realizzata seguendo le linee guida TEI .</p>
+                <appInfo>
+                    <application version="1.0" ident="TEIZoner">
+                        <label>TEIZoner</label>
+                        <p>Le coordinate delle zone sono state definite utilizzando TEIZoner.</p>
+                    </application>
+                </appInfo>
             </encodingDesc>
         </teiHeader>
         <facsimile xml:id="facsimile_I_contadini">
