@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE TEI SYSTEM "tei_all.dtd">
 
-<TEI version="4.0.1" xmlns="http://www.tei-c.org/ns/1.0">
+<TEI version="3.3.0" xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc> 
             <titleStmt>

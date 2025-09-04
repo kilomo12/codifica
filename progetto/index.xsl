@@ -188,4 +188,5 @@
     
     <!-- Ignora i cambi di pagina e le colonne -->
     <xsl:template match="tei:pb | tei:cb"/>
+
 </xsl:stylesheet>
