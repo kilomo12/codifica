@@ -5,7 +5,7 @@
     exclude-result-prefixes="tei">
 
     <xsl:output method="html" encoding="UTF-8" indent="yes"/>
-    <xsl:strip-space elements="*"/>
+    <xsl:preserve-space elements="*"/>
 
     <!-- Template principale per il teiCorpus -->
     <xsl:template match="/tei:teiCorpus">
@@ -32,7 +32,7 @@
                     <xsl:apply-templates select="tei:TEI"/>
                 </div>
 
-                <!-- Script per i dati delle zone di TUTTI gli articoli -->
+                <!-- Script per i dati delle zone di tutti gli articoli -->
                 <script id="zoneData" type="application/json">
                     {
                         <xsl:for-each select="//tei:zone">
@@ -48,7 +48,7 @@
         </html>
     </xsl:template>
 
-    <!-- Template per ogni Articolo TEI -->
+    <!-- Template per ogni articolo TEI -->
     <xsl:template match="tei:TEI">
         <div class="article-container">
             <div class="header-info">
