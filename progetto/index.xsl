@@ -73,13 +73,13 @@
                 <p><strong>Pagine: </strong> <xsl:value-of select="tei:teiHeader/tei:fileDesc/tei:seriesStmt/tei:biblScope[@unit='pages'] | tei:teiHeader/tei:fileDesc/tei:publicationStmt/tei:idno[@type='pages']"/></p>
             </div>
             
-            <!-- 1. Approccio basato su surface (per articoli con facsimile) -->
+            <!-- 1. Approccio basato su surface -->
             <xsl:apply-templates select="tei:facsimile/tei:surface"/>
     
         </div>
     </xsl:template>
     
-    <!-- Template per ogni surface (approccio facsimile) -->
+    <!-- Template per ogni surface -->
     <xsl:template match="tei:surface">
         <xsl:variable name="zone_ids" select="tei:zone/@xml:id"/>
         
@@ -94,7 +94,7 @@
             
             <!-- 2. Colonna Testo -->
             <div class="text-column">
-                <!-- Cerca in tutto il body gli elementi che puntano alle zone di QUESTA surface -->
+                <!-- Cerca in tutto il body gli elementi che puntano alle zone di questa surface -->
                 <xsl:apply-templates select="ancestor::tei:TEI/tei:text/tei:body//*[substring-after(@facs, '#') = $zone_ids]"/>
             </div>
         </div>
