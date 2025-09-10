@@ -167,18 +167,6 @@
         <em><xsl:apply-templates/></em>
     </xsl:template>
 
-    <!-- Gestione del testo con parole spezzate -->
-    <xsl:template match="text()">
-        <xsl:analyze-string select="." regex="(\w+)-\s*$">
-            <xsl:matching-substring>
-                <xsl:value-of select="regex-group(1)"/>
-            </xsl:matching-substring>
-            <xsl:non-matching-substring>
-                <xsl:value-of select="."/>
-            </xsl:non-matching-substring>
-        </xsl:analyze-string>
-    </xsl:template>
-
     <!-- Rimuove tutti i <lb/> -->
     <xsl:template match="tei:lb"/>
     
