@@ -62,11 +62,7 @@
                     <xsl:value-of select="tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:respStmt/tei:name/tei:persName"/>
                 </p>
                 <p><strong>Casa editrice: </strong> <xsl:value-of select="tei:teiHeader/tei:fileDesc/tei:publicationStmt/tei:publisher/tei:name"/></p>
-                <p><strong>Luogo di pubblicazione: </strong>
-                    <span class="highlightable-metadata" data-zone-id="{substring-after(tei:teiHeader/tei:fileDesc/tei:publicationStmt/tei:pubPlace/@facs, '#')}">
-                        <xsl:value-of select="tei:teiHeader/tei:fileDesc/tei:publicationStmt/tei:pubPlace/tei:placeName | tei:teiHeader/tei:fileDesc/tei:sourceDesc//tei:imprint/tei:pubPlace/tei:placeName"/>
-                    </span>
-                </p>
+                <p><strong>Luogo di pubblicazione: </strong> <xsl:value-of select="tei:teiHeader/tei:fileDesc/tei:publicationStmt/tei:pubPlace/tei:placeName | tei:teiHeader/tei:fileDesc/tei:sourceDesc//tei:imprint/tei:pubPlace/tei:placeName"/></p>
                 <p><strong>Data: </strong> <xsl:value-of select="tei:teiHeader/tei:fileDesc/tei:publicationStmt/tei:date/@when"/></p>
                 <p><strong>Volume: </strong> <xsl:value-of select="tei:teiHeader/tei:fileDesc/tei:seriesStmt/tei:biblScope[@unit='volume'] | tei:teiHeader/tei:fileDesc/tei:publicationStmt/tei:idno[@type='volume']"/></p>
                 <p><strong>Numero: </strong> <xsl:value-of select="tei:teiHeader/tei:fileDesc/tei:publicationStmt/tei:idno[@type='issue']"/></p>
